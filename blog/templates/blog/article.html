@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans 'BLOG Article' %}{% endblock %}
+
+{% block stylesheets %}
+	<link rel="stylesheet" href="{% static 'blog/index.css' %}" type="text/css" media="all" />
+{% endblock %}
+
+{% block body %}
+<div class="main_wrapper">
+	<div class="container">
+		<div class="row sidebar_none">
+			<div class="content-container span12">
+				<section id="main_content">
+					<div class="in_custom_1484897435098">
+						<div class="container">
+
+<div class="in_row wpb_row in_row-fluid">
+		<div class="wpb_column in_column_container in_col-sm-12 blog_summary">
+		<span class="summary_title">{{post.title}}</span>
+		<span class="summary_credit">{{post.author}} | {{post.updated}}</span>
+		<div class="summary_text">
+		{{post.content|safe}}
+		</div>
+		{% if post.link %}
+			<div class="link_title">
+				{% if post.link_title %}
+					{{post.link_title}}
+				{% else %}
+					{% trans 'BLOG Link' %}
+				{% endif %}
+			</div>
+			<div class="post_link"><a href="{{post.link}}">{{post.link}}</a></div>
+		{% endif %}
+		<br><a href="/blog/" class="summary_readmore back_index">{% trans '回到博客主頁' %}</a>
+		</div>
+
+</div>
+
+
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+
+{% endblock %}

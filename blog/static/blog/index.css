@@ -1,0 +1,142 @@
+.blog_cat {
+	float:right;
+	margin-top:90px;
+	height:auto;
+}
+.blog_cat_items {
+	background:#27a8e0;
+	padding:12px 0 16px 0;
+	border-radius:0 0 12px 0;
+	width: 100%;
+	margin-bottom:30px;
+}
+.blog_cat_items span, .blog_cat_item span {
+	margin:0 15px;
+}
+.blog_cat_items form {
+	padding:15px;
+}
+.category_name_chi:lang(en) {display:none;}
+.category_name_eng:lang(zh) {display:none;}
+
+.blog_cat_item {
+	color:#fff;
+	font-size:16px;
+	font-weight:700;
+	padding-bottom:2px;
+	display:inline-block;
+}
+
+.blog_cat_heading {
+	font-size:18px;
+	font-weight:700;
+	color:#fff;
+	width:100%;
+	padding:12px 0;
+	background:#00576C;
+	border-radius:12px 0 0 0;
+}
+.blog_cat_heading span {
+	margin-left:15px;
+}
+
+.blog_summary, .blog_whitespace {
+	float:left; 
+	margin-top:90px;
+}
+
+.summary_title {
+	font-size:24px; 
+	font-weight:700;
+	display:block;
+}
+
+.summary_credit {
+	font-size:12px; 
+	display:block;
+	font-weight:400;
+}
+
+.summary_text {
+	color:#424242; 
+	font-weight:400;
+	border-bottom:1px solid #ccc; 
+	padding:20px 0 30px 0;
+	margin-bottom:30px;
+}
+.summary_readmore
+{
+	color:#fff;
+	font-weight:700;
+	font-size:14px;
+	padding:8px 16px; 
+	border-radius:10px; 
+	margin:10px 0; 
+	background:#f26522;
+}
+.back_index {
+	display:inline-block;
+	width:auto;
+}
+
+.blog_summary img {
+	border-radius:12px 0;
+}
+
+.link_title {
+	background:#27a8e0; 
+	color:#fff; 
+	padding:8px 16px; 
+	border-radius:10px;
+	width:auto;
+	font-weight:700;
+	text-align:center;
+	display:inline-block;
+}
+.post_link {
+	max-width:75%; 
+	overflow: hidden;
+  	white-space: nowrap;
+  	text-overflow: ellipsis; 
+  	vertical-align: top;
+  	padding: 4px 0 0 10px;
+  	display:inline-block;
+  }
+
+.post_link a{
+	font-size:14px; 
+	font-weight:700; 
+	border-bottom:3px solid #F26522; 
+	padding-bottom:2px;
+}
+
+input.blog_search_bar {
+	width:100%; 
+	border-radius:12px; 
+	padding:8px; 
+	background:#fff;
+}
+input.blog_search_button{
+	border:0; 
+	color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    margin: 10px 0;
+    background: #f26522;
+}
+
+@media only screen and (max-width: 768px) {
+    .blog_whitespace {
+    	display:none;
+    }
+    .blog_summary
+    {
+    	margin-top:20px;
+    }
+    .blog_cat
+    {
+    	margin-top:0px;
+    }
+}

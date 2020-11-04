@@ -1,0 +1,1134 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-22 19:50+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin.py:13
+msgid "LEGIT administration"
+msgstr ""
+
+#: admin.py:14
+msgid "LEGIT site admin"
+msgstr ""
+
+#: admin.py:47 models.py:227
+msgid "Name"
+msgstr ""
+
+#: admin.py:77
+msgid "Subscription End Date"
+msgstr ""
+
+#: admin.py:82
+msgid "Not Ended"
+msgstr ""
+
+#: admin.py:83
+msgid "Ended"
+msgstr ""
+
+#: admin.py:165 models.py:167
+msgid "Firm"
+msgstr ""
+
+#: admin.py:169 models.py:120 models.py:157 models.py:168
+msgid "Lawyer"
+msgstr ""
+
+#: models.py:16 models.py:61 models.py:97 models.py:132 models.py:212
+msgid "Name (English)"
+msgstr ""
+
+#: models.py:17 models.py:62 models.py:98 models.py:133 models.py:213
+msgid "Name (Chinese)"
+msgstr ""
+
+#: models.py:18
+msgid "Description (English)"
+msgstr ""
+
+#: models.py:19
+msgid "Description (Chinese)"
+msgstr ""
+
+msgid "Unquotable"
+msgstr ""
+
+#: models.py:20
+msgid "Order"
+msgstr ""
+
+#: models.py:34 models.py:44
+msgid "Category"
+msgstr ""
+
+#: models.py:35
+msgid "Categories"
+msgstr ""
+
+#: models.py:46
+msgid "Message (English)"
+msgstr ""
+
+#: models.py:47
+msgid "Message (Chinese)"
+msgstr ""
+
+#: models.py:55
+msgid "Invalid"
+msgstr ""
+
+#: models.py:56
+msgid "Free Trial"
+msgstr ""
+
+#: models.py:57
+msgid "Normal"
+msgstr ""
+
+#: models.py:58
+msgid "Not Paying"
+msgstr ""
+
+#: models.py:63
+msgid "Address (English)"
+msgstr ""
+
+#: models.py:64
+msgid "Address (Chinese)"
+msgstr ""
+
+#: models.py:65 models.py:140
+msgid "HK District"
+msgstr ""
+
+#: models.py:66 models.py:101 models.py:228 templates/lawyer.html:61
+msgid "Email"
+msgstr ""
+
+#: models.py:67 models.py:102 models.py:229 templates/lawyer.html:58
+msgid "Phone"
+msgstr ""
+
+#: models.py:68 models.py:103 templates/lawyer.html:64
+msgid "Fax"
+msgstr ""
+
+#: models.py:69
+msgid "Website"
+msgstr ""
+
+#: models.py:70 models.py:104
+msgid "hklawsoc.org.hk Profile URL"
+msgstr ""
+
+msgid "Introduction (English)"
+msgstr ""
+
+msgid "Introduction (Chinese)"
+msgstr ""
+
+#: models.py:72 models.py:109
+msgid "Remarks"
+msgstr ""
+
+#: models.py:73
+msgid "Status"
+msgstr ""
+
+#: models.py:74
+msgid "Subscription Starts"
+msgstr ""
+
+#: models.py:75
+msgid "Subscription Ends"
+msgstr ""
+
+#: models.py:81
+msgid "Law Firm Admins"
+msgstr ""
+
+#: models.py:87
+msgid "Law Firm"
+msgstr ""
+
+#: models.py:88
+msgid "Law Firms"
+msgstr ""
+
+#: models.py:91
+msgid "Law Firm Admin: Can only change own law firm"
+msgstr ""
+
+#: models.py:99
+msgid "Admission in Hong Kong"
+msgstr ""
+
+#: models.py:100 models.py:153
+msgid "Jurisdictions"
+msgstr ""
+
+#: models.py:105 models.py:220 templates/lawyer.html:73
+msgid "Languages"
+msgstr "This lawyer speaks"
+
+#: models.py:107
+msgid "Firms"
+msgstr ""
+
+#: models.py:111
+msgid "Photo"
+msgstr ""
+
+#: models.py:121
+msgid "Lawyers"
+msgstr ""
+
+#: models.py:127
+msgid "Hong Kong"
+msgstr ""
+
+#: models.py:128
+msgid "Kowloon"
+msgstr ""
+
+#: models.py:129
+msgid "New Territories"
+msgstr ""
+
+#: models.py:134
+msgid "Region"
+msgstr ""
+
+#: models.py:141
+msgid "HK Districts"
+msgstr ""
+
+#: models.py:146 models.py:152 models.py:158
+msgid "Jurisdiction"
+msgstr ""
+
+#: models.py:159
+msgid "Admission Date"
+msgstr ""
+
+#: models.py:162
+msgid "Lawyer Jurisdiction"
+msgstr "Lawyer Jurisdiction other than HK"
+
+#: models.py:163
+msgid "Lawyer Jurisdictions"
+msgstr "Lawyer Jurisdictions other than HK"
+
+#: models.py:170
+msgid "Post (English)"
+msgstr ""
+
+#: models.py:171
+msgid "Post (Chinese)"
+msgstr ""
+
+#: models.py:173
+msgid "From Date"
+msgstr ""
+
+#: models.py:173
+msgid "Date from which this position begins."
+msgstr ""
+
+#: models.py:174
+msgid "End Date"
+msgstr ""
+
+#: models.py:174
+msgid "Date on which this position ends. Leave blank if position is current."
+msgstr ""
+
+#: models.py:176
+msgid "Hourly Rate"
+msgstr ""
+
+#: models.py:176
+msgid "in HKD"
+msgstr ""
+
+msgid "Precedence to show in service list"
+msgstr ""
+
+#: models.py:183 models.py:195
+msgid "Lawyer Post"
+msgstr ""
+
+#: models.py:184
+msgid "Lawyer Posts"
+msgstr ""
+
+#: models.py:189
+msgid "None"
+msgstr ""
+
+#: models.py:190
+msgid "Under 15 Minutes"
+msgstr ""
+
+#: models.py:191
+msgid "15-30 Minutes"
+msgstr ""
+
+#: models.py:192
+msgid "30 Minutes or more"
+msgstr ""
+
+#: models.py:194
+msgid "Service"
+msgstr ""
+
+#: models.py:196
+msgid "Rate"
+msgstr ""
+
+#: models.py:197
+msgid "Hourly Rate?"
+msgstr ""
+
+#: models.py:198
+msgid "Max Estimated Time (minutes)"
+msgstr ""
+
+#: models.py:199
+msgid "Free Consultation Offer (minutes)"
+msgstr ""
+
+#: models.py:205
+msgid "Lawyer Service"
+msgstr ""
+
+#: models.py:206
+msgid "Lawyer Services"
+msgstr ""
+
+#: models.py:219
+msgid "Language"
+msgstr ""
+
+#: models.py:230
+msgid "Brief summary of this consultation"
+msgstr ""
+
+#: models.py:231
+msgid "First choice"
+msgstr ""
+
+#: models.py:232
+msgid "Second choice"
+msgstr ""
+
+#: models.py:233
+msgid "Third choice"
+msgstr ""
+
+#: models.py:267
+msgid "LEGIT: Please verify your request"
+msgstr ""
+
+#: models.py:268
+#, python-format
+msgid "Please click on the following like to verify your request: %s"
+msgstr ""
+
+#: models.py:282
+msgid "LEGIT: You have a new request!"
+msgstr ""
+
+#: models.py:283
+#, python-format
+msgid "Please click on the following like to view the request: %s"
+msgstr ""
+
+#: models.py:294
+msgid "LEGIT: Your request has been viewed by the lawyer"
+msgstr ""
+
+#: models.py:295
+msgid ""
+"Your request has been viewed by the lawyer, and will contact you shortly."
+msgstr ""
+
+msgid "LEGIT: Please comment our service"
+msgstr ""
+
+#: templates/base.html:53
+msgid "Join us"
+msgstr "For lawyers and firms"
+
+msgid "About Legit"
+msgstr "About OneLawyer"
+
+msgid "Support us"
+msgstr ""
+
+msgid "Vision"
+msgstr ""
+
+msgid "Profile"
+msgstr ""
+
+msgid "Founder"
+msgstr "Team"
+
+msgid "Honourary Board"
+msgstr ""
+
+msgid "Backers"
+msgstr "Acknowledgement"
+
+msgid "Public Legal Education"
+msgstr "Engaging Lawyers"
+
+msgid "Disclaimer"
+msgstr ""
+
+msgid "Privacy Policy"
+msgstr ""
+
+#: templates/base_with_categories.html
+msgid "Search again"
+msgstr ""
+
+#: templates/index.html:30
+msgid "Please choose from legal services below"
+msgstr "Find a lawyer"
+
+msgid "地區"
+msgstr "District"
+
+msgid "廣東話"
+msgstr "Cantonese"
+
+msgid "English"
+msgstr "English"
+
+msgid "Mandarin"
+msgstr "Mandarin"
+
+msgid "其他語言"
+msgstr "Other languages"
+
+msgid "Search"
+msgstr ""
+
+#: templates/index.html:35
+msgid "▼ 更多搜尋設定"
+msgstr "▼ Advance Search"
+
+#: templates/index.html:56
+msgid "slogan-1"
+msgstr "If you are a lawyer"
+
+#: templates/index.html:56
+msgid "slogan-2"
+msgstr "Join OneLawyer,"
+
+#: templates/index.html:56
+msgid "slogan-3"
+msgstr "be visible in the market"
+
+#: templates/index.html:65
+msgid "Back us"
+msgstr "Join Us"
+
+#: templates/lawyer.html:5 templates/lawyer.html:6
+#: templates/lawyer_service_request_view.html:5
+#: templates/lawyer_service_request_view.html:6
+msgid "Lawyer Info"
+msgstr ""
+
+#: templates/lawyer.html:11 templates/lawyer_service_request.html:16
+#: templates/lawyer_service_request_view.html:11 templates/service.html:21
+#: templates/simple_message.html:8
+msgid "搜尋項目"
+msgstr "Search Options"
+
+#: templates/lawyer.html:39
+msgid "Experience"
+msgstr ""
+
+#: templates/lawyer.html:40 templates/service.html:143
+#, python-format
+msgid "%(years)s year"
+msgid_plural "%(years)s years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/lawyer.html:43
+msgid "Reference Hourly Rate"
+msgstr "Hourly Rate"
+
+#: templates/lawyer.html:44 templates/service.html:147
+#, python-format
+msgid "from HKD %(rate)s"
+msgstr ""
+
+#: templates/lawyer.html:67
+msgid "Address"
+msgstr ""
+
+#: templates/lawyer.html:81
+msgid "處理項目"
+msgstr "Other services this lawyer provides"
+
+#: templates/lawyer.html:92
+msgid "Request Service"
+msgstr "Gather Detailed Quotation"
+
+#: templates/lawyer.html:107
+msgid "Return to Search Result"
+msgstr "Return to Search Result"
+
+msgid "Panel Endorsement"
+msgstr "User comments"
+
+msgid "Endorsement disallow"
+msgstr "The commentation function is not enabled for this lawyer."
+
+msgid "Endorsement Number"
+msgstr "Number of comments"
+
+msgid "Endorsement Responsive"
+msgstr "Responsive"
+
+msgid "Endorsement Concern"
+msgstr "Concern"
+
+msgid "Endorsement Knowledge"
+msgstr "Knowledge"
+
+msgid "Endorsement Value"
+msgstr "Value"
+
+msgid "Endorsement Recommend"
+msgstr "Recommend"
+
+msgid "Panel Intro"
+msgstr "Introduction"
+
+msgid "Panel Resume"
+msgstr "Professional profile"
+
+msgid "Panel Contact"
+msgstr "Contact"
+
+msgid "Panel Media"
+msgstr "In the media "
+
+msgid "Panel Case"
+msgstr "Cases handled"
+
+msgid "Court case number"
+msgstr ""
+
+#: templates/lawyer_service_request.html:10
+#: templates/lawyer_service_request.html:11
+#: templates/lawyer_service_request_validate.html:5
+#: templates/lawyer_service_request_validate.html:6
+#: templates/lawyer_service_request_validated.html:5
+#: templates/lawyer_service_request_validated.html:6
+msgid "Service Request"
+msgstr ""
+
+#: templates/lawyer_service_request.html:39
+msgid "lawyer service request - contact 1"
+msgstr "Please fill out the following information and click \"Submit\" so that the Firm may contact you. Upon the solicitor reading your message, OneLawyer will issue a confirmation email to you."
+
+#: templates/lawyer_service_request.html:40
+msgid "lawyer service request - contact 2"
+msgstr "If the Solicitor has contacted you thereafter (whether by phone or email), please inform ourselves for record."
+
+#: templates/lawyer_service_request.html:41
+msgid "lawyer service request - contact 3"
+msgstr "* promotion to lawyer via this platform is forbidden"
+
+msgid "lawyer contact - disclaimer text 01"
+msgstr "Please note your utilization of the contact form below represents (1) your agreement to waive Legal Professional Privilege protecting confidentiality of your communications with a legal advisor and (2) your agreement to our knowledge of the contents of such communications. Please refer to"
+
+msgid "lawyer contact - disclaimer text 02"
+msgstr "designated page"
+
+msgid "lawyer contact - disclaimer text 03"
+msgstr "to learn about your right to confidential legal advice guaranteed under the Basic Law."
+
+#: templates/lawyer_service_request.html:66
+msgid "請填寫希望約見的時間，如 2018-01-03 14:00（必須填寫；只接受辦公時間內預約）"
+msgstr "Preferred Appointment Date and Time, e.g. 2018-01-03 14:00 (Required; Office Hours Only)"
+
+#: templates/lawyer_service_request.html:83
+msgid "Submit"
+msgstr ""
+
+#: templates/lawyer_service_request_view.html:25
+msgid "Requester Name"
+msgstr ""
+
+#: templates/lawyer_service_request_view.html:29
+msgid "Requester Email"
+msgstr ""
+
+#: templates/lawyer_service_request_view.html:33
+msgid "Requester Phone"
+msgstr ""
+
+#: templates/lawyer_service_request_view.html:47
+msgid "Message"
+msgstr ""
+
+#: templates/lawyer_service_request_view.html:51
+msgid "Sent at"
+msgstr ""
+
+#: templates/lawyer_service_request_ack_by_lawyer.html
+msgid "lsrabl message"
+msgstr "Thank you."
+
+#: templates/lawyer_service_request_validate.html
+msgid "lsrv message"
+msgstr "Thank you. A validation e-mail is sent to you. Please follow the instruction in the e-mail to confirm service request."
+
+#: templates/lawyer_service_request_validated.html
+msgid "lsrvd message"
+msgstr "Thank you. Your request is sent to the lawyer."
+
+#: templates/lawyer_service_request_endorsement.html
+msgid "Thank you for your comment."
+msgstr ""
+
+msgid "Have you contact the lawyer."
+msgstr ""
+
+msgid "Endorsement question 1"
+msgstr "On a scale from 1 to 10, how would you rate your lawyer’s responsiveness? 10 means “very responsive” and 1 means “unresponsive”."
+
+msgid "Endorsement question 2"
+msgstr "On a scale from 1 to 10, how would you rate your lawyer’s ability to understand your concerns? 10 means “excellent” and 1 means “poor”."
+
+msgid "Endorsement question 3"
+msgstr "On a scale from 1 to 10, how would you rate your lawyer’s level of professional knowledge? 10 means “excellent” and 1 means “poor”."
+
+msgid "Endorsement question 4"
+msgstr "On a scale from 1 to 10, how would you rate your lawyer’s value of professional service? 10 means “excellent” and 1 means “poor”."
+
+msgid "Endorsement question 5"
+msgstr "On a scale from 1 to 10, how likely would you recommend your lawyer to others? 10 means “very likely” and 1 means “very unlikely”."
+
+msgid "Endorsement comment"
+msgstr "Do you have any other comments or questions?"
+
+#: templates/service.html:6 templates/service.html:7
+msgid "Search Results"
+msgstr ""
+
+msgid "篩選"
+msgstr "Filter By"
+
+msgid "排序"
+msgstr "Sort By"
+
+msgid "項目收費"
+msgstr "Quoted fee"
+
+msgid "隨機排序"
+msgstr "Random"
+
+msgid "項目收費（由平到貴）"
+msgstr "Item Rate (low to high)"
+
+msgid "項目收費（由貴到平）"
+msgstr "Item Rate (high to low)"
+
+msgid "律師年資"
+msgstr "Experience"
+
+msgid "律師年資（由深到淺）"
+msgstr "Experience (more to less)"
+
+msgid "律師年資（由淺到深）"
+msgstr "Experience (less to more)"
+
+msgid "免費首次見面時間（由長到短）"
+msgstr "Free Consultation Time (long to short)"
+
+msgid "免費首次見面時間（由短到長）"
+msgstr "Free Consultation Time (short to long)"
+
+msgid "律師綜合每小時收費（由平到貴）"
+msgstr "Hourly Rate (low to high)"
+
+msgid "律師綜合每小時收費（由貴到平）"
+msgstr "Hourly Rate (high to low)"
+
+#: templates/service.html:34
+msgid "搜索"
+msgstr "Search"
+
+#: templates/service.html:38
+msgid "搜尋結果中篩選"
+msgstr "Filter By"
+
+#: templates/service.html:42
+msgid "語言能力"
+msgstr "Languages"
+
+msgid "所在地區"
+msgstr "District"
+
+msgid "Clear all"
+msgstr ""
+
+msgid "Select all"
+msgstr ""
+
+msgid "district submit"
+msgstr "Go"
+
+msgid "verified-text"
+msgstr "All information on this site are verified by certified solicitors."
+
+#: templates/service.html:87
+msgid "實在抱歉！"
+msgstr "Sorry!"
+
+#: templates/service.html:92
+msgid "我們無法為閣下提供相關報價資料，因為："
+msgstr "We could not provide a quote, because:"
+
+#: templates/service.html:116
+#, python-format
+msgid "We found %(numitems)s lawyer for you."
+msgid_plural "We found %(numitems)s lawyers for you."
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/service.html:129
+msgid "職位｜"
+msgstr "&nbsp;"
+
+#: templates/service.html:130
+msgid "地區｜"
+msgstr "District | "
+
+#: templates/service.html:142
+msgid "執業經驗"
+msgstr "Experience"
+
+#: templates/service.html:146
+msgid "每小時法律服務費用（供參考）"
+msgstr "Reference Hourly Rate"
+
+msgid "如果你想搵律師"
+msgstr "Seeking for Legal Services?"
+
+msgid "律師收費一目了然"
+msgstr "The BEST listing for you"
+
+msgid "Search Now"
+msgstr "Search Now"
+
+#: templates/index_gridview.html templates/index_gridview_mobile.html
+msgid "結婚"
+msgstr "Wedding"
+
+msgid "離婚"
+msgstr "Divorce"
+
+msgid "破產"
+msgstr "Bankruptcy"
+
+msgid "歧視"
+msgstr "Discrimination"
+
+msgid "勞工"
+msgstr "Employment"
+
+msgid "物業"
+msgstr "Property"
+
+msgid "公司事宜"
+msgstr "Corporate issues"
+
+msgid "遺囑、遺產承辦"
+msgstr "Will & Probate"
+
+msgid "刑事訴訟"
+msgstr "Criminal matters"
+
+msgid "索償"
+msgstr "Claims"
+
+msgid "民事訴訟"
+msgstr "Civil matters"
+
+msgid "wed-text1"
+msgstr "Before making the wedding vows, it is necessary to register the marriage. The minimum age for getting married is 16 years (Gregorian reckoning). There are no residential requirements for marriage and the marrying parties may be of any nationality. Under the Laws of Hong Kong, the marrying parties will have to go through the following procedures for solemnizing a marriage in Hong Kong:"
+
+msgid "wed-text2"
+msgstr "Either one of the marrying parties has to give a Notice of Intended Marriage (the notice) to the Registrar of Marriages (the Registrar) in the prescribed form either directly or through a civil celebrant of marriages."
+
+msgid "wed-text3"
+msgstr "The Registrar shall exhibit Part I of the notice in his office until the issue of a Certificate of Registrar of Marriages or the expiry of the 3-month period."
+
+msgid "wed-text4"
+msgstr "The Registrar may, at least 15 days after the giving of a notice, issue a Certificate of Registrar of Marriages to enable the parties to celebrate their marriage within 3 months from the date of notice giving if all the statutory requirements are met."
+
+msgid "wed-text5"
+msgstr "A marriage has to take place at a marriage registry by a Registrar; or in a licensed place of worship by a competent minister or at any other place in Hong Kong by a civil celebrant of marriages."
+
+msgid "wed-button1"
+msgstr "Registration of marriage and civil celebrant"
+
+msgid "wed-button2"
+msgstr "Civil celebrant"
+
+msgid "wed-button3"
+msgstr "Registration of marriage"
+
+msgid "div-text1"
+msgstr "In what circumstances I may get a divorce?"
+
+msgid "div-text2"
+msgstr "In law, there is in fact only one ground for presenting a petition for divorce, namely, that the marriage has broken down irretrievably."
+
+msgid "div-button1"
+msgstr "Joint application"
+
+msgid "div-button2"
+msgstr "Unilateral divorce petition"
+
+msgid "ban-text1"
+msgstr "When debtors (or bankrupts) fail to repay their debts and the Court has granted bankruptcy orders against them, the debtors’ assets are collected and realised (sold off and converted to cash) by a neutral person (known as the “Trustee”). This Trustee can be the Official Receiver, who is employed by the Official Receiver’s Office. The proceeds from the realisation are then distributed to the creditors (persons who are owed money by the debtors) for repaying the relevant debts or part of the debts."
+
+msgid "ban-text2"
+msgstr "During the effective period of the bankruptcy order, part of the debtor’s earnings is utilised for repayment. The Court also investigates the causes of bankruptcy and may punish the bankrupt if any provision in the Bankruptcy Ordinance (Cap. 6 of the Laws of Hong Kong) has been breached."
+
+msgid "ban-text3"
+msgstr "The debtor in bankruptcy proceedings can be an individual person or several persons (e.g. a partnership), excluding limited companies. When the bankruptcy order is discharged, the debtor is free from the monetary liabilities that were incurred before bankrupt."
+
+msgid "ban-text4"
+msgstr "Individual Voluntary Arrangement"
+
+msgid "ban-text5"
+msgstr "If a debtor does not want to be bankrupt, then is there any alternative solution?"
+
+msgid "ban-text6"
+msgstr "The debtor can apply for an Individual Voluntary Arrangement (IVA). With an IVA, the debtor makes a repayment proposal to the High Court and the creditors. If the IVA proposal is approved by all parties, then it will legally bind all creditors under the Bankruptcy Ordinance."
+
+msgid "ban-text7"
+msgstr "An undischarged bankrupt can also apply for an IVA because an IVA is not equivalent to bankruptcy."
+
+msgid "ban-button1"
+msgstr "Bankruptcy"
+
+msgid "ban-button2"
+msgstr "IVA"
+
+msgid "dis-text1"
+msgstr "What are the major anti-discrimination ordinances in Hong Kong?"
+
+msgid "dis-text2"
+msgstr "The Hong Kong Bill of Rights Ordinance (Cap. 383) generally stipulates that all persons are equal before the law and the law shall prohibit any discrimination on any ground. This principle is materialized through the enactment of the following four ordinances:"
+
+msgid "dis-text3"
+msgstr "Sex Discrimination Ordinance"
+
+msgid "dis-text4"
+msgstr "Disability Discrimination Ordinance "
+
+msgid "dis-text5"
+msgstr "Family Status Discrimination Ordinance"
+
+msgid "dis-text6"
+msgstr "Race Discrimination Ordinance "
+
+msgid "dis-text7"
+msgstr "The Sex Discrimination Ordinance (SDO) and the Disability Discrimination Ordinance ('DDO') were implemented in two phases. The non-employment related provisions came into effect on 20 September 1996. The remaining employment related provisions were brought into force on 20 December 1996. It is unlawful under the SDO to discriminate against or harass a person on the grounds of sex, marital status or pregnancy in the following areas of activity:"
+
+msgid "dis-text8"
+msgstr "employment;"
+
+msgid "dis-text9"
+msgstr "education;"
+
+msgid "dis-text10"
+msgstr "provision of goods, services or facilities;"
+
+msgid "dis-text11"
+msgstr "disposal or management of premises;"
+
+msgid "dis-text12"
+msgstr "eligibility to vote for and to be elected or appointed to advisory bodies;"
+
+msgid "dis-text13"
+msgstr "participation in clubs;"
+
+msgid "dis-text14"
+msgstr "activities of the Government;"
+
+msgid "dis-text15"
+msgstr "practising as barristers (any offer of pupilage and training provided to barristers)."
+
+msgid "dis-text16"
+msgstr "Under the DDO, it is unlawful to discriminate against, harass or vilify a person with a disability in public, or discriminate or harass a person on the grounds of disability in the following areas of activity:"
+
+msgid "dis-text17"
+msgstr "It is unlawful to discriminate against a person who has 'family status'. 'Family status' generally means the status of having responsibility for the care of an immediate family member. An 'immediate family member', in relation to a person, means someone who is related to the person concerned by blood, marriage, adoption or affinity."
+
+msgid "dis-text18"
+msgstr "The areas of activity for which a person may lodge a complaint under the Family Status Discrimination Ordinance (FSDO) are the same as those under the SDO."
+
+msgid "dis-text19"
+msgstr "Under the RDO, it is unlawful to discriminate, harass or vilify a person on the ground of his/her race in the following areas of activity:"
+
+msgid "dis-button1"
+msgstr "Sex and pregnancy discrimination, sexual harassment"
+
+msgid "dis-button2"
+msgstr "Disability discrimination"
+
+msgid "dis-button3"
+msgstr "Family Status Discrimination"
+
+msgid "dis-button4"
+msgstr "Race Discrimination"
+
+msgid "emp-text1"
+msgstr "Employment contract and labour disputes"
+
+msgid "emp-text2"
+msgstr "A written employment contract reminds both employers and employees of their obligations, helps avoid possible disputes and sets out clearly the rights and benefits of both parties."
+
+msgid "emp-text3"
+msgstr "In the circumstances of labour dispute, both parties should seek immediate legal advice to facilitate their understanding of their respective rights and obligations under the employment contract and relevant labour laws. "
+
+msgid "emp-button1"
+msgstr "A contract of employment"
+
+msgid "emp-button2"
+msgstr "Employment disputes"
+
+msgid "pro-text1"
+msgstr "Property is regarded a valuable asset in Hong Kong.  Whether to lease or to purchase, and even maintenance, should be handled by professionals. Below we set out for your reference some legal knowledges in relation to transaction of property in Hong Kong.  You should seek independent legal advice in this regard."
+
+msgid "pro-button1"
+msgstr "Purchaser"
+
+msgid "pro-button2"
+msgstr "Tenancy"
+
+msgid "pro-button3"
+msgstr "Vendor"
+
+msgid "pro-button4"
+msgstr "Transfer of title"
+
+msgid "pro-button5"
+msgstr "Mortgage"
+
+msgid "pro-button6"
+msgstr "Release mortgage"
+
+msgid "cor-text1"
+msgstr "Setting up a company facilitates your business operation. A company, however, has to be managed continuously in order to comply with applicable laws."
+
+msgid "cor-button1"
+msgstr "Making a business contract"
+
+msgid "cor-button2"
+msgstr "Incorporating a limited company"
+
+msgid "cor-button3"
+msgstr "Business registration"
+
+msgid "cor-button4"
+msgstr "Registering trademarks and patents"
+
+msgid "cor-button5"
+msgstr "Liquidation"
+
+msgid "cor-button6"
+msgstr "Company secretary"
+
+msgid "cor-button7"
+msgstr "Annual Return"
+
+msgid "wil-text1"
+msgstr "When a person dies, there may be estate (the money in bank accounts, company shares, real estate and other assets, etc.) left under the deceased's name. No matter whether or not the deceased has made a Will, generally a Grant of Representation will have to be obtained from the Probate Registry of the High Court of the Hong Kong Special Administrative Region before any of the deceased's assets in Hong Kong can be dealt with. A Grant of Representation acts as evidence of a person's right to deal with the estate of the deceased."
+
+msgid "wil-text2"
+msgstr "Making a Will in advance will save your family members a lot of trouble having to run around the Probate Registry and banks while they are still in griefs."
+
+msgid "wil-button1"
+msgstr "Making a Will"
+
+msgid "wil-button2"
+msgstr "Probate"
+
+msgid "cri-text1"
+msgstr "The Secretary for Justice of the HKSAR Government has overall responsibility for conducting criminal prosecutions in Hong Kong. It is for the Secretary and those who prosecute on the Secretary's behalf to decide whether or not a prosecution should be instituted in any particular case. In determining whether or not to prosecute, the Secretary considers two issues:"
+
+msgid "cri-text2"
+msgstr "First, is the evidence sufficient to justify the institution of proceedings?"
+
+msgid "cri-text3"
+msgstr "Second, if it is, does the public interest require a prosecution to take place?"
+
+msgid "cri-text4"
+msgstr "In making that decision the Secretary for Justice is not subject to any instructions or directions from Government Executive bodies."
+
+msgid "cri-text5"
+msgstr "In practice, many prosecutions at the summary level (less serious or simple cases) which are processed by the Police or other investigative bodies do not require the specific involvement of the Secretary for Justice. At the same time, all such cases are scrutinized at the Magistrates Courts by Senior Court Prosecutors acting on behalf of the Secretary."
+
+msgid "cri-text6"
+msgstr "The most serious criminal offences such as murder, manslaughter, rape, armed robbery and certain drug offences are tried by a judge at the Court of First Instance of High Court with a jury of seven or nine people. The sole duty of the jury is to decide whether the accused is guilty or not guilty. A judge will urge a jury to strive for unanimity in reaching their verdict but a jury may return a majority verdict of five to two or seven to two."
+
+msgid "cri-text7"
+msgstr "A Defendant’s rights are protected and guaranteed by the Basic Law. These major rights include:"
+
+msgid "cri-text8"
+msgstr "the presumption of innocence before conviction;"
+
+msgid "cri-text9"
+msgstr "the burden of proof lies on the prosecution;"
+
+msgid "cri-text10"
+msgstr "the standard of proof is one of beyond reasonable doubt;"
+
+msgid "cri-text11"
+msgstr "the right to have legal representation;"
+
+msgid "cri-text12"
+msgstr "the right to appeal against conviction and/or sentence."
+
+msgid "cri-text13"
+msgstr "Court procedure - criminal cases"
+
+msgid "cri-text14"
+msgstr "The Basic Law and common law presume an accused person to be innocence.  Any person charged with an offence shall be presumed innocent until that person is convicted by the court."
+
+msgid "cri-text15"
+msgstr "In general, the court will first ask the accused person whether he or she pleads guilty to the offence.  If the accused person pleads guilty, the court will convict that person without a trial so long as the summary of facts prepared by the prosecution and agreed by him/her are sufficient to show the commission of the offence. If the accused person pleads not guilty, then a trial becomes necessary to determine whether or not that person is guilty of the offence."
+
+msgid "cri-text16"
+msgstr "At the trial, the burden of proof is generally on the prosecution, which has to convince the court that the accused person is guilty of the offence beyond reasonable doubt . That means the prosecution must present sufficient evidence to the court so that the court can be sure that all the ingredients of the offence charged against the accused have been proven. If there is any reasonable doubt that a particular ingredient of the offence may not have been proven, then the accused person should be acquitted of the offence. The accused person is not required to prove that he or she is not guilty, and can decide whether to give evidence at the trial or not."
+
+msgid "cri-text17"
+msgstr "Criminal trials in Hong Kong are conducted in open court where the public and the press can attend. They are either heard by a Magistrate or a District Court Judge alone without a jury, or by a High Court Judge sitting together with a jury."
+
+msgid "cri-button1"
+msgstr "Arrest and bail application"
+
+msgid "cri-button2"
+msgstr "Mitigation and sentencing"
+
+msgid "cri-button3"
+msgstr "Mention"
+
+msgid "cri-button4"
+msgstr "Other criminal matters"
+
+msgid "cla-text1"
+msgstr "Do not engage recovery agents to handle your claims"
+
+msgid "cla-text2"
+msgstr "Recovery agents are neither professionally qualified nor subject to any code of professional conduct.  A recovery agent will finance the claim by paying the legal fees and other disbursements, and then the accident victim has to hand over a share of his compensation to the recovery agent."
+
+msgid "cla-text3"
+msgstr "There is no compulsory insurance covering any claims directed at recovery agents and they are of unknown financial backing.  Since accident compensation in Hong Kong is assessed on the basis of actual loss, victims using recovery agents will not be adequately compensated as part of their compensation has to be paid to the recovery agents.  The more seriously injured victims may then not have sufficient means to maintain their livelihood."
+
+msgid "cla-text4"
+msgstr "Recovery agency contracts are generally champertous in nature and are unenforceable.  Maintenance (of which champerty is a more serious form) remains a criminal offence in Hong Kong and recovery agents are liable to be prosecuted.  Accident victims relying on recovery agents are likely to jeopardize their chances of getting the best possible redress.  Accident victims should approach solicitors or the Legal Aid Department directly."
+
+msgid "cla-text5"
+msgstr "It is important that you seek the services of a qualified, reputable and specialist firm of solicitors that have a strong background in the area of personal injury litigation.  Such a firm should be able to provide you with expert advice on whether you are qualified to make a claim, and how to collate and present the supporting documentation. They will start the claim for compensation for you by acting on your behalf if they believe you have a strong case."
+
+msgid "cla-text6"
+msgstr "The time limit for filing a personal injury claim"
+
+msgid "cla-text7"
+msgstr "Under section 27 of the Limitation Ordinance (Cap.347), where a plaintiff makes a claim for personal injury, the limitation period is three years from the date of the accrual of the cause of action (that is, the date of the accident / the date when the plaintiff was injured) or the date of knowledge (that is, knowing that the injury was significant and attributable to the defendant), whichever is later."
+
+msgid "cla-text8"
+msgstr "According to section 28 of the Limitation Ordinance, where the claim is one of a fatal accident, the limitation period is three years from the date of death or the date of knowledge of the death by the deceased's dependent, whichever is later."
+
+msgid "cla-text9"
+msgstr "Where the person injured is under a disability, the 3 years' limitation period is not applicable until the person ceases to be under the disability or dies, whichever is earlier (section 22(1) and 22(2) of the Limitation Ordinance).  A person is considered to be under a disability if he/she is a child or a patient who is mentally incapacitated.  Thus, for children, the limitation period is not applicable until the age of 18."
+
+msgid "cla-text10"
+msgstr "However, the Court has discretion to extend the limitation periods where it is fair and reasonable."
+
+msgid "cla-button1"
+msgstr "Work injuries"
+
+msgid "cla-button2"
+msgstr "Traffic accidents"
+
+msgid "cla-button3"
+msgstr "Casualty & Personal Injury"
+
+msgid "civ-text1"
+msgstr "What is a civil case?"
+
+msgid "civ-text2"
+msgstr "A civil case relates to the legal rights and obligations between two or more persons or institutions. In the event that the parties concerned cannot resolve a dispute themselves, either party may start a civil litigation. This is done in order to seek an independent and impartial tribunal's or court's determination as to whether one's legal rights and obligations are being infringed, and if so, to obtain appropriate compensation and remedy."
+
+msgid "civ-text3"
+msgstr "Civil litigation should be distinguished from criminal litigation. The main difference is that civil litigation is normally undertaken by an individual to seek monetary compensation, to recover properties, or to enforce obligations, while the criminal litigation is instituted in the name of the Government (i.e. the Hong Kong Special Administrative Region) to suppress crime and to punish criminals."
+
+msgid "civ-text4"
+msgstr "A person or a company or even the Government can be a party in a civil case. The party who sues is called 'the plaintiff' or 'the claimant', and the party being sued is called 'the defendant' or 'the respondent'. The plaintiffs/claimants have a duty to prove that what they claim is correct based on the balance of probabilities (i.e. it is more likely than not that what they claim is true). The following are some common examples of civil litigation:"
+
+msgid "civ-text5"
+msgstr "Debt Recovery"
+
+msgid "civ-text6"
+msgstr "Example: You may start a civil action to recover a debt if someone owes you money but refuses to pay."
+
+msgid "civ-text7"
+msgstr "Claiming Compensation"
+
+msgid "civ-text8"
+msgstr "Example: You may start a civil action to claim monetary compensation if someone has failed to perform an obligation under a contract, wrongfully damaged your property or injured you. In litigation documents, a claim for monetary compensation is referred to as a claim for damages."
+
+msgid "civ-text9"
+msgstr "Claiming Possession of Property"
+
+msgid "civ-text10"
+msgstr "Example: You may start a civil action to terminate a tenancy and repossess your flat if your tenant has failed to pay rent or breached certain terms of the tenancy agreement. In addition, you may claim for the unpaid rent or other losses that you might have suffered."
+
+msgid "civ-text11"
+msgstr "Infringement of Copyright"
+
+msgid "civ-text12"
+msgstr "Example: You have published a book and someone sells photocopies of this book without your permission. You may start a civil action to obtain a court order prohibiting the person from selling the photocopies and forcing them to hand over to you all the remaining photocopies. You may in addition claim monetary compensation for the loss in sales that you have suffered."
+
+msgid "civ-button1"
+msgstr "You are the plaintiff"
+
+msgid "civ-button2"
+msgstr "You are the defendant"
+
+#: templates/index.html
+msgid "Login"
+msgstr "Login"
+
+msgid "Register"
+msgstr "Register"
+
+#: templates/account/lawyer_gridview.html templates/account/lawyer_gridview_mobile.html
+msgid "▼ 閱讀更多..."
+msgstr "▼ Read More..."

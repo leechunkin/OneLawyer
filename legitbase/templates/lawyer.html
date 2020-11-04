@@ -1,0 +1,229 @@
+{% extends 'base_with_title.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans 'Lawyer Info' %}{% endblock %}
+{% block heading %}{% trans "Lawyer Info" %}{% endblock %}
+
+{% block stylesheets %}
+	<link rel="stylesheet" href="{% static 'legitbase/lawyer.css' %}" type="text/css" media="all" />
+{% endblock %}
+
+{% block scripts %}
+	<script type="application/ecmascript">var categories_chosen = {{service_path_id}};</script>
+	<script type="application/ecmascript" src="{% static 'tab.js' %}"></script>
+{% endblock %}
+
+{% block subheading %}
+	{% if service_path %}
+		<div class="breadcrumbs_bottom">
+			<span class="bold">{% trans '搜尋項目' %}</span>
+			|
+			<span class="breadcumb_text">
+				{% for part in service_path %}
+					{{part}}
+					{% if not forloop.last %} ▸ {% endif %}
+				{% endfor %}
+			</span>
+		</div>
+	{% endif %}
+{% endblock %}
+
+{% block content %}
+	<div class="in_row wpb_row in_row-fluid lawyer_row">
+		<div class="wpb_column in_column_container in_col-sm-7 lawyer_basic_info" >
+			<div>
+				{% if photo %}
+					<img src="{{photo.url}}" class="profile_pic_full">
+				{% else %}
+					<img src="{% static 'img/avatar.png' %}" class="profile_pic">
+				{% endif %}
+				<div class="profile_details_top lawyer_details_top">
+					<span class="bold lawyer_name lawyer_full_title">{{lawyer_name}}</span>
+					<span class="regular lawyer_full_details_text">{{firm_name}}</span>
+					<span class="regular lawyer_full_details_text">{% trans "職位｜" %}{{position}}</span>
+					<span class="regular lawyer_full_details_text">{% trans "地區｜" %}{{district}}</span><br>
+				</div>
+			</div>
+		</div>
+		<div class="wpb_column in_column_container in_col-sm-5 lawyer_quotation">
+			<div class="profile_card lawyer_quotation_inner" >
+				
+				<div class="profile_details_top lawyer_quotation_blue">
+					
+					{% if service_rate is not None %}
+									<div class="regular lawyer_charges"><span class="bold charges_heading">{% trans '項目收費' %}</span> ▸ {% blocktrans with rate=service_rate %}from HKD {{rate}}{% endblocktrans %}</div>
+							{% endif %}
+									<div class="regular lawyer_charges"><span class="bold charges_heading">{% trans '執業經驗' %}</span> ▸ {% blocktrans count years=experience_years %}{{ years }} year{% plural %}{{ years }} years{% endblocktrans %}</div>
+									<div class="regular lawyer_charges"><span class="bold charges_heading">{% trans 'Reference Hourly Rate' %}</span> ▸ {% blocktrans with rate=hourly_rate %}from HKD {{rate}}{% endblocktrans %}</div>
+
+									{% if lawyer_service_id is not None %}
+								<a href="{% url 'lawyer-service-req' lawyer_service_id=lawyer_service_id %}" class="search_result_button lawyer_name lawyer_request_orange">
+									{% trans 'Request Service' %}
+								</a>
+								{% endif %}
+								<a href="javascript:history.back()" class="search_result_button lawyer_name lawyer_request_blue">
+									{% trans 'Return to Search Result' %}
+								</a>
+							
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+	<div class="in_row wpb_row in_row-fluid">
+	<div class="wpb_column in_column_container in_col-sm-12 lawyer_supp" >
+			<div class="in_column-inner in_custom_1484734943085 lawyer_supp_inner">
+				<div class="wpb_wrapper">
+					<div class="wpb_text_column wpb_content_element">
+						<div class="wpb_wrapper" >
+							
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="in_row wpb_row in_row-fluid">
+	<div class="wpb_column in_column_container in_col-sm-12 lawyer_module_area">
+			<div class="in_column-inner in_custom_1484734943085 lawyer_module">
+				<div class="wpb_wrapper">
+					<div class="wpb_text_column wpb_content_element">
+						<div class="wpb_wrapper">
+							{{intro|linebreaks}}
+							<section class="tab-panel lawyer_fullwidth">
+								{% for panel in panels %}
+									<span class="tab">{% trans panel %}</span>
+								{% endfor %}
+								{% for panel in panels %}
+									{% if panel == 'Panel Intro' %}
+										<div class="panel">
+											<p>{{optional_intro.text|safe}}</p>
+											{% if optional_intro.picture %}
+												<img src="{{optional_intro.picture.url}}">
+											{% endif %}
+											{% if optional_intro.video %}
+												<video src="{{optional_intro.video.url}}"></video>
+											{% endif %}
+											{% if languages %}
+											<div class="lawyer_language_tags" >
+													<span class="bold">{% trans 'Languages' %}</span><br>
+													{% for lang in languages %}
+														<span class="languages_tag">{{lang}}</span>
+													{% endfor %}
+											</div>
+											{% endif %}
+
+											{% if services %}
+											<div class="lawyer_service_tags">
+													<span class="bold">{% trans '處理項目' %}</span><br>
+													{% for service in services %}
+														<span class="services_tag">{{service}}</span>
+													{% endfor %}
+											</div>
+											{% endif %}
+										</div>
+									{% endif %}
+									{% if panel == 'Panel Endorsement' %}
+										<div class="panel">
+											{% if not allow_endorsement %}
+												<p>{% trans 'Endorsement disallow' %}</p>
+											{% else %}
+												<table>
+													<tbody>
+														<tr>
+															<th>{% trans 'Endorsement Number' %}<th>
+															<td>{{ endorsement.number }}</td>
+														</tr>
+														<tr>
+															<th>{% trans 'Endorsement Responsive' %}<th>
+															<td>{{ endorsement.score_1 }}</td>
+														</tr>
+														<tr>
+															<th>{% trans 'Endorsement Concern' %}<th>
+															<td>{{ endorsement.score_2 }}</td>
+														</tr>
+														<tr>
+															<th>{% trans 'Endorsement Knowledge' %}<th>
+															<td>{{ endorsement.score_3 }}</td>
+														</tr>
+														<tr>
+															<th>{% trans 'Endorsement Value' %}<th>
+															<td>{{ endorsement.score_4 }}</td>
+														</tr>
+														<tr>
+															<th>{% trans 'Endorsement Recommend' %}<th>
+															<td>{{ endorsement.score_5 }}</td>
+														</tr>
+													</tbody>
+												</table>
+											{% endif %}
+										</div>
+									{% endif %}
+									{% if panel == 'Panel Resume' %}
+										<div class="panel">
+											<p>{{optional_resume.desc|safe}}</p>
+											<table>
+												<thead>
+													<tr><th>Years</th><th>Position</th></tr>
+												</thead>
+												<tbody>
+													{% for entry in optional_resume.table %}
+														<tr>
+															<td>{{entry.from_year|stringformat:"d"}} - {{entry.end_year|stringformat:"d"}}</td>
+															<td>{{entry.position}}</td>
+														</tr>
+													{% endfor %}
+												</tbody>
+											</table>
+										</div>
+									{% endif %}
+									{% if panel == 'Panel Contact' %}
+										<div class="panel">
+											<p>{{optional_contact.text|safe}}</p>
+											{% if optional_contact.image %}
+												<img src="{{optional_contact.image.url}}">
+											{% endif %}
+											{% if optional_contact.video %}
+												<video src="{{optional_contact.video.url}}"></video>
+											{% endif %}
+										</div>
+									{% endif %}
+									{% if panel == 'Panel Media' %}
+										<div class="panel">
+											<p>{{optional_media.text|safe}}</p>
+											{% if optional_media.image %}
+												<img src="{{optional_media.image.url}}">
+											{% endif %}
+											{% if optional_media.video %}
+												<video src="{{optional_media.video.url}}"></video>
+											{% endif %}
+										</div>
+									{% endif %}
+									{% if panel == 'Panel Case' %}
+										<div class="panel">
+											{% for case in optional_cases %}
+												<p><b>{% trans 'Court case number' %} | {{case.code}}</b></p>
+												<div class="court_case_text">{{case.content|safe}}</div>
+											{% endfor %}
+										</div>
+									{% endif %}
+								{% endfor %}
+							</section>
+							{{travel|linebreaks}}
+							{% if embed_map is not None %}
+								<iframe src="{{embed_map|safe}}" width="600" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+							{% endif %}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+{% endblock %}

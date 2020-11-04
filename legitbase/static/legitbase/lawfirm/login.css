@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+body {
+	background:#fbfbfb;
+	color:#666;
+	text-align:center;
+	font-family: 'Noto Sans TC', Arial, Helvetica;
+	font-weight:300;
+}
+
+.login_logo {margin: 30px auto 0px auto;}
+
+h1 {font-size:28px; font-weight:300; color:#005F8D;}
+
+input {
+	border:0px;
+	padding:0 8px;
+	height:30px;
+	border-radius:8px;
+	margin:5px 0 10px 10px;
+	display:inline-block;
+	width:200px;
+
+}
+label
+{
+
+	width:150px; display:inline-block; text-align:left;
+}
+
+.login_form
+{
+background:#005F8D;
+color:#fff;
+padding:15px 15px;
+width:400px;
+margin:0 auto;
+border-radius:12px 0;
+font-size:14px;
+}
+.login_button
+{
+background:#f26522;
+border-radius:8px 0;
+font-family: 'Noto Sans TC', Arial, Helvetica;
+color:#fff;
+border:0px;
+font-weight:300;
+font-size:16px;
+padding:5px 8px;
+margin:15px 0 10px 0;
+}

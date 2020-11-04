@@ -1,0 +1,7 @@
+.DS_Store
+/.env/
+*.sqlite3
+__pycache__/
+/static/
+/.vscode/
+*.mo

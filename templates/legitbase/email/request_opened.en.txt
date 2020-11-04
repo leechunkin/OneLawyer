@@ -1,0 +1,16 @@
+Dear {{requester_name}},
+
+Our Ref: {{request_id}}
+
+We hereby write to confirm that your request to seek legal advice / relevant
+information to {{lawyer_name}} has been viewed on {{opened_at}}. Please await
+for his/her reply in relation to your request.
+
+We will be keeping an eye on your matter and will email you further to follow
+up with your request with the above mentioned solicitor.
+
+Thank you for entrusting your matters with us.
+
+Regards,
+
+Legit Service Team

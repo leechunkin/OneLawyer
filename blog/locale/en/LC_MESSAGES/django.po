@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-27 00:14+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/blog/article.html:5
+msgid "BLOG Article"
+msgstr ""
+
+#: templates/blog/article.html:15 templates/blog/index.html:23
+msgid "BLOG Title"
+msgstr "Title"
+
+#: templates/blog/article.html:16 templates/blog/index.html:24
+msgid "BLOG Author"
+msgstr "Author"
+
+#: templates/blog/article.html:17 templates/blog/index.html:25
+msgid "BLOG Summary"
+msgstr "Summary"
+
+#: templates/blog/article.html:18
+msgid "BLOG Content"
+msgstr "Content"
+
+#: templates/blog/article.html:20
+msgid "BLOG Link"
+msgstr "Link"
+
+#: templates/blog/article.html:22 templates/blog/index.html:26
+msgid "BLOG Created"
+msgstr "Posted at"
+
+#: templates/blog/article.html:23 templates/blog/index.html:27
+msgid "BLOG Updated"
+msgstr "Updated at"
+
+#: templates/blog/index.html:5
+msgid "BLOG Index"
+msgstr "Index"
+
+#: templates/blog/index.html:12
+msgid "BLOG Categories"
+msgstr "Categories"
+
+#: templates/blog/index.html:33
+msgid "BLOG Newer"
+msgstr "Newer"
+
+#: templates/blog/index.html:37
+msgid "BLOG Older"
+msgstr "Older"
+
+msgid "閱讀更多"
+msgstr "Read More"
+
+msgid "回到博客主頁"
+msgstr "Return to Blog Index Page"
+
+msgid "BLOG Search"
+msgstr "Search"

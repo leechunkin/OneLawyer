@@ -1,0 +1,12 @@
+table {
+	border-width: thick;
+	border-style: double;
+}
+
+th {
+	background-color: lightgreen;
+}
+
+td {
+	background-color: lightpink;
+}

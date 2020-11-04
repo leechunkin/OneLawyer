@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+{% load static %}
+<html>
+<head>
+<title>One Lawyer 搵律師 － 法律服務指南 | Law Firms Admin Panel 律師行登入</title>
+<link rel="stylesheet" type="text/css" href="{% static 'legitbase/lawfirm/lawfirm.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'legitbase/lawfirm/login.css' %}">
+</head>
+<body>
+<img src="../static/img/lawfirm_login_logo.png" class="login_logo">
+<h1>Admin Page for Law Firms <br> 律師行管理頁面</h1>
+{% if fail %}
+	<p>Login Failed. Check if your login name and password are correct. <br>登入失敗。請檢查閣下輸入的用戶名稱及密碼是否正確。</p>
+{% endif %}
+<form method="POST" action="login" class="login_form">
+	{% csrf_token %}
+	<label>Login Name 用戶名稱</label><input name="username"><br>
+	<label>Password 密碼</label><input type="password" name="password">
+	<button class="login_button">Login 登入</button>
+</form>
+
+<body>
+<html>

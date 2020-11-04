@@ -1,0 +1,12 @@
+{% extends "account/base.html" %}
+
+{% load i18n %}
+
+{% block head_title %}{% trans "This account is inactive" %}{% endblock %}
+
+{% block content %}
+<div class="account_short_message_area">
+<h1>{% trans "This account is inactive" %}</h1>
+
+<p class="short_message">{% trans "This is an inactive account. Please check your registered email and go through the required verification process." %}</p>
+{% endblock %}

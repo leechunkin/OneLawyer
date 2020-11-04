@@ -1,0 +1,1341 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-22 19:50+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin.py:13
+msgid "LEGIT administration"
+msgstr "LEGIT 管理"
+
+#: admin.py:14
+msgid "LEGIT site admin"
+msgstr "LEGIT 網站管理"
+
+#: admin.py:47 models.py:227
+msgid "Name"
+msgstr "名字"
+
+#: admin.py:77
+msgid "Subscription End Date"
+msgstr "訂購服務完結日"
+
+#: admin.py:82
+msgid "Not Ended"
+msgstr "未完結"
+
+#: admin.py:83
+msgid "Ended"
+msgstr "已完結"
+
+#: admin.py:165 models.py:167
+msgid "Firm"
+msgstr "律師行"
+
+#: admin.py:169 models.py:120 models.py:157 models.py:168
+msgid "Lawyer"
+msgstr "律師"
+
+#: models.py:16 models.py:61 models.py:97 models.py:132 models.py:212
+msgid "Name (English)"
+msgstr "英文名字"
+
+#: models.py:17 models.py:62 models.py:98 models.py:133 models.py:213
+msgid "Name (Chinese)"
+msgstr "中文名字"
+
+#: models.py:18
+msgid "Description (English)"
+msgstr "英文描述"
+
+#: models.py:19
+msgid "Description (Chinese)"
+msgstr "中文描述"
+
+msgid "Unquotable"
+msgstr "無法報價"
+
+#: models.py:20
+msgid "Order"
+msgstr "排序"
+
+#: models.py:34 models.py:44
+msgid "Category"
+msgstr "種類"
+
+#: models.py:35
+msgid "Categories"
+msgstr "種類"
+
+#: models.py:46
+msgid "Message (English)"
+msgstr "英文訊息"
+
+#: models.py:47
+msgid "Message (Chinese)"
+msgstr "中文訊息"
+
+#: models.py:55
+msgid "Invalid"
+msgstr "無效"
+
+#: models.py:56
+msgid "Free Trial"
+msgstr "免費試用"
+
+#: models.py:57
+msgid "Normal"
+msgstr "正常"
+
+#: models.py:58
+msgid "Not Paying"
+msgstr "未繳費"
+
+#: models.py:63
+msgid "Address (English)"
+msgstr "英文地址"
+
+#: models.py:64
+msgid "Address (Chinese)"
+msgstr "中文地址"
+
+#: models.py:65 models.py:140
+msgid "HK District"
+msgstr "分區"
+
+#: models.py:66 models.py:101 models.py:228 templates/lawyer.html:61
+msgid "Email"
+msgstr "電郵"
+
+#: models.py:67 models.py:102 models.py:229 templates/lawyer.html:58
+msgid "Phone"
+msgstr "電話"
+
+#: models.py:68 models.py:103 templates/lawyer.html:64
+msgid "Fax"
+msgstr "傳真"
+
+#: models.py:69
+msgid "Website"
+msgstr "網站"
+
+#: models.py:70 models.py:104
+msgid "hklawsoc.org.hk Profile URL"
+msgstr "hklawsoc.org.hk 名錄 URL"
+
+msgid "Introduction (English)"
+msgstr "英文簡介"
+
+msgid "Introduction (Chinese)"
+msgstr "中文簡介"
+
+#: models.py:72 models.py:109
+msgid "Remarks"
+msgstr "備註"
+
+#: models.py:73
+msgid "Status"
+msgstr "狀態"
+
+#: models.py:74
+msgid "Subscription Starts"
+msgstr "服務訂購開始"
+
+#: models.py:75
+msgid "Subscription Ends"
+msgstr "服務訂購完結"
+
+#: models.py:81
+msgid "Law Firm Admins"
+msgstr "律師行管理員"
+
+#: models.py:87
+msgid "Law Firm"
+msgstr "律師行"
+
+#: models.py:88
+msgid "Law Firms"
+msgstr "律師行"
+
+#: models.py:91
+msgid "Law Firm Admin: Can only change own law firm"
+msgstr "律師行管理員：只能修改自身律師行資料"
+
+#: models.py:99
+msgid "Admission in Hong Kong"
+msgstr "在香港認許日期"
+
+#: models.py:100 models.py:153
+msgid "Jurisdictions"
+msgstr "法域"
+
+#: models.py:105 models.py:220 templates/lawyer.html:73
+msgid "Languages"
+msgstr "律師使用的語言"
+
+#: models.py:107
+msgid "Firms"
+msgstr "律師行"
+
+#: models.py:111
+msgid "Photo"
+msgstr "照片"
+
+#: models.py:121
+msgid "Lawyers"
+msgstr "律師"
+
+#: models.py:127
+msgid "Hong Kong"
+msgstr "香港"
+
+#: models.py:128
+msgid "Kowloon"
+msgstr "九龍"
+
+#: models.py:129
+msgid "New Territories"
+msgstr "新界"
+
+#: models.py:134
+msgid "Region"
+msgstr "地域"
+
+#: models.py:141
+msgid "HK Districts"
+msgstr "分區"
+
+#: models.py:146 models.py:152 models.py:158
+msgid "Jurisdiction"
+msgstr "法域"
+
+#: models.py:159
+msgid "Admission Date"
+msgstr "認許日期"
+
+#: models.py:162
+msgid "Lawyer Jurisdiction"
+msgstr "律師被認許法域（香港以外）"
+
+#: models.py:163
+msgid "Lawyer Jurisdictions"
+msgstr "律師被認許法域（香港以外）"
+
+#: models.py:170
+msgid "Post (English)"
+msgstr "英文職位"
+
+#: models.py:171
+msgid "Post (Chinese)"
+msgstr "中文職位"
+
+#: models.py:173
+msgid "From Date"
+msgstr "開始日期"
+
+#: models.py:173
+msgid "Date from which this position begins."
+msgstr "本職位開始日期。"
+
+#: models.py:174
+msgid "End Date"
+msgstr "完結日期"
+
+#: models.py:174
+msgid "Date on which this position ends. Leave blank if position is current."
+msgstr "本職位完結日期。若現正持有，請將本欄清空。"
+
+#: models.py:176
+msgid "Hourly Rate"
+msgstr "每小時費用"
+
+#: models.py:176
+msgid "in HKD"
+msgstr "港幣"
+
+msgid "Precedence to show in service list"
+msgstr "顯示優先權"
+
+#: models.py:183 models.py:195
+msgid "Lawyer Post"
+msgstr "律師職位"
+
+#: models.py:184
+msgid "Lawyer Posts"
+msgstr "律師職位"
+
+#: models.py:189
+msgid "None"
+msgstr "沒有"
+
+#: models.py:190
+msgid "Under 15 Minutes"
+msgstr "少於 15 分鐘"
+
+#: models.py:191
+msgid "15-30 Minutes"
+msgstr "15-30 分鐘"
+
+#: models.py:192
+msgid "30 Minutes or more"
+msgstr "30 分鐘或以上"
+
+#: models.py:194
+msgid "Service"
+msgstr "服務"
+
+#: models.py:196
+msgid "Rate"
+msgstr "費用"
+
+#: models.py:197
+msgid "Hourly Rate?"
+msgstr "每小時?"
+
+#: models.py:198
+msgid "Max Estimated Time (minutes)"
+msgstr "預計最高所需時間 (分鐘)"
+
+#: models.py:199
+msgid "Free Consultation Offer (minutes)"
+msgstr "免費諮詢 (分鐘)"
+
+#: models.py:205
+msgid "Lawyer Service"
+msgstr "律師所提供服務"
+
+#: models.py:206
+msgid "Lawyer Services"
+msgstr "律師所提供服務"
+
+#: models.py:219
+msgid "Language"
+msgstr "語言"
+
+#: models.py:230
+msgid "Brief summary of this consultation"
+msgstr "打算與律師商談之內容（200字內）"
+
+#: models.py:231
+msgid "First choice"
+msgstr "第一意願"
+
+#: models.py:232
+msgid "Second choice"
+msgstr "第二意願"
+
+#: models.py:233
+msgid "Third choice"
+msgstr "第三意願"
+
+#: models.py:267
+msgid "LEGIT: Please verify your request"
+msgstr ""
+
+#: models.py:268
+#, python-format
+msgid "Please click on the following like to verify your request: %s"
+msgstr ""
+
+#: models.py:282
+msgid "LEGIT: You have a new request!"
+msgstr ""
+
+#: models.py:283
+#, python-format
+msgid "Please click on the following like to view the request: %s"
+msgstr ""
+
+#: models.py:294
+msgid "LEGIT: Your request has been viewed by the lawyer"
+msgstr ""
+
+#: models.py:295
+msgid ""
+"Your request has been viewed by the lawyer, and will contact you shortly."
+msgstr ""
+
+msgid "LEGIT: Please comment our service"
+msgstr ""
+
+#: templates/base.html
+msgid "Join us"
+msgstr "律師行專頁"
+
+msgid "About Legit"
+msgstr "關於 OneLawyer"
+
+msgid "Support us"
+msgstr "支持我們"
+
+msgid "Vision"
+msgstr "願景"
+
+msgid "Profile"
+msgstr "公司簡介"
+
+msgid "Founder"
+msgstr "團隊"
+
+msgid "Honourary Board"
+msgstr "榮譽顧問"
+
+msgid "Backers"
+msgstr "鳴謝"
+
+msgid "Contact us"
+msgstr "聯絡我們"
+
+msgid "Public Legal Education"
+msgstr "請律師常識"
+
+msgid "Disclaimer"
+msgstr "免責聲明"
+
+msgid "Privacy Policy"
+msgstr "私隱條款"
+
+#: templates/base_with_categories.html
+msgid "Search again"
+msgstr "重新搜尋"
+
+#: templates/index.html:30
+msgid "Please choose from legal services below"
+msgstr "搵律師 點開始？"
+
+msgid "地區"
+msgstr "地區"
+
+msgid "廣東話"
+msgstr "廣東話"
+
+msgid "English"
+msgstr "英文"
+
+msgid "Mandarin"
+msgstr "普通話"
+
+msgid "其他語言"
+msgstr "其他語言"
+
+msgid "Search"
+msgstr "尋找律師"
+
+#: templates/index.html:35
+msgid "▼ 更多搜尋設定"
+msgstr "▼ 進階搜尋設定"
+
+#: templates/index.html:56
+msgid "slogan-1"
+msgstr "如果你是律師"
+
+#: templates/index.html:56
+msgid "slogan-2"
+msgstr "立即加盟OneLawyer, "
+
+#: templates/index.html:56
+msgid "slogan-3"
+msgstr "推廣你的律師行"
+
+#: templates/index.html:65
+msgid "Back us"
+msgstr "立即加盟"
+
+#: templates/lawyer.html:5 templates/lawyer.html:6
+#: templates/lawyer_service_request_view.html:5
+#: templates/lawyer_service_request_view.html:6
+msgid "Lawyer Info"
+msgstr "律師資料"
+
+#: templates/lawyer.html:11 templates/lawyer_service_request.html:16
+#: templates/lawyer_service_request_view.html:11 templates/service.html:21
+#: templates/simple_message.html:8
+msgid "搜尋項目"
+msgstr "搜尋項目"
+
+#: templates/lawyer_service_request_ack_by_lawyer.html
+msgid "lsrabl message"
+msgstr "謝謝！"
+
+#: templates/lawyer_service_request_validate.html
+msgid "lsrv message"
+msgstr "謝謝，系統已寄了一封確認電郵給你，請按照電郵內的指示確認服務申請。"
+
+#: templates/lawyer_service_request_validated.html
+msgid "lsrvd message"
+msgstr "謝謝，系統現正聯絡律師。"
+
+#: templates/lawyer.html:39
+msgid "Experience"
+msgstr "年資"
+
+#: templates/lawyer.html:40 templates/service.html:143
+#, python-format
+msgid "%(years)s year"
+msgid_plural "%(years)s years"
+msgstr[0] "%(years)s年"
+msgstr[1] "%(years)s年"
+
+#: templates/lawyer.html:43
+msgid "Reference Hourly Rate"
+msgstr "一般每小時收費"
+
+#: templates/lawyer.html:44 templates/service.html:147
+#, python-format
+msgid "from HKD %(rate)s"
+msgstr "港幣%(rate)s起"
+
+#: templates/lawyer.html:67
+msgid "Address"
+msgstr "地址"
+
+#: templates/lawyer.html:81
+msgid "處理項目"
+msgstr "提供服務範疇"
+
+#: templates/lawyer.html:92
+msgid "Request Service"
+msgstr "聯絡律師詳細報價"
+
+#: templates/lawyer.html:107
+msgid "Return to Search Result"
+msgstr "回到搜尋結果"
+
+msgid "Panel Endorsement"
+msgstr "客戶評價"
+
+msgid "Endorsement disallow"
+msgstr "律師未有選擇開放評分及反餽欄目。"
+
+msgid "Endorsement Number"
+msgstr "反餽人數"
+
+msgid "Endorsement Responsive"
+msgstr "積極回應"
+
+msgid "Endorsement Concern"
+msgstr "關注客戶"
+
+msgid "Endorsement Knowledge"
+msgstr "專業知識"
+
+msgid "Endorsement Value"
+msgstr "服務價值"
+
+msgid "Endorsement Recommend"
+msgstr "推廌"
+
+msgid "Panel Intro"
+msgstr "律師介紹"
+
+msgid "Panel Resume"
+msgstr "專業履歷"
+
+msgid "Panel Contact"
+msgstr "聯絡及交通"
+
+msgid "Panel Media"
+msgstr "傳媒報道"
+
+msgid "Panel Case"
+msgstr "曾處理案件"
+
+msgid "Court case number"
+msgstr "法庭案件編號"
+
+#: templates/lawyer_service_request.html:10
+#: templates/lawyer_service_request.html:11
+#: templates/lawyer_service_request_validate.html:5
+#: templates/lawyer_service_request_validate.html:6
+#: templates/lawyer_service_request_validated.html:5
+#: templates/lawyer_service_request_validated.html:6
+msgid "Service Request"
+msgstr "服務申請"
+
+#: templates/lawyer_service_request.html:39
+msgid "lawyer service request - contact 1"
+msgstr "請填寫以下資料並按「確認」，方便律師行聯絡閣下。當律師閱讀閣下的電郵後，我們會寄出確認信至閣下郵箱。"
+
+#: templates/lawyer_service_request.html:40
+msgid "lawyer service request - contact 2"
+msgstr "如律師聯絡閣下（電話或電郵），請在後續電郵中知會我們。"
+
+#: templates/lawyer_service_request.html:41
+msgid "lawyer service request - contact 3"
+msgstr "* 嚴禁以此平台向律師進行推銷或中介法律服務。"
+
+msgid "lawyer contact - disclaimer text 01"
+msgstr "請注意，使用下列表格與律師通訊，代表你同意放棄保障你與律師秘密通訊的「法律專業保密權」，並同意本網知悉有關通訊內容。請參閱"
+
+msgid "lawyer contact - disclaimer text 02"
+msgstr "本網專頁"
+
+msgid "lawyer contact - disclaimer text 03"
+msgstr "，了解你受《基本法》保障的「法律專業保密權」。"
+
+#: templates/lawyer_service_request.html:66
+msgid "請填寫希望約見的時間，如 2018-01-03 14:00（必須填寫；只接受辦公時間內預約）"
+msgstr "請填寫希望約見的時間，如 2018-01-03 14:00（必須填寫；只接受辦公時間內預約）"
+
+#: templates/lawyer_service_request.html:83
+msgid "Submit"
+msgstr "遞交"
+
+#: templates/lawyer_service_request_view.html:25
+msgid "Requester Name"
+msgstr "聯絡人姓名"
+
+#: templates/lawyer_service_request_view.html:29
+msgid "Requester Email"
+msgstr "聯絡人電郵"
+
+#: templates/lawyer_service_request_view.html:33
+msgid "Requester Phone"
+msgstr "聯絡人電話"
+
+#: templates/lawyer_service_request_view.html:47
+msgid "Message"
+msgstr "商談內容"
+
+#: templates/lawyer_service_request_view.html:51
+msgid "Sent at"
+msgstr "提交時間"
+
+#: templates/lawyer_service_request_endorsement.html
+msgid "Thank you for your comment."
+msgstr "謝謝你的意見。"
+
+msgid "Have you contact the lawyer."
+msgstr "律師有否與你接觸？"
+
+msgid "Endorsement question 1"
+msgstr "如果你要用0至10分，評價律師回覆你的速度，10分代表「非常積極回應」，1分代表「完全沒有積極回應」，你會給律師多少分？"
+
+msgid "Endorsement question 2"
+msgstr "如果你要用0至10分，評價律師有多了解你的問題和關注，10分代表「非常了解」，1分代表「完全不了解」，你會給律師多少分？"
+
+msgid "Endorsement question 3"
+msgstr "如果你要用0至10分，評價律師的專業知識水平，10分代表「十分專業」，1分代表「完全不專業」，你會給律師多少分？"
+
+msgid "Endorsement question 4"
+msgstr "如果你要用0至10分，評價律師的專業服務的價值，10分代表「十分有價值」，1分代表「沒有價值」，你會給律師多少分？"
+
+msgid "Endorsement question 5"
+msgstr "如果你要用0至10分，去說明你會否向他人推薦這位律師，10分代表「很可能推薦」，1分代表「不可能推薦」，你會給多少分？"
+
+msgid "Endorsement comment"
+msgstr "你有沒有其他評論或問題？"
+
+#: templates/service.html:6 templates/service.html:7
+msgid "Search Results"
+msgstr "搜尋結果"
+
+msgid "篩選"
+msgstr "篩選結果"
+
+msgid "排序"
+msgstr "排列順序"
+
+msgid "項目收費"
+msgstr "預計項目收費"
+
+msgid "隨機排序"
+msgstr "隨機排序"
+
+msgid "項目收費（由平到貴）"
+msgstr "項目收費（由平到貴）"
+
+msgid "項目收費（由貴到平）"
+msgstr "項目收費（由貴到平）"
+
+msgid "律師年資"
+msgstr "律師年資"
+
+msgid "律師年資（由深到淺）"
+msgstr "律師年資（由深到淺）"
+
+msgid "律師年資（由淺到深）"
+msgstr "律師年資（由淺到深）"
+
+msgid "免費首次見面時間（由長到短）"
+msgstr "免費首次見面時間（由長到短）"
+
+msgid "免費首次見面時間（由短到長）"
+msgstr "免費首次見面時間（由短到長）"
+
+msgid "律師綜合每小時收費（由平到貴）"
+msgstr "律師綜合每小時收費（由平到貴）"
+
+msgid "律師綜合每小時收費（由貴到平）"
+msgstr "律師綜合每小時收費（由貴到平）"
+
+#: templates/service.html:34
+msgid "搜索"
+msgstr "搜索"
+
+#: templates/service.html:38
+msgid "搜尋結果中篩選"
+msgstr "搜尋結果中篩選"
+
+#: templates/service.html:42
+msgid "語言能力"
+msgstr "語言能力"
+
+msgid "所在地區"
+msgstr "所在地區"
+
+msgid "Clear all"
+msgstr "全部清除"
+
+msgid "Select all"
+msgstr "全部選擇"
+
+msgid "district submit"
+msgstr "確定"
+
+msgid "verified-text"
+msgstr "本頁內容均經我們聘請的執業律師核實"
+
+#: templates/service.html:87
+msgid "實在抱歉！"
+msgstr "實在抱歉！"
+
+#: templates/service.html:92
+msgid "我們無法為閣下提供相關報價資料，因為："
+msgstr "我們無法為閣下提供相關報價資料，因為："
+
+#: templates/service.html:116
+#, python-format
+msgid "We found %(numitems)s lawyer for you."
+msgid_plural "We found %(numitems)s lawyers for you."
+msgstr[0] "我們為你尋找到 %(numitems)s 位符合條件的律師。"
+msgstr[1] "我們為你尋找到 %(numitems)s 位符合條件的律師。"
+
+#: templates/service.html:129
+msgid "職位｜"
+msgstr "職位｜"
+
+#: templates/service.html:130
+msgid "地區｜"
+msgstr "地區｜"
+
+#: templates/service.html:142
+msgid "執業經驗"
+msgstr "執業經驗"
+
+#: templates/service.html:146
+msgid "每小時法律服務費用（供參考）"
+msgstr "每小時法律服務費用（供參考）"
+
+#: templates/index.html
+msgid "如果你想搵律師"
+msgstr "如果你想搵律師"
+
+#: templates/index.html
+msgid "律師收費一目了然"
+msgstr "律師收費一目了然"
+
+#: templates/index.html
+msgid "Search Now"
+msgstr "立即搜尋"
+
+#: templates/index_gridview.html templates/index_gridview_mobile.html
+msgid "結婚"
+msgstr "結婚"
+
+msgid "離婚"
+msgstr "離婚"
+
+msgid "破產"
+msgstr "破產"
+
+msgid "歧視"
+msgstr "歧視"
+
+msgid "勞工"
+msgstr "勞工"
+
+msgid "物業"
+msgstr "物業"
+
+msgid "公司事宜"
+msgstr "公司事宜"
+
+msgid "遺囑、遺產承辦"
+msgstr "遺囑、遺產承辦"
+
+msgid "刑事訴訟"
+msgstr "刑事訴訟"
+
+msgid "索償"
+msgstr "索償"
+
+msgid "民事訴訟"
+msgstr "民事訴訟"
+
+msgid "wed-text1"
+msgstr "在香港，結婚須辦理「婚姻登記」。結婚的最低法定年齡是16歲（西曆），不論結婚雙方居於何地或屬於任何國籍，均可在港登記結婚。根據法例，在香港結婚須經以下程序："
+
+msgid "wed-text2"
+msgstr "結婚其中一方須直接或透過婚姻監禮人向婚姻登記官「登記官」遞交「擬結婚通知書」「通知書」。"
+
+msgid "wed-text3"
+msgstr "登記官須在其辦事處展示通知書的第I部分，直至發出婚姻登記官證明書或通知書的三個月有效期屆滿為止。"
+
+msgid "wed-text4"
+msgstr "如符合所有法定要求，登記官可在通知書遞交後最少15天，簽發「婚姻登記官證明書」，讓結婚雙方在通知書的三個月有效期內舉行婚禮。"
+
+msgid "wed-text5"
+msgstr "婚禮須在婚姻登記處由登記官主持，或在特許的禮拜場所由合資格的神職人員主持，或由婚姻監禮人在香港其他地方主持。"
+
+msgid "wed-button1"
+msgstr "婚姻登記及證婚"
+
+msgid "wed-button2"
+msgstr "證婚"
+
+msgid "wed-button3"
+msgstr "婚姻登記"
+
+msgid "div-text1"
+msgstr "在什麼情況下我可以辦理離婚？"
+
+msgid "div-text2"
+msgstr "概括來說，只有一個理據可以將婚姻結束，即「婚姻已破裂至無可挽救之地步」。"
+
+msgid "div-button1"
+msgstr "雙方同意離婚 (共同申請離婚)"
+
+msgid "div-button2"
+msgstr "另一方不同意 (單方面申請離婚)"
+
+msgid "ban-text1"
+msgstr "如債務人（或破產人）無力償還債項而法庭經已向他們頒布破產令，債務人的資產將會由一位中立人士（稱為「受託人」）接管並變賣套現，受託人可由破產管理署署長（掌管破產管理署之政府官員）擔任。資產套現後所獲得之款項將會分發給各債權人（俗稱「債主」），以作償還所有或部分債項。"
+
+msgid "ban-text2"
+msgstr "於破產令生效期間，破產人之部分收入亦會被用作償還債項。除頒布破產令和處理有關審訊外，法庭亦會調查破產之原因，並會懲罰違反 《破產條例》（香港法例第6章）之破產人。"
+
+msgid "ban-text3"
+msgstr "破產訴訟中之債務人可以是一位或數位人士（如合夥經營業務的合夥人），但不包括有限公司。當破產令解除後，債務人可獲免除破產前所招致的債項。"
+
+msgid "ban-text4"
+msgstr "債務重組"
+
+msgid "ban-text5"
+msgstr "如債務人不想為欠債而破產，是否有其他選擇？"
+
+msgid "ban-text6"
+msgstr "債務人可以向法庭申請個人自願安排 (IVA)。債務人可透過 IVA 向法庭及債權人提出還款建議，根據《破產條例》，如債務人的 IVA建議書獲得各方批准，有關條款對每一名債權人都具有法律約束力。"
+
+msgid "ban-text7"
+msgstr "IVA並不等同破產，所以未獲解除破產令的破產人亦可向法庭申請IVA。"
+
+msgid "ban-button1"
+msgstr "破產程序"
+
+msgid "ban-button2"
+msgstr "個人自願安排"
+
+msgid "dis-text1"
+msgstr "香港有哪些主要的反歧視法例?"
+
+msgid "dis-text2"
+msgstr "《香港人權法案條例》（香港法例第 383 章）大致上訂明所有人在法律上一律平等 ，而法律亦應該禁止由任何因素產生的歧視行為。上述原則透過下列法例之訂立而得以實現："
+
+msgid "dis-text3"
+msgstr "《性別歧視條例》"
+
+msgid "dis-text4"
+msgstr "《殘疾歧視條例》"
+
+msgid "dis-text5"
+msgstr "《家庭崗位歧視條例》"
+
+msgid "dis-text6"
+msgstr "《種族歧視條例》"
+
+msgid "dis-text7"
+msgstr "《性別歧視條例》和《殘疾歧視條例》分兩階段實施，當中與僱傭無關的條文於 1996 年 9 月 20 日生效，至於其餘關乎僱傭的條文則在 1996 年 12 月 20 日生效。根據《性別歧視條例》，任何人在下列活動範疇內基於某人之性別、婚姻狀況或懷孕而作出歧視或騷擾行為，即屬違法："
+
+msgid "dis-text8"
+msgstr "僱傭；"
+
+msgid "dis-text9"
+msgstr "教育；"
+
+msgid "dis-text10"
+msgstr "貨品、服務及設施的提供；"
+
+msgid "dis-text11"
+msgstr "樓房／處所的處置或管理；"
+
+msgid "dis-text12"
+msgstr "諮詢團體的投票資格以及被選入或委任入該等團體；"
+
+msgid "dis-text13"
+msgstr "參與會社的活動；"
+
+msgid "dis-text14"
+msgstr "政府的活動；"
+
+msgid "dis-text15"
+msgstr "大律師的執業（指給予大律師的見習職位和訓練）。"
+
+msgid "dis-text16"
+msgstr "根據《殘疾歧視條例》，任何人如公開歧視、騷擾或中傷殘疾人士，或在下列活動範疇內中基於某人的殘疾而作出歧視或騷擾行為，即屬違法："
+
+msgid "dis-text17"
+msgstr "根據《家庭崗位歧視條例》，任何人如基於某人的家庭崗位而作出歧視行為，即屬違法。概括來說，「家庭崗位」指負有照顧直系家庭成員之責任。「直系家庭成員」是與另一人有血緣、婚姻、領養或姻親關係之人士。舉例，某名婦人在生育後被僱主調往較差的職位，當中原因是該僱主認為有嬰孩的婦人要照顧孩子而不能超時工作或出差工幹，這種行為便屬於家庭崗位歧視。"
+
+msgid "dis-text18"
+msgstr "《家庭崗位歧視條例》所涵蓋的活動範疇與《性別歧視條例》中所列舉的相同。"
+
+msgid "dis-text19"
+msgstr "根據《種族歧視條例》規定，在下列範疇內基於某人的種族而歧視、騷擾及中傷該人，即屬違法："
+
+msgid "dis-button1"
+msgstr "性別歧視、懷孕歧視及性騷擾"
+
+msgid "dis-button2"
+msgstr "殘疾歧視"
+
+msgid "dis-button3"
+msgstr "家庭崗位歧視"
+
+msgid "dis-button4"
+msgstr "種族歧視"
+
+msgid "emp-text1"
+msgstr "勞工招聘或糾紛"
+
+msgid "emp-text2"
+msgstr "書面僱傭合約清楚列明僱主與僱員的權益，提醒勞資雙方履行合約上的責任，有助避免勞資糾紛。"
+
+msgid "emp-text3"
+msgstr "如果遇上勞資糾紛，勞資雙方都應及早尋求法律意見，以了解自己在僱傭合約及法例底下的權利和責任。"
+
+msgid "emp-button1"
+msgstr "簽立僱傭合約"
+
+msgid "emp-button2"
+msgstr "僱傭糾紛"
+
+msgid "pro-text1"
+msgstr "物業在香港是貴重的財產，無論租抑或置，乃至維修管理，都應該慎重。以下為你介紹一般與物業有關的法律知識，詳情請聯絡你的律師，尋求法律意見。"
+
+msgid "pro-button1"
+msgstr "買樓"
+
+msgid "pro-button2"
+msgstr "租樓"
+
+msgid "pro-button3"
+msgstr "賣樓"
+
+msgid "pro-button4"
+msgstr "轉名、甩名"
+
+msgid "pro-button5"
+msgstr "按揭、轉按"
+
+msgid "pro-button6"
+msgstr "贖樓"
+
+msgid "cor-text1"
+msgstr "成立公司的確方便經營商業業務，不過也同時需要持續管理，以令公司運作符合法例要求。"
+
+msgid "cor-button1"
+msgstr "簽訂商業合約"
+
+msgid "cor-button2"
+msgstr "成立有限公司"
+
+msgid "cor-button3"
+msgstr "代辦商業登記"
+
+msgid "cor-button4"
+msgstr "註冊商標、專利"
+
+msgid "cor-button5"
+msgstr "清盤"
+
+msgid "cor-button6"
+msgstr "公司秘書"
+
+msgid "cor-button7"
+msgstr "周年報表"
+
+msgid "wil-text1"
+msgstr "當一個人去世後，他／她可能會留下一些遺產（如銀行存款、公司股票、物業或其他資產等）。無論死者生前有沒有訂立遺囑，任何人在處理死者於香港的遺產前，通常要先往高等法院的遺產承辦處，取得有關遺產之授予承辦書。換句話說，授予承辦書即是某人有權處理死者遺產之證明文件。"
+
+msgid "wil-text2"
+msgstr "及早訂立遺囑，不但可說明自己意願，更可以避免家人在傷痛之中奔走辨事的麻煩。"
+
+msgid "wil-button1"
+msgstr "訂立遺囑"
+
+msgid "wil-button2"
+msgstr "承辦遺產"
+
+msgid "cri-text1"
+msgstr "香港的刑事檢控工作是由律政司司長全權負責。應否對某宗案件提出檢控，是由律政司司長及代其提出檢控者決定。律政司司長在決定是否提出檢控時，會考慮兩點："
+
+msgid "cri-text2"
+msgstr "第一，是否有充足證據支持提出起訴法律程序？"
+
+msgid "cri-text3"
+msgstr "第二，如果有充足證據，提出檢控是否符合公眾利益？"
+
+msgid "cri-text4"
+msgstr "在作出決定時，律政司司長不會受制於政府行政部門的任何指示或指令。"
+
+msgid "cri-text5"
+msgstr "實際上，很多涉及簡易層次的檢控工作（即不太嚴重或簡單的案件），可由警方或其他調查機關處理而毋須律政司司長特別介入，而且此類案件均可在裁判法院經由高級法庭檢控主任代律政司司長審閱。"
+
+msgid "cri-text6"
+msgstr "極嚴重的刑事罪案，如謀殺、誤殺、強姦、持械行劫和某些毒品罪行，均由高院原訟法庭法官會同陪審團進行審訊。陪審團通常由7位陪審員組成，但也可經法官下令由9人組成。被告是否有罪，由陪審團決定。法官會籲請陪審團在作出裁決時力求意見一致，然而，陪審團可按5對2或7對2的大多數票作出裁決。"
+
+msgid "cri-text7"
+msgstr "被捕人的權利受《基本法》保障，這些重要權利包括："
+
+msgid "cri-text8"
+msgstr "法院未有定罪判決前假定無罪；"
+
+msgid "cri-text9"
+msgstr "舉證責任在控方；"
+
+msgid "cri-text10"
+msgstr "以無合理疑點作為舉證的準則；"
+
+msgid "cri-text11"
+msgstr "可由律師代表；"
+
+msgid "cri-text12"
+msgstr "可針對定罪及 / 或刑罰提出上訴。"
+
+msgid "cri-text13"
+msgstr "刑事案件的檢控及法庭聆訊程序"
+
+msgid "cri-text14"
+msgstr "普通法及《基本法》保障，任何面對刑事控罪的被告，除非經已被法庭裁定罪名成立，否則他們會被假定無罪。"
+
+msgid "cri-text15"
+msgstr "一般來說，法庭會先詢問被告會否認罪，如被告認罪，亦同意由控方擬備之案情撮要內容，而有關案情亦足以令被告入罪，法庭便毋須再作進一步審訊而將被告定罪。但若被告不認罪，法庭便須進行審訊以決定他是否有罪。"
+
+msgid "cri-text16"
+msgstr "在審訊過程中，舉證責任通常由控方承擔。控方必須在毫無合理疑點下，向法庭證明被告經已觸犯有關法例。亦即是說，控方必須提出足夠證據，令法庭肯定被告已具備了有關控罪之所有犯案要素，被告才會被定罪。在提出所有證據後，如法庭認為其中一項犯案要素仍存有合理疑點，被告便可脫罪。被告毋須證明自己無罪，並可在審訊開始時選擇是否作供。"
+
+msgid "cri-text17"
+msgstr "香港的刑事案件審訊以公開形式進行，公眾及傳媒均可旁聽。案件可在沒有陪審團下由裁判官或區域法院法官審理，或由高等法院法官會同陪審團審理。"
+
+msgid "cri-button1"
+msgstr "被捕、保釋"
+
+msgid "cri-button2"
+msgstr "過堂"
+
+msgid "cri-button3"
+msgstr "求情及判刑"
+
+msgid "cri-button4"
+msgstr "其他"
+
+msgid "cla-text1"
+msgstr "切勿尋求索償代理協助處理申索"
+
+msgid "cla-text2"
+msgstr "索償代理不但沒有取得專業資格，亦不受制於任何專業守則。索償代理會資助受害人追討賠償，包括支付訟費及其他款項，然後要求受害人討回賠償後，將其中一部分付予索償代理。"
+
+msgid "cla-text3"
+msgstr "索償代理的財政來源不明，向他們繳付的賠償金亦沒有強制受保險涵蓋。在本港，意外賠償是以實際損失作為評核基礎，但由於尋求索償代理協助的受害人須將部分賠償付予索償代理，他們因此會得不到合適的賠償。傷勢較重的受害人更有機會取不到足夠賠償，以支持他們的生活。"
+
+msgid "cla-text4"
+msgstr "索償代理訂立的合約一般涉及包攬訴訟，並不能執行。在本港，助訟（包攬訴訟的罪行較助訟嚴重）屬刑事罪行，索償代理會面臨起訴。聘用索償代理將可能影響受害人獲得最佳賠償的機會，受害人應直接尋求律師或法律援助署協助。"
+
+msgid "cla-text5"
+msgstr "閣下應尋求具資格及聲譽的律師行服務，這些律師均擁有豐富經驗，去處理人身傷亡申索，這對閣下攸關重要。有關律師行可給予專業意見，包括閣下是否合資格提出申索，以及如何整理證明文件及將之呈堂。若他們認為理據充份，便會代表閣下展開申請索償程序。"
+
+msgid "cla-text6"
+msgstr "就人身傷害提出申索的時限"
+
+msgid "cla-text7"
+msgstr "根據《時效條例》（香港法例第347章）第27條，當原告人要提出人身傷害申索時，申索時限是由訴訟因由產生的日期（即意外發生日期/原告人受傷的日期）起計之三年內，或由原告人知情的日期（即知道傷害之嚴重性及傷害是因被告人的錯誤引致）起計之三年內，以較後日期為準。"
+
+msgid "cla-text8"
+msgstr "根據《時效條例》第28條，如有關申索涉及致命意外，申索時限是由死者死亡當日起計之三年內，或由死者撫養的人士知悉死者死亡當日起計的三年內，以較後日期為準。"
+
+msgid "cla-text9"
+msgstr "若受害人「無行為能力」，除非該人已恢復能力或已經去世（以較早日期為準），否則三年的申索時限便不適用（《時效條例》第22(1)及22(2)條）。兒童或精神病人均被視為「無行為能力」，因此，如案中傷者是一名兒童，申索時限便會在其18歲時才開始計算。"
+
+msgid "cla-text10"
+msgstr "不過，在公平及合理的情況下，法庭有酌情權去延長申索時限。"
+
+msgid "cla-button1"
+msgstr "工傷"
+
+msgid "cla-button2"
+msgstr "交通意外"
+
+msgid "cla-button3"
+msgstr "人身傷亡"
+
+msgid "civ-text1"
+msgstr "民事訴訟是甚麼？"
+
+msgid "civ-text2"
+msgstr "民事訴訟跟刑事訴訟不同，其中最重要的分別，在於民事訴訟是通常由個人提起，藉以尋求金錢方面的補償、追討財產或強制履行法律責任；而刑事訴訟則以政府（亦即香港特別行政區）的名義提出起訴，以遏止罪案和懲罰罪犯。"
+
+msgid "civ-text3"
+msgstr "個人、公司、甚至是政府均可成為民事訴訟的其中一方。提出控告的一方被稱為「原告人」或「申索人」，而被起訴的一方則被稱為「被告人」或「答辯人」。原告人或申索人須履行舉證責任，以可能性的權衡為準則，去證明他們所聲稱的事情是正確的（即是要證明所聲稱的事情多數是正確的）。"
+
+msgid "civ-text4"
+msgstr "以下是一些民事訴訟的常見例子："
+
+msgid "civ-text5"
+msgstr "追討債項："
+
+msgid "civ-text6"
+msgstr "例子：若某人欠下你一筆債項，卻拒絕還款，你便可向該人展開民事訴訟以追討該筆債項。"
+
+msgid "civ-text7"
+msgstr "補償申索："
+
+msgid "civ-text8"
+msgstr "例子：若某人沒有按照合約去履行責任、不當地損壞你的財產或令你受傷，你便可展開民事訴訟，向該人申索金錢方面的補償。 在訴訟文件中，金錢方面的補償申索被稱為「損害賠償申索」。"
+
+msgid "civ-text9"
+msgstr "收回土地財產／樓房之管有權的申索："
+
+msgid "civ-text10"
+msgstr "例子：若租客沒有繳付租金或違反了租約條款，你（作為業主）便可展開民事訴訟去終止租賃。此外，你還可向該名租客申索未繳付的租金，或就你所蒙受的損失追討賠償。"
+
+msgid "civ-text11"
+msgstr "侵犯版權的申索："
+
+msgid "civ-text12"
+msgstr "例子：假使你出版了一本書，某人卻未經許可而出售該書的複印本，你便可展開民事訴訟，要求法庭頒令禁止該侵權者出售那些複印本，並命令該侵權者繳出所有剩餘的複印本。此外，你還可就本身的銷售損失向侵權者索取金錢方面的補償。"
+
+msgid "civ-button1"
+msgstr "提出訴訟"
+
+msgid "civ-button2"
+msgstr "作出抗辯"
+
+#: templates/index.html
+msgid "Login"
+msgstr "登入"
+
+msgid "Register"
+msgstr "登記成為用戶"
+
+msgid "Browse by Categories"
+msgstr "以分類來找尋法律服務"
+
+msgid "Change E-mail"
+msgstr "更改註冊電郵"
+
+msgid "Logout"
+msgstr "登出"
+
+msgid "Admin Page"
+msgstr "管理頁面"
+
+#: templates/account/login.html
+msgid "Login In"
+msgstr "登入"
+
+msgid "Please login in by using your Google Account or registered email."
+msgstr "請以Google戶口 或 已登記電郵 登入本網站"
+
+msgid "If you have not registered as our user, please"
+msgstr "如你尚未登記，請"
+
+msgid "Login with your Google Account"
+msgstr "以Google戶口登入"
+
+msgid "Remember Me?"
+msgstr "記住我"
+
+msgid "Forget your password? Click here."
+msgstr "忘記密碼？請按此"
+
+#: templates/account/logout.html
+msgid "Log Out"
+msgstr "登出"
+
+msgid "Are you sure you want to log out?"
+msgstr "是否確認登出本網站？"
+
+#: templates/account/email.html
+msgid "E-mail Address Settings"
+msgstr "電郵設定"
+
+msgid "Verified email"
+msgstr "已認證"
+
+msgid "Unverified email"
+msgstr "未認證"
+
+msgid "Primary email"
+msgstr "主要聯絡電郵"
+
+msgid "Make Primary email"
+msgstr "認定為要聯絡電郵"
+
+msgid "RE-SEND Verification"
+msgstr "重寄認證電郵"
+
+msgid "Remove email"
+msgstr "移除"
+
+msgid "The following e-mail address is/are associated with your account:"
+msgstr "閣下已登記以下電郵地址，以供本網站聯絡用途："
+
+msgid "Email:"
+msgstr "電郵地址"
+
+msgid "Add E-mail"
+msgstr "新增電郵地址"
+
+#: templates/account/signup_closed.html
+msgid "Registration Closed"
+msgstr "暫停登記服務"
+
+msgid "We are sorry, but the registration for Onelawyer is currently closed."
+msgstr "本網站現正停止接受登記，不便之處，敬請見諒。"
+
+#: templates/account/account_inactive.html
+msgid "This account is inactive"
+msgstr "此戶口尚未啟用"
+
+msgid "This is an inactive account. Please check your registered email and go through the required verification process."
+msgstr "戶口尚未啟用，請檢查你的登記電郵戶口，並完成相關的戶口確認程序。"
+
+#: templates/account/account_inactive.html
+msgid "Please Verify Your E-mail Address"
+msgstr "請驗證你的電郵地址"
+
+msgid "We have sent an e-mail to you for verification."
+msgstr "我們已寄出確認電郵。"
+
+msgid "Follow the link provided to finalize the signup process."
+msgstr "請依照提供的連結，完成登記的程序。"
+
+msgid "Please contact us if you do not receive it within a few minutes."
+msgstr "數分鐘內如仍未收到電郵，請聯絡我們。"
+
+#: templates/account/signup.html
+msgid "Already have an account? Then please"
+msgstr "已經登記了嗎？請"
+
+msgid "Log in"
+msgstr "登入"
+
+#: templates/account/email_confirm.html
+msgid "Confirm your E-mail Address"
+msgstr "確認你的電郵地址"
+
+msgid "is an email address for"
+msgstr "為你的電郵地址"
+
+msgid "I Confirm"
+msgstr "確認"
+
+msgid "This e-mail confirmation link expired or is invalid. Please "
+msgstr "此電郵確認連結已過期或無效，請"
+
+msgid "make a new e-mail confirmation request."
+msgstr "重新寄出本戶口的確認電郵"
+
+#: templates/account/email_confirm.html:17
+msgid "Please confirm"
+msgstr "請確認"
+
+#: templates/account/verified_email_required.html
+msgid "This part of the site requires us to verify that you are who you claim to be. For this purpose, we require that you verify ownership of your e-mail address."
+msgstr "這是一個確認用戶的登記電郵程序，以保障網站的正常運作。"
+
+msgid "We have sent an e-mail to you for verification. Please click on the link inside this e-mail. Please contact us if you do not receive it within a few minutes."
+msgstr "我們已經寄出確認電郵。請打開並按下電郵內的相關連結。如數分鐘後仍未收到電郵，請聯絡我們。"
+
+msgid "You may also"
+msgstr "你也可以"
+
+msgid "change your e-mail address."
+msgstr "更改你的電郵地址"
+
+#: templates/account/password_reset.html
+msgid "Reset you password"
+msgstr "重設密碼"
+
+msgid "Forgot your password? Enter your e-mail address below, and we'll send you an e-mail allowing you to reset it."
+msgstr "忘記你的密碼？請輸入你的登記電郵，我們將重設密碼的方法傳送給你。"
+
+msgid "Contact us if you have any trouble resetting your password."
+msgstr "如未能完成重設程序，請聯絡我們跟進。"
+
+#: templates/account/password_reset_done.html
+msgid "We have sent you an e-mail to reset the password. Please contact us if you do not receive it within a few minutes."
+msgstr "重設密碼的電郵已寄出。如數分鐘後仍未收到，請聯絡我們跟進。"
+
+#: templates/account/password_reset_from_key.html
+msgid "Change your password"
+msgstr "更改密碼"
+
+msgid "Invalid token for password reset"
+msgstr "密碼重設連結無效"
+
+msgid "The password reset link was invalid. Very likely it has been used. Please request a"
+msgstr "重設連結無效，它很有可能經已使用。請按此"
+
+msgid "new request on Password Reset."
+msgstr "再次重設你的密碼。"
+
+msgid "Your password is changed now."
+msgstr "你的密碼已經修改。"
+
+#: templates/account/password_set.html
+msgid "Set your password"
+msgstr "設定密碼"
+
+#: templates/account/lawyer_gridview.html templates/account/lawyer_gridview_mobile.html
+msgid "▼ 閱讀更多..."
+msgstr "▼ 閱讀更多..."
+
+#: templates/account/socialaccount/signup.html
+msgid "You are about to use your Google account to login to onelawyer.org. As a final step, please confirm the email address below:"
+msgstr "你即將用 Google Account 登入本網站，請確認以下 Google 的電郵戶口是否正確："
+
+#: templates/account/socialaccount/authentication_error.html
+msgid "Google Account Login Failure"
+msgstr "Google 戶口登入失敗"
+
+msgid "An error occurred while attempting to login via your Google account."
+msgstr "登入 Google 戶口過程出現問題，請再嘗試一次。"
+
+#: templates/account/socialaccount/login_cancelled.html
+msgid "Your log in is cancelled"
+msgstr "你的登入已經取消"
+
+msgid "You decided to cancel logging in to our site using one of your existing accounts. If this was a mistake, please proceed to"
+msgstr "你決定取消使用 Google 戶口登入我們的網站。如你只是不慎取消，請按此再"
+
+#: templates/account/socialaccount/connections.html
+msgid "You can log in to your account using any of the following third party accounts:"
+msgstr "你可以運用以下的第三者戶口，登入我們的網站："
+
+msgid "Remove Connections"
+msgstr "移除戶口連接"
+
+msgid "You currently have no Google account connected to this website."
+msgstr "你現在沒有 Google 戶口與本網站連接。"
+
+msgid "Add a Google Account"
+msgstr "連接到你的 Google 戶口"

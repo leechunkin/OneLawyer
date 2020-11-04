@@ -1,0 +1,332 @@
+{% load i18n %}
+<div class="grid_wrapper">
+		<div class="container">
+			<div class="row sidebar_none">
+				<div class="content-container span12">
+					<section id="main_content">
+							<div class="container">
+								
+
+<div class="gridarea">
+  <input id="tab1" type="radio" name="tabs" class="grid_input">
+  <label for="tab1" class="gridlabel label_blue  grid_wedding">{% trans '結婚' %}</label>
+    
+  <input id="tab2" type="radio" name="tabs" class="grid_input">
+  <label for="tab2"  class="gridlabel label_orange grid_flat">{% trans '物業' %}</label>
+    
+  <input id="tab3" type="radio" name="tabs" class="grid_input">
+  <label for="tab3"  class="gridlabel label_green grid_bankrupt">{% trans '破產' %}</label>
+    
+  <section id="content1" class="gridsection section_blue">
+  	<p class="grid_heading">{% trans '結婚' %}</p>
+    <p>{% trans 'wed-text1' %}</p>
+    <p>
+    <ul>
+    <li>{% trans 'wed-text2' %}</li>
+	<li>{% trans 'wed-text3' %}</li>
+	<li>{% trans 'wed-text4' %}</li>
+	<li>{% trans 'wed-text5' %}</li>
+	</ul>
+	</p>
+	<a href="/wedding/1a/"><div class="gridview_button">{% trans 'wed-button1' %}</div></a> 
+	<a href="/wedding/1b/"><div class="gridview_button">{% trans 'wed-button2' %}</div></a>
+	<a href="/wedding/1c/"><div class="gridview_button">{% trans 'wed-button3' %}</div></a>
+  </section>
+    
+  <section id="content2" class="gridsection section_orange">
+    <p class="grid_heading">{% trans '物業' %}</p>
+    <p>
+    {% trans 'pro-text1' %}
+	</p>
+	
+	<a href="/property/7a/"><div class="gridview_button">{% trans 'pro-button1' %}</div></a>
+	<a href="/property/7b/"><div class="gridview_button">{% trans 'pro-button2' %}</div></a>
+	<a href="/property/7c/"><div class="gridview_button">{% trans 'pro-button3' %}</div></a>
+	<a href="/property/7d/"><div class="gridview_button">{% trans 'pro-button4' %}</div></a>
+	<a href="/property/7e/"><div class="gridview_button">{% trans 'pro-button5' %}</div></a>
+	<a href="/property/7f/"><div class="gridview_button">{% trans 'pro-button6' %}</div></a>
+  </section>
+    
+  <section id="content3" class="gridsection section_green">
+    <p class="grid_heading">{% trans '破產' %}</p>
+	<p>{% trans 'ban-text1' %}</p>
+
+	<p>{% trans 'ban-text2' %}</p>
+
+	<div class="long_text">
+  	<label for="long_text-12" class="gridview_readmore">{% trans '▼ 閱讀更多...' %}</label>
+  	<input type="checkbox" name="one" id="long_text-12" checked>
+  	<div class="hide_text">
+    <div class="inner_long_text">
+	<p>{% trans 'ban-text3' %}</p>
+
+	<p class="grid_heading">{% trans 'ban-text4' %}</p>
+	<p>{% trans 'ban-text5' %}</p>
+	<p>{% trans 'ban-text6' %}</p>
+	<p>{% trans 'ban-text7' %}</p>
+    </div>
+  	</div>
+	</div> 
+
+	<a href="/bankrupt/4a/"><div class="gridview_button">{% trans 'ban-button1' %}</div></a>
+	<a href="/bankrupt/4b/"><div class="gridview_button">{% trans 'ban-button2' %}</div></a>
+	
+  </section>
+
+  <input id="tab4" type="radio" name="tabs" class="grid_input">
+  <label for="tab4" class="gridlabel label_orange grid_discrim">{% trans '歧視' %}</label>
+    
+  <input id="tab5" type="radio" name="tabs" class="grid_input">
+  <label for="tab5" class="gridlabel label_green grid_labour">{% trans '勞工' %}</label>
+    
+  <input id="tab6" type="radio" name="tabs" class="grid_input">
+  <label for="tab6"  class="gridlabel label_blue grid_divorce"">{% trans '離婚' %}</label>
+
+    <section id="content4" class="gridsection section_orange">
+    <p class="grid_heading">{% trans '歧視' %}</p>
+    <p>
+    <span class="grid_subhead">{% trans 'dis-text1' %}</span><br>{% trans 'dis-text2' %}
+	<ul>
+    <li>{% trans 'dis-text3' %}</li>
+	<li>{% trans 'dis-text4' %}</li>
+	<li>{% trans 'dis-text5' %}</li>
+	<li>{% trans 'dis-text6' %}</li>
+	</ul>
+	</p>
+
+	<div class="long_text">
+  	<label for="long_text-8" class="gridview_readmore">{% trans '▼ 閱讀更多...' %}</label>
+  	<input type="checkbox" name="one" id="long_text-8" checked>
+  	<div class="hide_text">
+    <div class="inner_long_text">
+	<p>{% trans 'dis-text7' %}</p>
+	<p>
+	<ul>
+	<li>{% trans 'dis-text8' %}</li>
+	<li>{% trans 'dis-text9' %}</li>
+	<li>{% trans 'dis-text10' %}</li>
+	<li>{% trans 'dis-text11' %}</li>
+	<li>{% trans 'dis-text12' %}</li>
+	<li>{% trans 'dis-text13' %}</li>
+	<li>{% trans 'dis-text14' %}</li>
+	<li>{% trans 'dis-text15' %}</li>
+	</ul>
+	</p>
+
+<p>{% trans 'dis-text16' %}</p>
+
+<p><ul>
+	<li>{% trans 'dis-text8' %}</li>
+	<li>{% trans 'dis-text9' %}</li>
+	<li>{% trans 'dis-text10' %}</li>
+	<li>{% trans 'dis-text11' %}</li>
+	<li>{% trans 'dis-text12' %}</li>
+	<li>{% trans 'dis-text13' %}</li>
+	<li>{% trans 'dis-text14' %}</li>
+	<li>{% trans 'dis-text15' %}</li>
+	</ul></p>
+
+<p>{% trans 'dis-text17' %}</p>
+
+<p>{% trans 'dis-text18' %}</p>
+
+<p>{% trans 'dis-text19' %}</p>
+<p><ul>
+	<li>{% trans 'dis-text8' %}</li>
+	<li>{% trans 'dis-text9' %}</li>
+	<li>{% trans 'dis-text10' %}</li>
+	<li>{% trans 'dis-text11' %}</li>
+	<li>{% trans 'dis-text12' %}</li>
+	<li>{% trans 'dis-text13' %}</li>
+	<li>{% trans 'dis-text14' %}</li>
+	<li>{% trans 'dis-text15' %}</li>
+	</ul>
+    </p>
+    </div>
+  	</div>
+	</div> 
+	
+	<a href="/discrimination/5a/"><div class="gridview_button">{% trans 'dis-button1' %}</div></a>
+	<a href="/discrimination/5b/"><div class="gridview_button">{% trans 'dis-button2' %}</div></a>
+	<a href="/discrimination/5c/"><div class="gridview_button">{% trans 'dis-button3' %}</div></a>
+	<a href="/discrimination/5d/"><div class="gridview_button">{% trans 'dis-button4' %}</div></a>
+  </section>
+    
+  <section id="content5" class="gridsection section_green">
+    <p class="grid_heading">{% trans 'emp-text1' %}</p>
+	<p>{% trans 'emp-text2' %}</p>
+	<p>{% trans 'emp-text3' %}</p> 
+	
+	<a href="/employment/6a/"><div class="gridview_button">{% trans 'emp-button1' %}</div></a>
+	<a href="/employment/6b/"><div class="gridview_button">{% trans 'emp-button2' %}</div></a>
+	
+  </section>
+    
+  <section id="content6" class="gridsection section_blue">
+    <p class="grid_heading">{% trans '離婚' %}</p>
+    <p>
+    <span class="grid_subhead">{% trans 'div-text1' %}</span><br>
+   {% trans 'div-text2' %}
+	</p>
+	<a href="/divorce/2a/"><div class="gridview_button">{% trans 'div-button1' %}</div></a>
+	<a href="/divorce/2b/"><div class="gridview_button">{% trans 'div-button2' %}</div></a>
+  </section>
+
+  <input id="tab7" type="radio" name="tabs" class="grid_input">
+  <label for="tab7" class="gridlabel label_green grid_company">{% trans '公司事宜' %}</label>
+    
+  <input id="tab8" type="radio" name="tabs" class="grid_input">
+  <label for="tab8" class="gridlabel label_blue grid_probate">{% trans '遺囑、遺產承辦' %}</label>
+    
+  <input id="tab9" type="radio" name="tabs" class="grid_input">
+  <label for="tab9"  class="gridlabel label_orange grid_criminal">{% trans '刑事訴訟' %}</label>
+    
+  <section id="content7" class="gridsection section_green">
+  	<p class="grid_heading">{% trans '公司事宜' %}</p>
+    <p>{% trans 'cor-text1' %}</p>
+	<a href="/company/8a/"><div class="gridview_button">{% trans 'cor-button1' %}</div></a>
+	<a href="/company/8b/"><div class="gridview_button">{% trans 'cor-button2' %}</div></a>
+	<a href="/company/8c/"><div class="gridview_button">{% trans 'cor-button3' %}</div></a>
+	<a href="/company/8d/"><div class="gridview_button">{% trans 'cor-button4' %}</div></a>
+	<a href="/company/9/"><div class="gridview_button">{% trans 'cor-button5' %}</div></a>
+	<a href="/company/10/"><div class="gridview_button">{% trans 'cor-button6' %}</div></a>
+	<a href="/company/11/"><div class="gridview_button">{% trans 'cor-button7' %}</div></a>
+  </section>
+    
+  <section id="content8" class="gridsection section_blue">
+    <p class="grid_heading">{% trans '遺囑、遺產承辦' %}</p>
+    <p>{% trans 'wil-text1' %}</p>
+    <p>{% trans 'wil-text2' %}</p>
+	
+	<a href="/probate/12a/"><div class="gridview_button">{% trans 'wil-button1' %}</div></a>
+	<a href="/probate/12b/"><div class="gridview_button">{% trans 'wil-button2' %}</div></a>
+	
+  </section>
+    
+  <section id="content9" class="gridsection section_orange">
+    <p class="grid_heading">{% trans '刑事訴訟' %}</p>
+    <p>{% trans 'cri-text1' %}</p>
+
+	<p class="grid_subhead">{% trans 'cri-text2' %}<br>
+	{% trans 'cri-text3' %}</p>
+
+	<p>{% trans 'cri-text4' %}</p>
+
+	<div class="long_text">
+  	<label for="long_text-9" class="gridview_readmore">{% trans '▼ 閱讀更多...' %}</label>
+  	<input type="checkbox" name="one" id="long_text-9" checked>
+  	<div class="hide_text">
+    <div class="inner_long_text">
+	<p>{% trans 'cri-text5' %}</p>
+
+	<p>{% trans 'cri-text6' %}</p>
+
+	<p>{% trans 'cri-text7' %}</p>
+
+	<p><ul>
+	<li>{% trans 'cri-text8' %}</li>
+	<li>{% trans 'cri-text9' %}</li>
+	<li>{% trans 'cri-text10' %}</li>
+	<li>{% trans 'cri-text11' %}</li>
+	<li>{% trans 'cri-text12' %}</li>
+	</ul>
+	</p>
+
+	<p><span class="grid_subhead">{% trans 'cri-text13' %}</span><br>{% trans 'cri-text14' %}</p>
+
+	<p>{% trans 'cri-text15' %}</p>
+
+	<p>{% trans 'cri-text16' %}</p>
+
+	<p>{% trans 'cri-text17' %}</p>
+    </div>
+  	</div>
+	</div> 
+	
+	<a href="/criminal/13a/"><div class="gridview_button">{% trans 'cri-button1' %}</div></a>
+	<a href="/criminal/13b/"><div class="gridview_button">{% trans 'cri-button2' %}</div></a>
+	<a href="/criminal/13c/"><div class="gridview_button">{% trans 'cri-button3' %}</div></a>
+	<a href="/criminal/13d/"><div class="gridview_button">{% trans 'cri-button4' %}</div></a>
+	 
+  </section>
+
+
+  <input id="tab10" type="radio" name="tabs" class="grid_input">
+  <label for="tab10" class="gridlabel label_orange grid_claim">{% trans '索償' %}</label>
+    
+  <input id="tab11" type="radio" name="tabs" class="grid_input">
+  <label for="tab11" class="gridlabel label_green grid_civil">{% trans '民事訴訟' %}</label>
+
+    <section id="content10" class="gridsection section_orange">
+    <p class="grid_heading">{% trans '索償' %}</p>
+    
+	<p class="grid_subhead">{% trans 'cla-text1' %}</p>
+
+	<p>{% trans 'cla-text2' %}</p>
+	<p>{% trans 'cla-text3' %}</p>
+
+	<div class="long_text">
+  	<label for="long_text-10" class="gridview_readmore">{% trans '▼ 閱讀更多...' %}</label>
+  	<input type="checkbox" name="one" id="long_text-10" checked>
+  	<div class="hide_text">
+    <div class="inner_long_text">
+	<p>{% trans 'cla-text4' %}</p>
+	<p>{% trans 'cla-text5' %}</p>
+
+	<p class="grid_subhead">{% trans 'cla-text6' %}</p>
+	
+	<p>{% trans 'cla-text7' %}</p>
+	<p>{% trans 'cla-text8' %}</p>
+	<p>{% trans 'cla-text9' %}</p>
+	<p>{% trans 'cla-text10' %}</p> 
+    </div>
+  	</div>
+	</div> 
+
+	<a href="/claims/14a/"><div class="gridview_button">{% trans 'cla-button1' %}</div></a>
+	<a href="/claims/14b/"><div class="gridview_button">{% trans 'cla-button2' %}</div></a>
+	<a href="/claims/14c/"><div class="gridview_button">{% trans 'cla-button3' %}</div></a>
+	
+  </section>
+    
+  <section id="content11" class="gridsection section_green">
+    <p class="grid_heading">{% trans '民事訴訟' %}</p>
+    <p class="grid_subhead">{% trans 'civ-text1' %}</p>
+
+	<p>{% trans 'civ-text2' %}</p>
+
+	<p>{% trans 'civ-text3' %}</p>
+
+	<div class="long_text">
+  	<label for="long_text-11" class="gridview_readmore">{% trans '▼ 閱讀更多...' %}</label>
+  	<input type="checkbox" name="one" id="long_text-11" checked>
+  	<div class="hide_text">
+    <div class="inner_long_text">
+	<p>{% trans 'civ-text4' %}</p>
+
+	<p>{% trans 'civ-text5' %}<br>
+	{% trans 'civ-text6' %}</p>
+
+	<p>{% trans 'civ-text7' %}<br>
+	{% trans 'civ-text8' %}</p>
+
+	<p>{% trans 'civ-text9' %}<br>
+	{% trans 'civ-text10' %}</p>
+
+	<p>{% trans 'civ-text11' %}<br>
+	{% trans 'civ-text12' %}</p> 
+    </div>
+  	</div>
+	</div>
+
+	<a href="/civil/15a/"><div class="gridview_button">{% trans 'civ-button1' %}</div></a>
+	<a href="/civil/15b/"><div class="gridview_button">{% trans 'civ-button2' %}</div></a>
+  </section>
+    
+    
+</div>						
+					</section>
+				</div>
+			</div>
+		</div>
+	</div>

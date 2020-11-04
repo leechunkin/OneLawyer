@@ -1,0 +1,2067 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-05 12:50+1100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: legit/settings.py:121
+msgid "Chinese"
+msgstr "中文"
+
+msgid "Afrikaans"
+msgstr "南非語"
+
+msgid "Arabic"
+msgstr "阿拉伯語"
+
+msgid "Asturian"
+msgstr "阿斯圖里亞斯語"
+
+msgid "Azerbaijani"
+msgstr "亞塞拜然語"
+
+msgid "Bulgarian"
+msgstr "保加利亞語"
+
+msgid "Belarusian"
+msgstr "白俄羅斯語"
+
+msgid "Bengali"
+msgstr "孟加拉語"
+
+msgid "Breton"
+msgstr "布列塔尼語"
+
+msgid "Bosnian"
+msgstr "波士尼亞語"
+
+msgid "Catalan"
+msgstr "加泰隆語"
+
+msgid "Czech"
+msgstr "捷克語"
+
+msgid "Welsh"
+msgstr "威爾斯語"
+
+msgid "Danish"
+msgstr "丹麥語"
+
+msgid "German"
+msgstr "德語"
+
+msgid "Lower Sorbian"
+msgstr "下索布語"
+
+msgid "Greek"
+msgstr "希臘語"
+
+msgid "English"
+msgstr "英語"
+
+msgid "Australian English"
+msgstr "澳大利亞英語"
+
+msgid "British English"
+msgstr "英國英語"
+
+msgid "Esperanto"
+msgstr "世界語"
+
+msgid "Spanish"
+msgstr "西班牙語"
+
+msgid "Argentinian Spanish"
+msgstr "阿根廷西班牙語"
+
+msgid "Colombian Spanish"
+msgstr "哥倫比亞西班牙語"
+
+msgid "Mexican Spanish"
+msgstr "墨西哥西班牙語"
+
+msgid "Nicaraguan Spanish"
+msgstr "尼加拉瓜西班牙語"
+
+msgid "Venezuelan Spanish"
+msgstr "委內瑞拉西班牙語"
+
+msgid "Estonian"
+msgstr "愛沙尼亞語"
+
+msgid "Basque"
+msgstr "巴斯克語"
+
+msgid "Persian"
+msgstr "波斯語"
+
+msgid "Finnish"
+msgstr "芬蘭語"
+
+msgid "French"
+msgstr "法語"
+
+msgid "Frisian"
+msgstr "菲士蘭語"
+
+msgid "Irish"
+msgstr "愛爾蘭語"
+
+msgid "Scottish Gaelic"
+msgstr "蘇格蘭蓋爾語"
+
+msgid "Galician"
+msgstr "加利西亞語"
+
+msgid "Hebrew"
+msgstr "希伯來語"
+
+msgid "Hindi"
+msgstr "印地語"
+
+msgid "Croatian"
+msgstr "克羅埃西亞語"
+
+msgid "Upper Sorbian"
+msgstr "上索布語"
+
+msgid "Hungarian"
+msgstr "匈牙利語"
+
+msgid "Interlingua"
+msgstr "國際語"
+
+msgid "Indonesian"
+msgstr "印尼語"
+
+msgid "Ido"
+msgstr "伊多語"
+
+msgid "Icelandic"
+msgstr "冰島語"
+
+msgid "Italian"
+msgstr "義大利語"
+
+msgid "Japanese"
+msgstr "日語"
+
+msgid "Georgian"
+msgstr "喬治亞語"
+
+msgid "Kazakh"
+msgstr "哈薩克語"
+
+msgid "Khmer"
+msgstr "高棉語"
+
+msgid "Kannada"
+msgstr "康納達語"
+
+msgid "Korean"
+msgstr "韓語"
+
+msgid "Luxembourgish"
+msgstr "盧森堡語"
+
+msgid "Lithuanian"
+msgstr "立陶宛語"
+
+msgid "Latvian"
+msgstr "拉脫維亞語"
+
+msgid "Macedonian"
+msgstr "馬其頓語"
+
+msgid "Malayalam"
+msgstr "馬拉雅拉姆語"
+
+msgid "Mongolian"
+msgstr "蒙古語"
+
+msgid "Marathi"
+msgstr "馬拉提語"
+
+msgid "Burmese"
+msgstr "緬甸語"
+
+msgid "Norwegian Bokmål"
+msgstr "書面挪威語"
+
+msgid "Nepali"
+msgstr "尼泊爾語"
+
+msgid "Dutch"
+msgstr "荷蘭語"
+
+msgid "Norwegian Nynorsk"
+msgstr "新挪威語"
+
+msgid "Ossetic"
+msgstr "奧塞梯語"
+
+msgid "Punjabi"
+msgstr "旁遮普語"
+
+msgid "Polish"
+msgstr "波蘭語"
+
+msgid "Portuguese"
+msgstr "葡萄牙語"
+
+msgid "Brazilian Portuguese"
+msgstr "巴西葡萄牙語"
+
+msgid "Romanian"
+msgstr "羅馬尼亞語"
+
+msgid "Russian"
+msgstr "俄語"
+
+msgid "Slovak"
+msgstr "斯洛伐克語"
+
+msgid "Slovenian"
+msgstr "斯洛維尼亞語"
+
+msgid "Albanian"
+msgstr "阿爾巴尼亞語"
+
+msgid "Serbian"
+msgstr "塞爾維亞語"
+
+msgid "Serbian Latin"
+msgstr "塞爾維亞拉丁語"
+
+msgid "Swedish"
+msgstr "瑞典語"
+
+msgid "Swahili"
+msgstr "斯瓦希里語"
+
+msgid "Tamil"
+msgstr "坦米爾語"
+
+msgid "Telugu"
+msgstr "泰盧固語"
+
+msgid "Thai"
+msgstr "泰語"
+
+msgid "Turkish"
+msgstr "土耳其語"
+
+msgid "Tatar"
+msgstr "韃靼語"
+
+msgid "Udmurt"
+msgstr "烏德穆爾特語"
+
+msgid "Ukrainian"
+msgstr "烏克蘭語"
+
+msgid "Urdu"
+msgstr "烏爾都語"
+
+msgid "Vietnamese"
+msgstr "越南語"
+
+msgid "Simplified Chinese"
+msgstr "簡體中文"
+
+msgid "Traditional Chinese"
+msgstr "繁體中文"
+
+msgid "Messages"
+msgstr "訊息"
+
+msgid "Site Maps"
+msgstr "網站地圖"
+
+msgid "Static Files"
+msgstr "靜態文件"
+
+msgid "Syndication"
+msgstr "聯播"
+
+msgid "That page number is not an integer"
+msgstr "該頁碼並非整數"
+
+msgid "That page number is less than 1"
+msgstr "該頁碼小於 1"
+
+msgid "That page contains no results"
+msgstr "該頁未包含任何內容"
+
+msgid "Enter a valid value."
+msgstr "請輸入有效的值。"
+
+msgid "Enter a valid URL."
+msgstr "請輸入有效的 URL。"
+
+msgid "Enter a valid integer."
+msgstr "請輸入有效的整數。"
+
+msgid "Enter a valid email address."
+msgstr "請輸入有效的電子郵件地址。"
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+msgid ""
+"Enter a valid 'slug' consisting of letters, numbers, underscores or hyphens."
+msgstr "請輸入一個有效的「slug」，由字母、數字、底線與連字號組成。"
+
+msgid ""
+"Enter a valid 'slug' consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr "請輸入一個有效的「slug」，由 Unicode 字母、數字、底線與連字號組成。"
+
+msgid "Enter a valid IPv4 address."
+msgstr "請輸入有效的 IPv4 位址。"
+
+msgid "Enter a valid IPv6 address."
+msgstr "請輸入有效的 IPv6 位址。"
+
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr "請輸入有效的 IPv4 或 IPv6 位址。"
+
+msgid "Enter only digits separated by commas."
+msgstr "請輸入以逗號分隔的數字。"
+
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr "請確認這個值是否為 %(limit_value)s (目前是 %(show_value)s)。"
+
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr "請確認此數值是否小於或等於 %(limit_value)s。"
+
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr "請確認此數值是否大於或等於 %(limit_value)s。"
+
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+"請確認這個值至少包含 %(limit_value)d 個字 (目前為 %(show_value)d 個字)。"
+
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+"請確認這個值至多包含 %(limit_value)d 個字 (目前為 %(show_value)d 個字)。"
+
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] "請確認數字全長不超過 %(max)s 位。"
+
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] "請確認十進位數字不多於 %(max)s 位。"
+
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] "請確認小數點前不多於 %(max)s 位。"
+
+#, python-format
+msgid ""
+"File extension '%(extension)s' is not allowed. Allowed extensions are: "
+"'%(allowed_extensions)s'."
+msgstr ""
+"副檔名「%(extension)s」不被允許。允許的副檔名包含：%(allowed_extensions)s。"
+
+msgid "Null characters are not allowed."
+msgstr ""
+
+msgid "and"
+msgstr "和"
+
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr "這個 %(field_labels)s 在 %(model_name)s 已經存在。"
+
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr "數值 %(value)r 不是有效的選擇。"
+
+msgid "This field cannot be null."
+msgstr "這個值不能是 null。"
+
+msgid "This field cannot be blank."
+msgstr "這個欄位不能留白。"
+
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr "這個 %(field_label)s 在 %(model_name)s 已經存在。"
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or 'month'.
+#. Eg: "Title must be unique for pub_date year"
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr "%(field_label)s 在 %(date_field_label)s %(lookup_type)s 上必須唯一。"
+
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr "欄位型態： %(field_type)s"
+
+msgid "Integer"
+msgstr "整數"
+
+#, python-format
+msgid "'%(value)s' value must be an integer."
+msgstr "'%(value)s' 必須為整數。"
+
+msgid "Big (8 byte) integer"
+msgstr "大整數 (8 位元組)"
+
+#, python-format
+msgid "'%(value)s' value must be either True or False."
+msgstr "'%(value)s' 必須為 True 或 False。"
+
+msgid "Boolean (Either True or False)"
+msgstr "布林值 (True 或 False)"
+
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr "字串 (至多 %(max_length)s 個字)"
+
+msgid "Comma-separated integers"
+msgstr "逗號分隔的整數"
+
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr "'%(value)s' 格式錯誤，必須為 YYYY-MM-DD。"
+
+#, python-format
+msgid ""
+"'%(value)s' value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr "'%(value)s' 的格式正確 (YYYY-MM-DD)，但不是有效的日期。"
+
+msgid "Date (without time)"
+msgstr "日期 (不包括時間)"
+
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
+msgstr "'%(value)s' 格式錯誤，必須為 YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ]。"
+
+#, python-format
+msgid ""
+"'%(value)s' value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+"'%(value)s' 格式正確 (YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ])，但不是有效的日期／"
+"時間。"
+
+msgid "Date (with time)"
+msgstr "日期 (包括時間)"
+
+#, python-format
+msgid "'%(value)s' value must be a decimal number."
+msgstr "'%(value)s' 必須為十進位數字。"
+
+msgid "Decimal number"
+msgstr "十進位數"
+
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid format. It must be in [DD] [HH:[MM:]]ss[."
+"uuuuuu] format."
+msgstr "'%(value)s' 格式錯誤，必須為 [DD] [HH:[MM:]]ss[.uuuuuu]。"
+
+msgid "Duration"
+msgstr "時間長"
+
+msgid "Email address"
+msgstr "電子郵件地址"
+
+msgid "File path"
+msgstr "檔案路徑"
+
+#, python-format
+msgid "'%(value)s' value must be a float."
+msgstr "'%(value)s' 必須為浮點數。"
+
+msgid "Floating point number"
+msgstr "浮點數"
+
+msgid "IPv4 address"
+msgstr "IPv4 地址"
+
+msgid "IP address"
+msgstr "IP 位址"
+
+#, python-format
+msgid "'%(value)s' value must be either None, True or False."
+msgstr "'%(value)s' 必須為空、True 或 False。"
+
+msgid "Boolean (Either True, False or None)"
+msgstr "布林值 (True, False 或 None)"
+
+msgid "Positive integer"
+msgstr "正整數"
+
+msgid "Positive small integer"
+msgstr "正小整數"
+
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr "可讀網址 (長度最多 %(max_length)s)"
+
+msgid "Small integer"
+msgstr "小整數"
+
+msgid "Text"
+msgstr "文字"
+
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr "'%(value)s' 格式錯誤，必須為 HH:MM[:ss[.uuuuuu]]。"
+
+#, python-format
+msgid ""
+"'%(value)s' value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr "'%(value)s' 格式正確 (HH:MM[:ss[.uuuuuu]])，但不是有效的時間。"
+
+msgid "Time"
+msgstr "時間"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Raw binary data"
+msgstr "原始二進制數據"
+
+#, python-format
+msgid "'%(value)s' is not a valid UUID."
+msgstr "'%(value)s' 不是有效的 UUID"
+
+msgid "File"
+msgstr "檔案"
+
+msgid "Image"
+msgstr "影像"
+
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr "%(field)s 為 %(value)r 的 %(model)s 物件不存在。"
+
+msgid "Foreign Key (type determined by related field)"
+msgstr "外鍵 (型態由關連欄位決定)"
+
+msgid "One-to-one relationship"
+msgstr "一對一關連"
+
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr "%(from)s-%(to)s 關連"
+
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr "%(from)s-%(to)s 關連"
+
+msgid "Many-to-many relationship"
+msgstr "多對多關連"
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the
+#. label
+msgid ":?.!"
+msgstr ":?.!"
+
+msgid "This field is required."
+msgstr "這個欄位是必須的。"
+
+msgid "Enter a whole number."
+msgstr "輸入整數"
+
+msgid "Enter a number."
+msgstr "輸入一個數字"
+
+msgid "Enter a valid date."
+msgstr "輸入有效的日期"
+
+msgid "Enter a valid time."
+msgstr "輸入有效的時間"
+
+msgid "Enter a valid date/time."
+msgstr "輸入有效的日期/時間"
+
+msgid "Enter a valid duration."
+msgstr "輸入有效的時間長。"
+
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr "沒有檔案被送出。請檢查表單的編碼類型。"
+
+msgid "No file was submitted."
+msgstr "沒有檔案送出"
+
+msgid "The submitted file is empty."
+msgstr "送出的檔案是空的。"
+
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] "請確認這個檔名至多包含 %(max)d 個字 (目前為 %(length)d)。"
+
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr "請提交一個檔案或確認清除核可項, 不能兩者都做。"
+
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr "上傳一個有效的圖檔。你上傳的檔案為非圖片，不然就是損壞的圖檔。"
+
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr "請選擇有效的項目, %(value)s 不是一個可用的選擇。"
+
+msgid "Enter a list of values."
+msgstr "請輸入一個列表的值。"
+
+msgid "Enter a complete value."
+msgstr "請輸入完整的值。"
+
+msgid "Enter a valid UUID."
+msgstr "請輸入有效的 UUID。"
+
+#. Translators: This is the default suffix added to form field labels
+msgid ":"
+msgstr "："
+
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr "(隱藏欄位 %(name)s) %(error)s"
+
+msgid "ManagementForm data is missing or has been tampered with"
+msgstr "ManagementForm 資料缺失或遭竄改"
+
+#, python-format
+msgid "Please submit %d or fewer forms."
+msgid_plural "Please submit %d or fewer forms."
+msgstr[0] "請送出不多於 %d 個表單。"
+
+#, python-format
+msgid "Please submit %d or more forms."
+msgid_plural "Please submit %d or more forms."
+msgstr[0] "請送出多於 %d 個表單。"
+
+msgid "Order"
+msgstr "排序"
+
+msgid "Delete"
+msgstr "刪除"
+
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr "請修正 %(field)s 的重覆資料"
+
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr "請修正 %(field)s 的重覆資料, 必須為唯一值"
+
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+"請修正 %(field_name)s 重複資料, %(date_field)s 的 %(lookup)s 必須是唯一值。"
+
+msgid "Please correct the duplicate values below."
+msgstr "請修正下方重覆的數值"
+
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr "選擇有效的選項： 此選擇不在可用的選項中。"
+
+#, python-format
+msgid "\"%(pk)s\" is not a valid value."
+msgstr ""
+
+#, python-format
+msgid ""
+"%(datetime)s couldn't be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+"%(datetime)s 無法被轉換成 %(current_timezone)s 時區格式; 可能是不符格式或不存"
+"在。"
+
+msgid "Clear"
+msgstr "清除"
+
+msgid "Currently"
+msgstr "目前"
+
+msgid "Change"
+msgstr "變更"
+
+msgid "Unknown"
+msgstr "未知"
+
+msgid "Yes"
+msgstr "是"
+
+msgid "No"
+msgstr "否"
+
+msgid "yes,no,maybe"
+msgstr "是、否、也許"
+
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] "%(size)d 位元組"
+
+#, python-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#, python-format
+msgid "%s MB"
+msgstr "%s MB"
+
+#, python-format
+msgid "%s GB"
+msgstr "%s GB"
+
+#, python-format
+msgid "%s TB"
+msgstr "%s TB"
+
+#, python-format
+msgid "%s PB"
+msgstr "%s PB"
+
+msgid "p.m."
+msgstr "p.m."
+
+msgid "a.m."
+msgstr "a.m."
+
+msgid "PM"
+msgstr "PM"
+
+msgid "AM"
+msgstr "AM"
+
+msgid "midnight"
+msgstr "午夜"
+
+msgid "noon"
+msgstr "中午"
+
+msgid "Monday"
+msgstr "星期一"
+
+msgid "Tuesday"
+msgstr "星期二"
+
+msgid "Wednesday"
+msgstr "星期三"
+
+msgid "Thursday"
+msgstr "星期四"
+
+msgid "Friday"
+msgstr "星期五"
+
+msgid "Saturday"
+msgstr "星期六"
+
+msgid "Sunday"
+msgstr "星期日"
+
+msgid "Mon"
+msgstr "星期一"
+
+msgid "Tue"
+msgstr "星期二"
+
+msgid "Wed"
+msgstr "星期三"
+
+msgid "Thu"
+msgstr "星期四"
+
+msgid "Fri"
+msgstr "星期五"
+
+msgid "Sat"
+msgstr "星期六"
+
+msgid "Sun"
+msgstr "星期日"
+
+msgid "January"
+msgstr "一月"
+
+msgid "February"
+msgstr "二月"
+
+msgid "March"
+msgstr "三月"
+
+msgid "April"
+msgstr "四月"
+
+msgid "May"
+msgstr "五月"
+
+msgid "June"
+msgstr "六月"
+
+msgid "July"
+msgstr "七月"
+
+msgid "August"
+msgstr "八月"
+
+msgid "September"
+msgstr "九月"
+
+msgid "October"
+msgstr "十月"
+
+msgid "November"
+msgstr "十一月"
+
+msgid "December"
+msgstr "十二月"
+
+msgid "jan"
+msgstr "一月"
+
+msgid "feb"
+msgstr "二月"
+
+msgid "mar"
+msgstr "三月"
+
+msgid "apr"
+msgstr "四月"
+
+msgid "may"
+msgstr "五月"
+
+msgid "jun"
+msgstr "六月"
+
+msgid "jul"
+msgstr "七月"
+
+msgid "aug"
+msgstr "八月"
+
+msgid "sep"
+msgstr "九月"
+
+msgid "oct"
+msgstr "十月"
+
+msgid "nov"
+msgstr "十一月"
+
+msgid "dec"
+msgstr "十二月"
+
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr "一月"
+
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr "二月"
+
+msgctxt "abbrev. month"
+msgid "March"
+msgstr "三月"
+
+msgctxt "abbrev. month"
+msgid "April"
+msgstr "四月"
+
+msgctxt "abbrev. month"
+msgid "May"
+msgstr "五月"
+
+msgctxt "abbrev. month"
+msgid "June"
+msgstr "六月"
+
+msgctxt "abbrev. month"
+msgid "July"
+msgstr "七月"
+
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr "八月"
+
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr "九月"
+
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr "十月"
+
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr "十一月"
+
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr "十二月"
+
+msgctxt "alt. month"
+msgid "January"
+msgstr "一月"
+
+msgctxt "alt. month"
+msgid "February"
+msgstr "二月"
+
+msgctxt "alt. month"
+msgid "March"
+msgstr "三月"
+
+msgctxt "alt. month"
+msgid "April"
+msgstr "四月"
+
+msgctxt "alt. month"
+msgid "May"
+msgstr "五月"
+
+msgctxt "alt. month"
+msgid "June"
+msgstr "六月"
+
+msgctxt "alt. month"
+msgid "July"
+msgstr "七月"
+
+msgctxt "alt. month"
+msgid "August"
+msgstr "八月"
+
+msgctxt "alt. month"
+msgid "September"
+msgstr "九月"
+
+msgctxt "alt. month"
+msgid "October"
+msgstr "十月"
+
+msgctxt "alt. month"
+msgid "November"
+msgstr "十一月"
+
+msgctxt "alt. month"
+msgid "December"
+msgstr "十二月"
+
+msgid "This is not a valid IPv6 address."
+msgstr "這是無效的 IPv6 位址。"
+
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s..."
+msgstr "%(truncated_text)s..."
+
+msgid "or"
+msgstr "或"
+
+#. Translators: This string is used as a separator between list elements
+msgid ", "
+msgstr ", "
+
+#, python-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] "%d 年"
+
+#, python-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d 月"
+
+#, python-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] "%d 週"
+
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d 日"
+
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d 時"
+
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d 分"
+
+msgid "0 minutes"
+msgstr "0 分"
+
+msgid "Forbidden"
+msgstr "禁止"
+
+msgid "CSRF verification failed. Request aborted."
+msgstr "CSRF 驗證失敗。已中止請求。"
+
+msgid ""
+"You are seeing this message because this HTTPS site requires a 'Referer "
+"header' to be sent by your Web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+"你看到這個訊息，是因為這個 HTTPS 網站要求你的網頁瀏覽器送出一個 'Referer 標"
+"頭'，但它並未被送出。這個標頭是用於安全用途，保護你的瀏覽器不被第三方挾持。"
+
+msgid ""
+"If you have configured your browser to disable 'Referer' headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for 'same-"
+"origin' requests."
+msgstr ""
+"若你的瀏覽器設定為將「Referer」標頭關閉，請重新為這個網站、HTTPS 連線、或"
+"「same-origin」請求啟用它。"
+
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the 'Referrer-Policy: no-referrer' header, please remove them. The "
+"CSRF protection requires the 'Referer' header to do strict referer checking. "
+"If you're concerned about privacy, use alternatives like <a rel=\"noreferrer"
+"\" ...> for links to third-party sites."
+msgstr ""
+
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+"你看到這個訊息，是因為這個網站要求在送出表單包含一個 CSRF cookie。這個 "
+"cookie 是用於安全用途，保護你的瀏覽器不被第三方挾持。"
+
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for 'same-origin' requests."
+msgstr ""
+"若你的瀏覽器設定為將 cookie 關閉，請重新為這個網站或「same-origin」請求啟用"
+"它。"
+
+msgid "More information is available with DEBUG=True."
+msgstr "設定 DEBUG=True 以獲得更多資訊。"
+
+msgid "No year specified"
+msgstr "不指定年份"
+
+msgid "Date out of range"
+msgstr ""
+
+msgid "No month specified"
+msgstr "不指定月份"
+
+msgid "No day specified"
+msgstr "不指定日期"
+
+msgid "No week specified"
+msgstr "不指定週數"
+
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr "%(verbose_name_plural)s 無法使用"
+
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
+msgstr ""
+"未來的 %(verbose_name_plural)s 不可用，因 %(class_name)s.allow_future 為 "
+"False."
+
+#, python-format
+msgid "Invalid date string '%(datestr)s' given format '%(format)s'"
+msgstr "無效的日期字串 '%(datestr)s' 可接受格式 '%(format)s'"
+
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr "無 %(verbose_name)s 符合本次搜尋"
+
+msgid "Page is not 'last', nor can it be converted to an int."
+msgstr "頁面不是最後一頁，也無法被轉換為整數。"
+
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr "無效的頁面 (%(page_number)s): %(message)s"
+
+#, python-format
+msgid "Empty list and '%(class_name)s.allow_empty' is False."
+msgstr "為空list且 '%(class_name)s.allow_empty' 為False."
+
+msgid "Directory indexes are not allowed here."
+msgstr "這裡不允許目錄索引。"
+
+#, python-format
+msgid "\"%(path)s\" does not exist"
+msgstr "\"%(path)s\" 路徑不存在"
+
+#, python-format
+msgid "Index of %(directory)s"
+msgstr "%(directory)s 的索引"
+
+msgid "Django: the Web framework for perfectionists with deadlines."
+msgstr ""
+
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
+msgstr ""
+
+msgid "Django Documentation"
+msgstr ""
+
+msgid "Topics, references, &amp; how-to's"
+msgstr ""
+
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+msgid "Get started with Django"
+msgstr ""
+
+msgid "Django Community"
+msgstr ""
+
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#, python-format
+msgid "Successfully deleted %(count)d %(items)s."
+msgstr "成功的刪除了 %(count)d 個 %(items)s."
+
+#, python-format
+msgid "Cannot delete %(name)s"
+msgstr "無法刪除 %(name)s"
+
+msgid "Are you sure?"
+msgstr "你確定嗎？"
+
+#, python-format
+msgid "Delete selected %(verbose_name_plural)s"
+msgstr "刪除所選的 %(verbose_name_plural)s"
+
+msgid "Administration"
+msgstr "管理"
+
+msgid "All"
+msgstr "全部"
+
+msgid "Any date"
+msgstr "任何日期"
+
+msgid "Today"
+msgstr "今天"
+
+msgid "Past 7 days"
+msgstr "過去 7 天"
+
+msgid "This month"
+msgstr "本月"
+
+msgid "This year"
+msgstr "今年"
+
+msgid "No date"
+msgstr "沒有日期"
+
+msgid "Has date"
+msgstr "有日期"
+
+#, python-format
+msgid ""
+"Please enter the correct %(username)s and password for a staff account. Note "
+"that both fields may be case-sensitive."
+msgstr "請輸入正確的工作人員%(username)s及密碼。請注意兩者皆區分大小寫。"
+
+msgid "Action:"
+msgstr "動作:"
+
+#, python-format
+msgid "Add another %(verbose_name)s"
+msgstr "新增其它 %(verbose_name)s"
+
+msgid "Remove"
+msgstr "移除"
+
+msgid "action time"
+msgstr "動作時間"
+
+msgid "user"
+msgstr "使用者"
+
+msgid "content type"
+msgstr "內容類型"
+
+msgid "object id"
+msgstr "物件 id"
+
+#. Translators: 'repr' means representation
+#. (https://docs.python.org/3/library/functions.html#repr)
+msgid "object repr"
+msgstr "物件 repr"
+
+msgid "action flag"
+msgstr "動作旗標"
+
+msgid "change message"
+msgstr "變更訊息"
+
+msgid "log entry"
+msgstr "紀錄項目"
+
+msgid "log entries"
+msgstr "紀錄項目"
+
+#, python-format
+msgid "Added \"%(object)s\"."
+msgstr "\"%(object)s\" 已新增。"
+
+#, python-format
+msgid "Changed \"%(object)s\" - %(changes)s"
+msgstr "\"%(object)s\" - %(changes)s 已變更。"
+
+#, python-format
+msgid "Deleted \"%(object)s.\""
+msgstr "\"%(object)s\" 已刪除。"
+
+msgid "LogEntry Object"
+msgstr "紀錄項目"
+
+#, python-brace-format
+msgid "Added {name} \"{object}\"."
+msgstr "{name} \"{object}\" 已新增。"
+
+msgid "Added."
+msgstr "已新增。"
+
+#, python-brace-format
+msgid "Changed {fields} for {name} \"{object}\"."
+msgstr "{name} \"{object}\" 的 {fields} 已變更。"
+
+#, python-brace-format
+msgid "Changed {fields}."
+msgstr "{fields} 已變更。"
+
+#, python-brace-format
+msgid "Deleted {name} \"{object}\"."
+msgstr "{name} \"{object}\" 已刪除。"
+
+msgid "No fields changed."
+msgstr "沒有欄位被變更。"
+
+msgid "None"
+msgstr "無"
+
+msgid ""
+"Hold down \"Control\", or \"Command\" on a Mac, to select more than one."
+msgstr "按住 \"Control\" 或 \"Command\" (Mac)，可選取多個值"
+
+#, python-brace-format
+msgid ""
+"The {name} \"{obj}\" was added successfully. You may edit it again below."
+msgstr "{name} \"{obj}\" 新增成功。你可以在下面再次編輯它。"
+
+#, python-brace-format
+msgid ""
+"The {name} \"{obj}\" was added successfully. You may add another {name} "
+"below."
+msgstr "{name} \"{obj}\" 新增成功。你可以在下方加入其他 {name}。"
+
+#, python-brace-format
+msgid "The {name} \"{obj}\" was added successfully."
+msgstr "{name} \"{obj}\" 已成功新增。"
+
+#, python-brace-format
+msgid ""
+"The {name} \"{obj}\" was changed successfully. You may edit it again below."
+msgstr "{name} \"{obj}\" 變更成功。你可以在下方再次編輯。"
+
+#, python-brace-format
+msgid ""
+"The {name} \"{obj}\" was changed successfully. You may add another {name} "
+"below."
+msgstr "{name} \"{obj}\" 變更成功。你可以在下方加入其他 {name}。"
+
+#, python-brace-format
+msgid "The {name} \"{obj}\" was changed successfully."
+msgstr "{name} \"{obj}\" 已成功變更。"
+
+msgid ""
+"Items must be selected in order to perform actions on them. No items have "
+"been changed."
+msgstr "必須要有項目被選到才能對它們進行動作。沒有項目變更。"
+
+msgid "No action selected."
+msgstr "沒有動作被選。"
+
+#, python-format
+msgid "The %(name)s \"%(obj)s\" was deleted successfully."
+msgstr "%(name)s \"%(obj)s\" 已成功刪除。"
+
+#, python-format
+msgid "%(name)s with ID \"%(key)s\" doesn't exist. Perhaps it was deleted?"
+msgstr "不存在 ID 為「%(key)s」的 %(name)s。或許它已被刪除？"
+
+#, python-format
+msgid "Add %s"
+msgstr "新增 %s"
+
+#, python-format
+msgid "Change %s"
+msgstr "變更 %s"
+
+msgid "Database error"
+msgstr "資料庫錯誤"
+
+#, python-format
+msgid "%(count)s %(name)s was changed successfully."
+msgid_plural "%(count)s %(name)s were changed successfully."
+msgstr[0] "共 %(count)s %(name)s 已變更成功。"
+
+#, python-format
+msgid "%(total_count)s selected"
+msgid_plural "All %(total_count)s selected"
+msgstr[0] "全部 %(total_count)s 個被選"
+
+#, python-format
+msgid "0 of %(cnt)s selected"
+msgstr "%(cnt)s 中 0 個被選"
+
+#, python-format
+msgid "Change history: %s"
+msgstr "變更歷史: %s"
+
+#. Translators: Model verbose name and instance representation,
+#. suitable to be an item in a list.
+#, python-format
+msgid "%(class_name)s %(instance)s"
+msgstr "%(class_name)s %(instance)s"
+
+#, python-format
+msgid ""
+"Deleting %(class_name)s %(instance)s would require deleting the following "
+"protected related objects: %(related_objects)s"
+msgstr ""
+"刪除 %(class_name)s %(instance)s 將會同時刪除下面受保護的相關物件："
+"%(related_objects)s"
+
+msgid "Django site admin"
+msgstr "Django 網站管理"
+
+msgid "Django administration"
+msgstr "Django 管理"
+
+msgid "Site administration"
+msgstr "網站管理"
+
+msgid "Log in"
+msgstr "登入"
+
+#, python-format
+msgid "%(app)s administration"
+msgstr "%(app)s 管理"
+
+msgid "Page not found"
+msgstr "頁面沒有找到"
+
+msgid "We're sorry, but the requested page could not be found."
+msgstr "很抱歉，請求頁面無法找到。"
+
+msgid "Home"
+msgstr "首頁"
+
+msgid "Server error"
+msgstr "伺服器錯誤"
+
+msgid "Server error (500)"
+msgstr "伺服器錯誤 (500)"
+
+msgid "Server Error <em>(500)</em>"
+msgstr "伺服器錯誤 <em>(500)</em>"
+
+msgid ""
+"There's been an error. It's been reported to the site administrators via "
+"email and should be fixed shortly. Thanks for your patience."
+msgstr ""
+"存在一個錯誤。已透過電子郵件回報給網站管理員，並且應該很快就會被修正。謝謝你"
+"的關心。"
+
+msgid "Run the selected action"
+msgstr "執行選擇的動作"
+
+msgid "Go"
+msgstr "去"
+
+msgid "Click here to select the objects across all pages"
+msgstr "點選這裡可選取全部頁面的物件"
+
+#, python-format
+msgid "Select all %(total_count)s %(module_name)s"
+msgstr "選擇全部 %(total_count)s %(module_name)s"
+
+msgid "Clear selection"
+msgstr "清除選擇"
+
+msgid ""
+"First, enter a username and password. Then, you'll be able to edit more user "
+"options."
+msgstr "首先，輸入一個使用者名稱和密碼。然後你可以編輯更多使用者選項。"
+
+msgid "Enter a username and password."
+msgstr "輸入一個使用者名稱和密碼。"
+
+msgid "Change password"
+msgstr "變更密碼"
+
+msgid "Please correct the error below."
+msgstr "請更正下面的錯誤。"
+
+msgid "Please correct the errors below."
+msgstr "請修正以下錯誤"
+
+#, python-format
+msgid "Enter a new password for the user <strong>%(username)s</strong>."
+msgstr "為使用者<strong>%(username)s</strong>輸入一個新的密碼。"
+
+msgid "Welcome,"
+msgstr "歡迎，"
+
+msgid "View site"
+msgstr "檢視網站"
+
+msgid "Documentation"
+msgstr "文件"
+
+msgid "Log out"
+msgstr "登出"
+
+#, python-format
+msgid "Add %(name)s"
+msgstr "新增 %(name)s"
+
+msgid "History"
+msgstr "歷史"
+
+msgid "View on site"
+msgstr "在網站上檢視"
+
+msgid "Filter"
+msgstr "過濾器"
+
+msgid "Remove from sorting"
+msgstr "從排序中移除"
+
+#, python-format
+msgid "Sorting priority: %(priority_number)s"
+msgstr "優先排序：%(priority_number)s"
+
+msgid "Toggle sorting"
+msgstr "切換排序"
+
+#, python-format
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would result in deleting "
+"related objects, but your account doesn't have permission to delete the "
+"following types of objects:"
+msgstr ""
+"刪除 %(object_name)s '%(escaped_object)s' 會把相關的物件也刪除，不過你的帳號"
+"並沒有刪除以下型態物件的權限:"
+
+#, python-format
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would require deleting the "
+"following protected related objects:"
+msgstr ""
+"要刪除 %(object_name)s '%(escaped_object)s', 將要求刪除下面受保護的相關物件:"
+
+#, python-format
+msgid ""
+"Are you sure you want to delete the %(object_name)s \"%(escaped_object)s\"? "
+"All of the following related items will be deleted:"
+msgstr ""
+"你確定想要刪除 %(object_name)s \"%(escaped_object)s\"？以下所有的相關項目都會"
+"被刪除:"
+
+msgid "Objects"
+msgstr "物件"
+
+msgid "Yes, I'm sure"
+msgstr "是的，我確定"
+
+msgid "No, take me back"
+msgstr "不，請帶我回去"
+
+msgid "Delete multiple objects"
+msgstr "刪除多個物件"
+
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would result in deleting related "
+"objects, but your account doesn't have permission to delete the following "
+"types of objects:"
+msgstr ""
+"要刪除所選的 %(objects_name)s, 結果會刪除相關物件, 但你的帳號無權刪除下面物件"
+"型態:"
+
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would require deleting the following "
+"protected related objects:"
+msgstr "要刪除所選的 %(objects_name)s, 將要求刪除下面受保護的相關物件:"
+
+#, python-format
+msgid ""
+"Are you sure you want to delete the selected %(objects_name)s? All of the "
+"following objects and their related items will be deleted:"
+msgstr ""
+"你是否確定要刪除已選的 %(objects_name)s? 下面全部物件及其相關項目都將被刪除:"
+
+msgid "Delete?"
+msgstr "刪除？"
+
+#, python-format
+msgid " By %(filter_title)s "
+msgstr " 以 %(filter_title)s"
+
+msgid "Summary"
+msgstr "總結"
+
+#, python-format
+msgid "Models in the %(name)s application"
+msgstr "%(name)s 應用程式中的Model"
+
+msgid "Add"
+msgstr "新增"
+
+msgid "You don't have permission to edit anything."
+msgstr "你沒有編輯任何東西的權限。"
+
+msgid "Recent actions"
+msgstr "最近的動作"
+
+msgid "My actions"
+msgstr "我的動作"
+
+msgid "None available"
+msgstr "無可用的"
+
+msgid "Unknown content"
+msgstr "未知內容"
+
+msgid ""
+"Something's wrong with your database installation. Make sure the appropriate "
+"database tables have been created, and make sure the database is readable by "
+"the appropriate user."
+msgstr ""
+"你的資料庫安裝有錯誤。確定資料庫表格已經建立，並確定資料庫可被合適的使用者讀"
+"取。"
+
+#, python-format
+msgid ""
+"You are authenticated as %(username)s, but are not authorized to access this "
+"page. Would you like to login to a different account?"
+msgstr ""
+"您已認證為 %(username)s，但並沒有瀏覽此頁面的權限。您是否希望以其他帳號登入？"
+
+msgid "Forgotten your password or username?"
+msgstr "忘了你的密碼或是使用者名稱？"
+
+msgid "Date/time"
+msgstr "日期/時間"
+
+msgid "User"
+msgstr "使用者"
+
+msgid "Action"
+msgstr "動作"
+
+msgid ""
+"This object doesn't have a change history. It probably wasn't added via this "
+"admin site."
+msgstr "這個物件沒有變更的歷史。它可能不是透過這個管理網站新增的。"
+
+msgid "Show all"
+msgstr "顯示全部"
+
+msgid "Save"
+msgstr "儲存"
+
+msgid "Popup closing..."
+msgstr "關閉彈出視窗中⋯⋯"
+
+#, python-format
+msgid "Change selected %(model)s"
+msgstr "變更所選的 %(model)s"
+
+#, python-format
+msgid "Add another %(model)s"
+msgstr "新增其它 %(model)s"
+
+#, python-format
+msgid "Delete selected %(model)s"
+msgstr "刪除所選的 %(model)s"
+
+msgid "Search"
+msgstr "搜尋"
+
+#, python-format
+msgid "%(counter)s result"
+msgid_plural "%(counter)s results"
+msgstr[0] "%(counter)s 結果"
+
+#, python-format
+msgid "%(full_result_count)s total"
+msgstr "總共 %(full_result_count)s"
+
+msgid "Save as new"
+msgstr "儲存為新的"
+
+msgid "Save and add another"
+msgstr "儲存並新增另一個"
+
+msgid "Save and continue editing"
+msgstr "儲存並繼續編輯"
+
+msgid "Thanks for spending some quality time with the Web site today."
+msgstr "感謝你今天花了重要的時間停留在本網站。"
+
+msgid "Log in again"
+msgstr "重新登入"
+
+msgid "Password change"
+msgstr "密碼變更"
+
+msgid "Your password was changed."
+msgstr "你的密碼已變更。"
+
+msgid ""
+"Please enter your old password, for security's sake, and then enter your new "
+"password twice so we can verify you typed it in correctly."
+msgstr ""
+"為了安全上的考量，請輸入你的舊密碼，再輸入新密碼兩次，讓我們核驗你已正確地輸"
+"入。"
+
+msgid "Change my password"
+msgstr "變更我的密碼"
+
+msgid "Password reset"
+msgstr "密碼重設"
+
+msgid "Your password has been set.  You may go ahead and log in now."
+msgstr "你的密碼已設置，現在可以繼續登入。"
+
+msgid "Password reset confirmation"
+msgstr "密碼重設確認"
+
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr "請輸入你的新密碼兩次, 這樣我們才能檢查你的輸入是否正確。"
+
+msgid "New password:"
+msgstr "新密碼："
+
+msgid "Confirm password:"
+msgstr "確認密碼："
+
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a new password reset."
+msgstr "密碼重設連結無效，可能因為他已使用。請重新請求密碼重設。"
+
+msgid ""
+"We've emailed you instructions for setting your password, if an account "
+"exists with the email you entered. You should receive them shortly."
+msgstr ""
+"若您提交的電子郵件地址存在對應帳號，我們已寄出重設密碼的相關指示。您應該很快"
+"就會收到。"
+
+msgid ""
+"If you don't receive an email, please make sure you've entered the address "
+"you registered with, and check your spam folder."
+msgstr ""
+"如果您未收到電子郵件，請確認您輸入的電子郵件地址與您註冊時輸入的一致，並檢查"
+"您的垃圾郵件匣。"
+
+#, python-format
+msgid ""
+"You're receiving this email because you requested a password reset for your "
+"user account at %(site_name)s."
+msgstr "這封電子郵件來自 %(site_name)s，因為你要求為帳號重新設定密碼。"
+
+msgid "Please go to the following page and choose a new password:"
+msgstr "請到該頁面選擇一個新的密碼："
+
+msgid "Your username, in case you've forgotten:"
+msgstr "你的使用者名稱，萬一你已經忘記的話:"
+
+msgid "Thanks for using our site!"
+msgstr "感謝使用本網站！"
+
+#, python-format
+msgid "The %(site_name)s team"
+msgstr "%(site_name)s 團隊"
+
+msgid ""
+"Forgotten your password? Enter your email address below, and we'll email "
+"instructions for setting a new one."
+msgstr ""
+"忘記你的密碼? 請在下面輸入你的電子郵件位址, 然後我們會寄出設定新密碼的操作指"
+"示。"
+
+msgid "Email address:"
+msgstr "電子信箱："
+
+msgid "Reset my password"
+msgstr "重設我的密碼"
+
+msgid "All dates"
+msgstr "所有日期"
+
+#, python-format
+msgid "Select %s"
+msgstr "選擇 %s"
+
+#, python-format
+msgid "Select %s to change"
+msgstr "選擇 %s 來變更"
+
+msgid "Date:"
+msgstr "日期"
+
+msgid "Time:"
+msgstr "時間"
+
+msgid "Lookup"
+msgstr "查詢"
+
+msgid "Currently:"
+msgstr "目前："
+
+msgid "Change:"
+msgstr "變動："
+
+msgid "Personal info"
+msgstr "個人資訊"
+
+msgid "Permissions"
+msgstr "權限"
+
+msgid "Important dates"
+msgstr "重要日期"
+
+#, python-format
+msgid "%(name)s object with primary key %(key)r does not exist."
+msgstr "主鍵 %(key)r 的 %(name)s 物件不存在。"
+
+msgid "Password changed successfully."
+msgstr "密碼修改成功"
+
+#, python-format
+msgid "Change password: %s"
+msgstr "修改密碼: %s"
+
+msgid "Authentication and Authorization"
+msgstr "認證與授權"
+
+msgid "password"
+msgstr "密碼"
+
+msgid "last login"
+msgstr "上次登入"
+
+msgid "No password set."
+msgstr "無設定密碼。"
+
+msgid "Invalid password format or unknown hashing algorithm."
+msgstr "無效的密碼格式或不知名的雜湊演算法。"
+
+msgid "The two password fields didn't match."
+msgstr "兩個密碼欄位不相符。"
+
+msgid "Password"
+msgstr "密碼"
+
+msgid "Password confirmation"
+msgstr "密碼確認"
+
+msgid "Enter the same password as before, for verification."
+msgstr "為檢查用，請輸入與前面相同的密碼。"
+
+msgid ""
+"Raw passwords are not stored, so there is no way to see this user's "
+"password, but you can change the password using <a href=\"{}\">this form</a>."
+msgstr ""
+
+#, python-format
+msgid ""
+"Please enter a correct %(username)s and password. Note that both fields may "
+"be case-sensitive."
+msgstr "輸入正確的 %(username)s 和密碼。請注意兩者皆區分大小寫。"
+
+msgid "This account is inactive."
+msgstr "這個帳戶未啟用"
+
+msgid "Email"
+msgstr "電郵"
+
+msgid "New password"
+msgstr "新密碼"
+
+msgid "New password confirmation"
+msgstr "新密碼確認"
+
+msgid "Your old password was entered incorrectly. Please enter it again."
+msgstr "你的舊密碼不正確。請重新輸入。"
+
+msgid "Old password"
+msgstr "舊密碼"
+
+msgid "Password (again)"
+msgstr "密碼(重複)"
+
+msgid "algorithm"
+msgstr "演算法"
+
+msgid "iterations"
+msgstr "迭代"
+
+msgid "salt"
+msgstr "隨機值"
+
+msgid "hash"
+msgstr "哈希碼"
+
+msgid "variety"
+msgstr ""
+
+msgid "version"
+msgstr "版本"
+
+msgid "memory cost"
+msgstr "記憶體用量"
+
+msgid "time cost"
+msgstr "耗時"
+
+msgid "parallelism"
+msgstr "平行性"
+
+msgid "work factor"
+msgstr "作用因素"
+
+msgid "checksum"
+msgstr "校驗"
+
+msgid "name"
+msgstr "名稱"
+
+msgid "codename"
+msgstr "代碼"
+
+msgid "permission"
+msgstr "權限"
+
+msgid "permissions"
+msgstr "權限"
+
+msgid "group"
+msgstr "群組"
+
+msgid "groups"
+msgstr "群組"
+
+msgid "superuser status"
+msgstr "超級使用者狀態"
+
+msgid ""
+"Designates that this user has all permissions without explicitly assigning "
+"them."
+msgstr "指定是否使用者可以登入到這個管理網站"
+
+msgid ""
+"The groups this user belongs to. A user will get all permissions granted to "
+"each of their groups."
+msgstr "此為帳號可加入的群組。其所屬的群組將授予該帳號對應的權限。"
+
+msgid "user permissions"
+msgstr "使用者權限"
+
+msgid "Specific permissions for this user."
+msgstr "本使用者的專屬權限。"
+
+msgid "username"
+msgstr "使用者名稱"
+
+msgid "Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only."
+msgstr "必要的。150 個字或更少，只包含字母、數字和 @/./+/-/_。"
+
+msgid "A user with that username already exists."
+msgstr "一個相同名稱的使用者已經存在。"
+
+msgid "first name"
+msgstr "名字"
+
+msgid "last name"
+msgstr "姓氏"
+
+msgid "email address"
+msgstr "電子信箱"
+
+msgid "staff status"
+msgstr "工作人員狀態"
+
+msgid "Designates whether the user can log into this admin site."
+msgstr "指定是否使用者可以登入此管理網站。"
+
+msgid "active"
+msgstr "有效"
+
+msgid ""
+"Designates whether this user should be treated as active. Unselect this "
+"instead of deleting accounts."
+msgstr "指定使用者是否有效。請取消選擇而不是刪除帳號。"
+
+msgid "date joined"
+msgstr "加入日期"
+
+msgid "users"
+msgstr "使用者"
+
+#, python-format
+msgid ""
+"This password is too short. It must contain at least %(min_length)d "
+"character."
+msgid_plural ""
+"This password is too short. It must contain at least %(min_length)d "
+"characters."
+msgstr[0] "這個密碼過短。請至少使用 %(min_length)d 個字元。"
+
+#, python-format
+msgid "Your password must contain at least %(min_length)d character."
+msgid_plural "Your password must contain at least %(min_length)d characters."
+msgstr[0] "你的密碼必須包含至少 %(min_length)d 個字元。"
+
+#, python-format
+msgid "The password is too similar to the %(verbose_name)s."
+msgstr "這個密碼與%(verbose_name)s太相近。"
+
+msgid "Your password can't be too similar to your other personal information."
+msgstr "你的密碼不能與其他個人資訊太相近。"
+
+msgid "This password is too common."
+msgstr "這個密碼太普通。"
+
+msgid "Your password can't be a commonly used password."
+msgstr "你不能使用常見的密碼。"
+
+msgid "This password is entirely numeric."
+msgstr "這個密碼只包含數字。"
+
+msgid "Your password can't be entirely numeric."
+msgstr "你的密碼不能完全是數字。"
+
+#, python-format
+msgid "Password reset on %(site_name)s"
+msgstr "在 %(site_name)s 進行密碼重置"
+
+msgid ""
+"Enter a valid username. This value may contain only English letters, "
+"numbers, and @/./+/-/_ characters."
+msgstr "輸入合法的使用者名稱。只能包含英語字母、數字和 @/./+/-/_ 字元。"
+
+msgid ""
+"Enter a valid username. This value may contain only letters, numbers, and "
+"@/./+/-/_ characters."
+msgstr "輸入合法的使用者名稱。只能包含字母、數字和 @/./+/-/_ 字元。"
+
+msgid "Logged out"
+msgstr "登出"
+
+msgid "Password reset sent"
+msgstr "已送出密碼重設"
+
+msgid "Enter new password"
+msgstr "輸入新的密碼"
+
+msgid "Password reset unsuccessful"
+msgstr "密碼重設失敗"
+
+msgid "Password reset complete"
+msgstr "密碼重設成功"
+
+msgid "Password change successful"
+msgstr "成功變更密碼"
+
+msgid "Hong Kong"
+msgstr "香港"
+
+msgid "Kowloon"
+msgstr "九龍"
+
+msgid "New Territories"
+msgstr "新界"

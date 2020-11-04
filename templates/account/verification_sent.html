@@ -1,0 +1,16 @@
+{% extends "account/base.html" %}
+
+{% load i18n %}
+
+{% block head_title %}{% trans "Please Verify Your E-mail Address" %}{% endblock %}
+
+{% block content %}
+<div class="account_short_message_area">
+    <h1>{% trans "Please Verify Your E-mail Address" %}</h1>
+
+    <p class="short_message">{% trans "We have sent an e-mail to you for verification." %}<br>
+    {% trans "Follow the link provided to finalize the signup process." %}<br>
+	{% trans "Please contact us if you do not receive it within a few minutes." %}</p>
+</div>
+
+{% endblock %}

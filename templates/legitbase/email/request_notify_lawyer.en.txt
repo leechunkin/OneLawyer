@@ -1,0 +1,17 @@
+Dear {{lawyer_name}},
+
+Our Ref: {{request_id}}
+
+You have got a new request from a prospective client!
+
+Please click the link below to see his/her request.
+
+{{the_url}}
+
+Upon your clicking of the link we will notify the prospective client that his/her request has been read.  We will then continue to follow up with you and the prospective client via email.
+
+Thank you for engaging our service.
+
+Regards,
+
+Legit Service Team

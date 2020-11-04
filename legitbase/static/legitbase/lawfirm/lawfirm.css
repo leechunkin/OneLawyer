@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+body
+{width:90vw; margin:0 auto;}
+
+.editing_header
+{display:inline-block; padding:30px 10px 10px 0;}
+
+.header_text {display:inline-block; vertical-align: top; padding-top:43px; font-family:'Noto Sans TC', Arial, Helvetica; font-size:14px; color:#888; font-weight:400;}
+
+.logout
+{
+background:#f26522;
+border-radius:0 0 8px 8px;
+font-family: 'Noto Sans TC', Arial, Helvetica;
+color:#fff;
+border:0px;
+height:35px;
+font-weight:400;
+font-size:16px;
+padding:40px 12px 0px 12px;
+margin:0px 0 10px 0;
+display:inline-block;
+box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2), 0 0px 5px 0 rgba(0, 0, 0, 0.2);
+float:right;
+}
+
+a {
+	text-decoration:none;
+}

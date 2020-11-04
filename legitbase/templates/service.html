@@ -1,0 +1,75 @@
+{% extends 'base_with_categories.html' %}
+{% load static %}
+{% load i18n %}
+
+
+{% block title %}{% trans "Search Results" %}{% endblock %}
+{% block heading %}{% trans "Search Results" %}{% endblock %}
+
+
+{% block scripts2 %}
+	<script type="application/ecmascript">var categories_chosen = {{choices_id}};</script>
+	<script type="application/ecmascript" src="{% static 'service.js' %}" defer></script>
+{% endblock %}
+
+
+{% block subheading2 %}{% endblock %}
+
+
+{% block content %}
+	<div class="suggestions">{{desc|safe}}</div>
+	<div class="suggestions">{% blocktrans count numitems=items|length %}We found {{numitems}} lawyer for you.{% plural %}We found {{numitems}} lawyers for you.{% endblocktrans %}</div>
+
+	<div class="in_row wpb_row in_row-fluid">
+		{% for item in items %}
+			{% url 'lawyer-service' lawyer_service_id=item.id as the_url %}
+			{% if item.precedence > 0 %}
+			<div class="wpb_column in_column_container in_col-sm-5 pinned_shadow" >
+			{% else %}
+			<div class="wpb_column in_column_container in_col-sm-5" >
+			{% endif %}
+				
+				<a href="{{the_url}}">
+					{% if item.precedence > 0 %}
+					<div class="profile_card pinned">
+						{% else %}
+					<div class="profile_card">
+						{% endif %}
+						{% if item.photo %}
+							<img src="{{item.photo.url}}" class="profile_pic">
+						{% else %}
+							<img src="{% static 'img/avatar.png' %}" class="profile_pic">
+						{% endif %}
+						
+						<div class="profile_details_top">	
+							<span class="bold lawyer_name">{{item.lawyer_name}}</span><br>
+							<span class="regular">{{item.firm_name}} </span><br>
+							<span class="regular">{% trans "職位｜" %}{{item.position}}</span><br>
+							<span class="regular">{% trans "地區｜" %}{{item.district}}</span><br>
+						</div>
+					</div>
+				</a>
+				<div class="in_column-inner in_custom_1484734943085">
+					<div class="wpb_wrapper">
+						<div class="wpb_text_column wpb_content_element ">
+							<div class="wpb_wrapper">
+								{% if not unquotable %}
+									<p class="align-01 bighalf">
+										<span class="bold">{% trans '項目收費' %}</span><br>
+										<span class="regular">{% blocktrans with rate=item.rate %}from HKD {{rate}}{% endblocktrans %}</span>
+										{{region}}
+									</p>
+								{% endif %}
+								<p class="align-01 smallhalf">
+									<span class="bold">{% trans '執業經驗' %}</span><br>
+									<span class="regular">{% blocktrans count years=item.experience_years %}{{ years }} year{% plural %}{{ years }} years{% endblocktrans %}</span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="wpb_column in_column_container in_col-sm-1"></div>
+		{% endfor %}
+	</div>
+{% endblock %}

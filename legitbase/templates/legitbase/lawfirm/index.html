@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+{% load static %}
+<html>
+<head>
+	<title>One Lawyer 搵律師 － 法律服務指南 | Law Firms Admin Page 律師行管理頁</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'legitbase/lawfirm/lawfirm.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'legitbase/lawfirm/index.css' %}">
+	<script type="application/ecmascript" src="{% static 'popup.js' %}" defer></script>
+</head>
+<body>
+
+
+
+<img src="../static/img/onelawyer_logo_with_chi.png" class="editing_header">
+<div class="header_text">|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Law Firms Admin Page 律師行管理頁</div><a class="logout" href="logout">Log out 登出</a></div>
+
+
+{% for lawfirm in lawfirms %}
+	<h1>Your Firm Details 律師行資料 {{lawfirm.name.value}} {{lawfirm.name_zh.value|default:''}}</h1>
+	{% if lawfirm.is_lawfirm_admin %}
+		<form method="POST" action="update">
+			{% csrf_token %}
+			<input type="hidden" name="lawfirm_id" value="{{lawfirm.id}}">
+			<ul class="eng_input">
+				<li>
+					<label>
+						Name (ENG)
+					</label>
+					<input name="name" value="{{lawfirm.name}}">
+				</li>
+				<li>
+					<label>
+						Address (ENG)
+					</label>
+					<input name="address" value="{{lawfirm.address}}">
+				</li>
+				<li>
+					<label>
+						District
+					</label>
+					<select name="district">
+							{% for district in options.districts %}
+								<option value="{{district.code}}"
+									{% if district.code == lawfirm.district %}
+										selected
+									{% endif %}
+								>
+									{{district.name}} / {{district.name_zh}}
+								</option>
+							{% endfor %}
+					</select>
+				</li>
+				<li>
+					<label>
+						E-mail
+					</label>
+					<input name="email" value="{{lawfirm.email|default:''}}">
+				</li>
+				<li>
+					<label>
+						Telephone
+					</label>
+					<input name="phone" value="{{lawfirm.phone|default:''}}">
+				</li>
+				<li>
+					<label>
+						Fax
+					</label>
+					<input name="fax" value="{{lawfirm.fax|default:''}}">
+				</li>
+				<li>
+					<label>
+						Website
+					</label>
+					<input name="website" value="{{lawfirm.website|default:''}}">
+				</li>
+				<li>
+					<label>
+						hklawsoc.org.hk profile
+					</label>
+					<input name="lawsochk_profile" value="{{lawfirm.lawsochk_profile|default:''}}">
+				</li>
+			</ul>
+
+			<ul class="chi_input">
+				<li>
+					<label>
+						中文名稱
+					</label>
+					<input name="name_zh" value="{{lawfirm.name_zh|default:''}}">
+				</li>
+				<li>
+					<label>
+						中文地址
+					</label>
+					<input name="address_zh" value="{{lawfirm.address_zh|default:''}}">
+				</li>
+			</ul>
+			<button class="update_button">UPDATE 更新資料</button>
+		</form>
+	{% else %}
+		<ul>
+			<li class="lawyer_asso_firm">Associated Law Firm | {{lawfirm.name}}</li>
+			<li class="lawyer_asso_firm">閣下所屬的律師行 | {{lawfirm.name_zh}}</li>
+		</ul>
+	{% endif %}
+	{% for lawyer in lawfirm.lawyers %}
+		<div class="popup">
+			<h2 class="popup-toggle">▼ {{lawyer.name}} | {{lawyer.name_zh|default:''}}</h2>
+			{% include 'legitbase/lawfirm/lawyer_form.html' with services=lawyer.services service_depth=lawyer.service_depth %}
+		</div>
+	{% endfor %}
+{% endfor %}
+</body>
+</html>

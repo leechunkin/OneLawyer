@@ -1,0 +1,45 @@
+{% extends "account/base.html" %}
+
+{% load i18n %}
+{% load account socialaccount %}
+
+{% block head_title %}{% trans "Log in" %}{% endblock %}
+
+{% block content %}
+<div class="account_short_message_area">
+<h1>{% trans "Log in" %}</h1>
+
+{% get_providers as socialaccount_providers %}
+
+{% if socialaccount_providers %}
+<p class="short_message login_intro_text">{% trans "Please login in by using your Google Account or registered email." %}<br>{% trans "If you have not registered as our user, please" %}<a href="{{ signup_url }}"> {% trans "Register" %}</a></p>
+
+<div class="socialaccount_ballot social_login" >
+
+  <a href="/account/google/login/?process=login"><div class="google_login_badge"><img src="/static/img/google_logo.svg" class="google_logo"><p class="google_logo_text">{% trans "Login with your Google Account" %}</p></div></a>
+
+</div>
+
+<div class="login-or">{% trans 'or' %}</div>
+
+{% include "socialaccount/snippets/login_extra.html" %}
+
+{% else %}
+<p>{% trans "If you have not created an account, please" %}
+<a href="{{ signup_url }}">{% trans "Register" %}</a></p>
+{% endif %}
+
+<div class="login_area">
+<form class="login" method="POST" action="{% url 'account_login' %}">
+  {% csrf_token %}
+  {{ form.as_p }}
+  {% if redirect_field_value %}
+  <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}/>
+  {% endif %}
+  <button class="primaryAction login_button" type="submit" >{% trans "Log in" %}</button>
+  <p class="forget_password_text"><a class="button secondaryAction forget_password_link"  href="{% url 'account_reset_password' %}">{% trans "Forget your password? Click here." %}</a></p>
+</form>
+</div>
+</div>
+
+{% endblock %}

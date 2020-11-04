@@ -1,0 +1,200 @@
+<form class="popup-show" method="POST" action="lawyer/update" hidden>
+	{% csrf_token %}
+	<input type="hidden" name="firm_id" value="{{ lawfirm.id }}">
+	<input type="hidden" name="post_id" value="{{ lawyer.id }}">
+	{{ lawyer.form.non_field_errors }}
+	<ul class="eng_input">
+		<li>
+			<label>
+				Name (ENG)
+			</label>
+			<input name="name" required value="{{ lawyer.name }}">
+		</li>
+		<li>
+			<label>
+				Position (English)
+			</label>
+			<input name="post" required value="{{ lawyer.post|default:'' }}">
+		</li>
+		<li>
+			<label>
+				From date
+			</label>
+			<input type="date" name="from_date" required value="{{ lawyer.from_date|date:'c' }}">
+		</li>
+		<li>
+			<label>
+				End date (optional)
+			</label>
+			<input type="date" name="end_date" value="{{ lawyer.end_date|date:'c' }}">
+		</li>
+		<li>
+			<label>
+				Admission in Hong Kong
+			</label>
+			<input type="date" name="admission_date_hk" value="{{ lawyer.admission_date_hk|date:'Y-m-d' }}">
+		</li>
+		<li>
+			<label>
+				E-main
+			</label>
+			<input name="email" value="{{ lawyer.email|default:'' }}">
+		</li>
+		<li>
+			<label>
+				Telephone
+			</label>
+			<input name="phone" value="{{ lawyer.phone|default:'' }}">
+		</li>
+		<li>
+			<label>
+				Fax
+			</label>
+			<input name="fax" value="{{ lawyer.fax|default:'' }}">
+		</li>
+		<li>
+			<label>
+				hklawsoc.org.hk Profile
+			</label>
+			<input name="lawsochk_profile" value="{{ lawyer.lawsochk_profile|default:'' }}">
+		</li>
+		<li>
+			<label>
+				Hourly Rate
+			</label>
+			<input name="hourly_rate" required value="{{ lawyer.hourly_rate|stringformat:'d' }}">
+		</li>
+	</ul>
+	<ul class="chi_input">
+		<li>
+			<label>
+				中文姓名
+			</label>
+			<input name="name_zh" value="{{ lawyer.name_zh }}">
+		</li>
+		<li>
+			<label>
+				職位(中文)
+			</label>
+			<input name="post_zh" value="{{ lawyer.post_zh|default:'' }}">
+		</li>
+	</ul>
+	<button class="update_button" style="display:block">UPDATE 更新資料</button>
+	<ul class="half_input">
+		<li>
+			<label>
+				Introduction (English)
+			</label>
+			<textarea name="intro" class="text_intro">{{ lawyer.intro }}</textarea>
+			<button class="update_button" style="margin-left:0px;">UPDATE 更新資料</button>
+		</li>
+	</ul>
+	<ul class="half_input">
+		<li>
+			<label>
+				律師簡介 (中文)
+			</label>
+			<textarea name="intro_zh" class="text_intro">{{ lawyer.intro_zh }}</textarea>
+			<button class="update_button" style="margin-left:0px;">UPDATE 更新資料</button>
+		</li>
+	</ul>
+	<ul class="full_input">
+		<label class="langlabel_heading">
+				Languages 律師使用的語言
+		</label>
+		<li>
+			<fieldset>
+				<ul>
+					{% for language in options.languages %}
+						<li>
+							<label class="langlabel">
+								<input type="checkbox" name="language-{{ language.glottocode }}"
+									{% if language.glottocode in lawyer.languages %}
+										checked
+									{% endif %}
+								>
+								{{ language.name }} {{ language.name_zh }}
+							</label>
+						</li>
+					{% endfor %}
+				</ul>
+			</fieldset>
+		</li>
+	</ul>
+
+	<button class="update_button">UPDATE 更新資料</button>
+
+	<table>
+		<thead>
+			<tr>
+				<th colspan="{{ service_depth }}">Legal service<br>法律服務</th>
+				<th>Provide this service?<br>是否提供<br>此服務</th>
+				<th>Rate<br>服務費用</th>
+				<th>Hourly Rate?<br>每小時<br>費用</th>
+				<th>Maximum Estimated Time (minutes)<br>預計最長<br>服務時間<br>(分鐘)</th>
+				<th>Free Consultation Offer (minutes)<br>免費諮詢時間<br>(分鐘)</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for service in services %}
+				<tr>
+					{% for node in service.category.list %}
+						<td rowspan="{{ node.size }}"
+							{% if forloop.last %}
+								colspan="{{ service.category.pad }}"
+							{% endif %}
+						>
+							{{ node.name }}
+							<br>
+							{{ node.name_zh }}
+						</td>
+						{% if forloop.last %}
+							<td>
+								<input type="checkbox" name="provide-{{ service.category.id }}"
+									{% if service.provide %}
+										checked
+									{% endif %}
+								>
+							</td>
+							<td>
+								<input type="number" name="rate-{{ service.category.id }}"
+									{% if service.provide %}
+										value="{{ service.provide.rate|stringformat:'d' }}"
+									{% endif %}
+								>
+							</td>
+							<td>
+								<input type="checkbox" name="hourly-{{ service.category.id }}"
+									{% if service.provide.is_hourly_rate %}
+										checked
+									{% endif %}
+								>
+							</td>
+							<td>
+								<input type="number" name="estimate-{{ service.category.id }}"
+									{% if service.provide %}
+										value="{{ service.provide.time_estimate_minutes_max|stringformat:'d' }}"
+									{% endif %}
+								>
+							</td>
+							<td>
+								<select name="consultation-{{ service.category.id }}">
+									{% for choice in free_consultation_minutes %}
+										<option value="{{ choice.value|stringformat:'d' }}"
+											{% if choice.value == service.provide.free_consultation_minutes %}
+												selected
+											{% endif %}
+										>
+											{{ choice.name }}
+										</option>
+									{% endfor %}
+								</select>
+							</td>
+						{% endif %}
+					{% endfor %}
+				</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+	<button class="update_button">UPDATE 更新資料</button>
+</form>

@@ -1,0 +1,20 @@
+Dear {{lawyer_name}},
+
+Our Ref: {{request_id}}
+
+We refer to a request from our user sent to you on {{sent_at}}.
+
+Our user indicates that you have not responded/replied to his/her request.
+
+If you have already replied to/responded to the said request, please click "yes" below.  Otherwise, please spend a few minutes to send a short reply to the request.
+
+Thank you for engaging the service of legit.
+
+Yes I have already replied/responded to the said request, or I have contacted the User:
+
+{{yes_link}}
+
+
+Regards,
+
+Legit Service Team

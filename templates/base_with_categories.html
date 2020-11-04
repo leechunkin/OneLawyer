@@ -1,0 +1,143 @@
+{% extends 'base_with_title.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block scripts %}
+	<script type="application/ecmascript" src="/categories.js"></script>
+	<script type="application/ecmascript" src="{% static 'browse.js' %}" defer></script>
+	<script type="application/ecmascript" src="{% static 'popup.js' %}" defer></script>
+	{% block scripts2 %}{% endblock %}
+{% endblock %}
+
+{% block subheading %}
+	<div class="popup1">
+		<p class="popup1-toggle">{% trans 'Search again' %}</p>
+		<form id="heading_categories" class="popup1-show" hidden>
+			<div class="breadcrumbs_top">
+				<div id="categories">
+					<div hidden>
+						<select></select>
+					</div>
+					<div hidden>
+						<span class="search_arrow_sm">▸</span>
+						<select></select>
+					</div>
+					<div hidden>
+						<span class="search_arrow_sm">▸</span>
+						<select></select>
+					</div>
+					<div hidden>
+						<span class="search_arrow_sm">▸</span>
+						<select></select>
+					</div>
+					<div hidden>
+						<span class="search_arrow_sm">▸</span>
+						<select></select>
+					</div>
+				</div>
+				<button type="button" id="browse" class="ready index_search_sm">{% trans 'Search' %}</button>
+			</div>
+			<div class="breadcrumbs_bottom">
+				<span class="breadcumb_heading bold">{% trans '篩選' %}</span>
+				<span class="popup">
+					<button class="popup-open search_result_button" type="button">
+						{% trans '項目收費' %}
+					</button>
+					<div class="popup-show popup-close shield" hidden=""></div>
+					<div class="popup-show search_popup" hidden="">
+						<div id="rate">
+							{% for rate in rates %}
+								<label>
+									<input type="checkbox" name="R{{rate.from|safe}}.{{rate.to|safe}}"
+										{% if rate.checked %}checked{% endif %}
+									>
+									{{rate.desc}}
+								</label>
+								<br>
+							{% endfor %}
+						</div>
+						<button type='button' id='norate'>{% trans 'Clear all' %}</button>
+						<button type='button' id='allrate'>{% trans 'Select all' %}</button>
+					</div>
+				</span>
+				<span class="popup">
+					<button class="popup-open search_result_button" type="button">
+						{% trans '律師年資' %}
+					</button>
+					<div class="popup-show popup-close shield" hidden=""></div>
+					<div class="popup-show search_popup" hidden="">
+						<div id="experience">
+							{% for e in experience %}
+								<label>
+									<input type="checkbox" name="E{{e.from}}.{{e.to}}"
+										{% if e.checked %}checked{% endif %}
+									>
+									{{e.desc}}
+								</label>
+								<br>
+							{% endfor %}
+						</div>
+						<button type='button' id='noexperience'>{% trans 'Clear all' %}</button>
+						<button type='button' id='allexperience'>{% trans 'Select all' %}</button>
+					</div>
+				</span>
+				<span class="popup" style="display:none;">
+					<button class="popup-open search_result_button" type="button">
+						{% trans '所在地區' %}
+					</button>
+					<div class="popup-show popup-close shield" hidden=""></div>
+					<div class="popup-show search_popup" hidden="">
+						<div id="district">
+							{% for district in districts %}
+								<label>
+									<input type='checkbox' name='D{{district.code}}'
+										{% if district.checked %}checked{% endif %}
+									>
+									{{district.name}}
+								</label>
+								{% if forloop.counter|divisibleby:3 %}<br>{% endif %}
+							{% endfor %}
+						</div>
+						<button type='button' id='nodistrict'>{% trans 'Clear all' %}</button>
+						<button type='button' id='alldistrict'>{% trans 'Select all' %}</button>
+						<button type='button' id='districtsubmit'>{% trans 'district submit' %}</button>
+					</div>
+				</span>
+				<span class="popup">
+					<button class="popup-open search_result_button" type="button">
+						{% trans '語言能力' %}
+					</button>
+					<div class="popup-show popup-close shield" hidden=""></div>
+					<div class="popup-show search_popup" hidden="">
+						<div id="language">
+							{% for language in languages %}
+								<label>
+									<input type='checkbox' name='L{{language.glottocode}}'
+										{% if language.checked %}checked{% endif %}
+									>
+									{{language.name}}
+								</label>
+								{% if forloop.counter|divisibleby:3 %}<br>{% endif %}
+							{% endfor %}
+						</div>
+						<button type='button' id='nolanguage'>{% trans 'Clear all' %}</button>
+						<button type='button' id='alllanguage'>{% trans 'Select all' %}</button>
+					</div>
+				</span>
+				<span class="breadcumb_heading bold">{% trans '排序' %}</span>
+				<select class="search_result_option" id="sort" name="sort">
+					<option value='0'>{% trans "隨機排序" %}</option>
+					<option value='1'>{% trans "項目收費（由平到貴）" %}</option>
+					<option value='2'>{% trans "項目收費（由貴到平）" %}</option>
+					<option value='3'>{% trans "律師年資（由深到淺）" %}</option>
+					<option value='4'>{% trans "律師年資（由淺到深）" %}</option>
+					<option value='5'>{% trans "免費首次見面時間（由長到短）" %}</option>
+					<option value='6'>{% trans "免費首次見面時間（由短到長）" %}</option>
+					<option value='7'>{% trans "律師綜合每小時收費（由平到貴）" %}</option>
+					<option value='8'>{% trans "律師綜合每小時收費（由貴到平）" %}</option>
+				</select>
+			</div>
+			{% block subheading2 %}{% endblock %}
+		</form>
+	</div>
+{% endblock %}

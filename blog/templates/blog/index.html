@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans 'BLOG Index' %}{% endblock %}
+
+{% block stylesheets %}
+	<link rel="stylesheet" href="{% static 'blog/index.css' %}" type="text/css" media="all" />
+{% endblock %}
+
+{% block body %}
+<div class="main_wrapper">
+	<div class="container">
+		<div class="row sidebar_none">
+			<div class="content-container span12">
+				<section id="main_content">
+					<div class="in_custom_1484897435098">
+						<div class="container">
+
+<div class="in_row wpb_row in_row-fluid">
+	<div class="wpb_column in_column_container in_col-sm-3 blog_cat" >
+		<div class="blog_cat_heading"><span>{% trans 'BLOG Search' %}</span></div>
+		<div class="blog_cat_items">
+		<form>
+			<input type="hidden" name="page" value="{{page}}">
+			<input type="text" name="search" class="blog_search_bar">
+			<input type="submit" value="{% trans 'BLOG Search' %}" class="blog_search_button">
+		</form>
+		</div>
+
+		<div class="blog_cat_heading"><span>{% trans 'BLOG Categories'%}</span></div>
+		<div class="blog_cat_items">
+			{% for category in categories %}
+				<a class="blog_cat_item" href="{{category.id}}"><span class="category_name_eng">{{category.name_en}}</span><span class="category_name_chi">{{category.name_zh}}</span></a>
+			{% endfor %}
+		</div>
+	</div>
+	<div class="wpb_column in_column_container in_col-sm-8 blog_summary" style="font-weight: 400; background: #fff; padding: 0px; float:left">
+		{% for post in posts %}
+			
+				<div>
+					<a href="article/{{post.id}}" class="summary_title">{{post.title}}</a>
+					<span class="summary_credit">{{post.author}} | {{post.updated}}</span>
+					<div class="summary_text">
+						<a href="article/{{post.id}}">{{post.summary|safe}}</a>
+						<a href="article/{{post.id}}"><span class="summary_readmore">{% trans '閱讀更多' %}</span></a>
+					</div>
+				</div>
+		{% endfor %}
+			<p><a href="index.html?page={{newer}}&search={{search|urlencode}}">{% trans 'Newer Post ▶' %}</a></p>
+			<p><a href="index.html?page={{older}}&search={{search|urlencode}}">{% trans '◀ Older Post' %}</a></p>
+		{% if newer is not None %}
+			<p><a href="index.html?page={{newer}}&search={{search|urlencode}}">{% trans 'Newer Post ▶' %}</a></p>
+		{% endif %}
+		{% if older is not None %}
+			<p><a href="index.html?page={{older}}&search={{search|urlencode}}">{% trans '◀ Older Post' %}</a></p>
+		{% endif %}
+	</div>
+
+	<div class="wpb_column in_column_container in_col-sm-1 blog_whitespace">
+	</div>
+
+</div>
+
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+{% endblock %}

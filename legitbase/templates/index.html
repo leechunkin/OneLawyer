@@ -1,0 +1,145 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}Home{% endblock %}
+
+{% block stylesheets %}
+{% endblock %}
+
+{% block scripts %}
+	<script type="application/ecmascript" src="/categories.js"></script>
+	<script type="application/ecmascript" src="{% static 'browse.js' %}" defer></script>
+	<script type="application/ecmascript" src="{% static 'index.js' %}" defer></script>
+{% endblock %}
+
+{% block body %}
+	<div>
+		<div class="content-container">
+			<div class="index_banner">
+				<section class="header_content">
+					<div class="index_search_intro">{% trans 'Please choose from legal services below' %}</div>
+					<div>
+						<form>
+							<div id="categories">
+								<div hidden>
+									<select></select>
+								</div>
+								<div hidden>
+									<span class="search_arrow">▸</span>
+									<select></select>
+								</div>
+								<div hidden>
+									<span class="search_arrow">▸</span>
+									<select></select>
+								</div>
+								<div hidden>
+									<span class="search_arrow">▸</span>
+									<select></select>
+								</div>
+								<div hidden>
+									<span class="search_arrow">▸</span>
+									<select></select>
+								</div>
+							</div>
+
+							<div class="ready front_filters" hidden>
+								<label for="index_search_trigger" class="index_search_options_button">{% trans '▼ 更多搜尋設定' %}</label>
+								<input id="index_search_trigger" type="checkbox">
+								<div class="index_search_options">
+								<div class="front_filters_items">
+									<span class="bold">{% trans 'Languages' %}</span>
+									<input type="checkbox" class="group-select" checked>{% trans '廣東話' %}
+									<span style="display: none"><input type="checkbox" name="Lcant1236" checked></span>
+									<input type="checkbox" class="group-select" checked>{% trans 'English' %}
+									<span style="display: none"><input type="checkbox" name="Lstan1293" checked></span>
+									<input type="checkbox" class="group-select" checked>{% trans 'Mandarin' %}
+									<span style="display: none"><input type="checkbox" name="Lmand1415" checked></span>
+									<input type="checkbox" class="group-select" checked>{% trans '其他語言' %}
+									<span style="display: none">
+										{% for language in languages %}
+											{% if language.glottocode != 'cant1236' and language.glottocode != 'mand1415' and language.glottocode != 'stan1293' %}
+												<input type="checkbox" name="L{{language.glottocode}}" checked>
+											{% endif %}
+										{% endfor %}
+									</span>
+								</div>
+								<div class="front_filters_items">
+									<span class="bold">{% trans 'Experience' %}</span>
+									{% for e in experience %}
+										<input type="checkbox" name="E{{e.from}}.{{e.to}}" checked>{{e.desc}}
+									{% endfor %}
+								</div>
+								<div class="front_filters_items" style="display:none;">
+									<span class='bold'>{% trans '地區' %}</span>
+									{% for region in regions %}
+										<input type='checkbox' class='group-select' checked>
+										{{region.1}}
+										<span style="display: none">
+											{% for district in districts %}
+												{% if district.region == region.0 %}
+													<input type='checkbox' name='D{{district.code}}' checked>
+												{% endif %}
+											{% endfor %}
+										</span>
+									{% endfor %}
+								</div>
+								</div>
+								<span style="display: none">
+									{% for rate in rates %}
+										<input type="checkbox" name="R{{rate.from|safe}}.{{rate.to|safe}}" checked>
+									{% endfor %}
+								</span>
+							</div>
+							<button type="button" id="browse" class="ready index_search" hidden>{% trans 'Search' %}</button>
+						</form>
+					</div>
+				
+				</section>
+		<div class="mobile_showmore_icon">
+<a href="#showicons"><p><span class="showmore_icon_text">{% trans 'Browse by Categories' %}</span><br>▼</p></a>
+</div>
+				
+			</div>
+		</div>
+	</div>
+
+<a id="showicons"></a>
+{% include 'index_gridview.html' %}
+{% include 'index_gridview_mobile.html' %}
+
+	<div class="main_wrapper" style="padding:0 0 20px 0;" >
+			<div class="row sidebar_none">
+				<div class="content-container span12">
+					<section id="main_content">
+					<div id="adslider">
+								  <a href="#" class="control_next">＞</a>
+								  <a href="#" class="control_prev">＜</a>
+								  <ol>
+								    <li>
+								    <div class="slogan_sm">{% trans "slogan-1" %}</div>
+									<div class="slogan_bg">{% trans "slogan-2" %}</div><div class="slogan_bg">{% trans "slogan-3" %}</div>
+									<a href="/join-us"><div class="slogan_button slogan_button2">{% trans 'Back us' %}</div></a>
+								    </li>
+								    <li class="slogan_bg2">
+								    <div class="slogan_sm">{% trans "如果你想搵律師" %}</div>
+									<div class="slogan_bg">OneLawyer, </div><div class="slogan_bg">{% trans "律師收費一目了然" %}</div>
+									<div class="slogan_button">{% trans 'Search Now' %}</div>
+								    </li>
+								    <li>
+								    <div class="slogan_sm">{% trans "slogan-1" %}</div>
+									<div class="slogan_bg">{% trans "slogan-2" %}</div><div class="slogan_bg">{% trans "slogan-3" %}</div>
+									<a href="/join-us"><div class="slogan_button slogan_button2">{% trans 'Back us' %}</div></a>
+								    </li>
+									<li class="slogan_bg2">
+								    <div class="slogan_sm">{% trans "如果你想搵律師" %}</div>
+									<div class="slogan_bg">OneLawyer, </div><div class="slogan_bg">{% trans "律師收費一目了然" %}</div>
+									<div class="slogan_button">{% trans 'Search Now' %}</div>
+								    </li>
+								  </ol>  
+								</div>
+					</section>
+				</div>
+			</div>
+	</div>
+{% endblock %}

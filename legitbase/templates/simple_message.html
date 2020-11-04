@@ -1,0 +1,28 @@
+{% extends 'base_with_title.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block subheading %}
+{% if service_path %}
+<div class="breadcrumbs">
+	<span class="bold">{% trans '搜尋項目' %}</span><br>
+	{% for part in service_path %}{{part}}{% if not forloop.last %} ▸ {% endif %}{% endfor %}
+</div>
+{% endif %}
+{% endblock %}
+
+{% block content %}
+<div class="in_row wpb_row in_row-fluid">
+	<div class="wpb_column in_column_container in_col-sm-4">
+		<div class="in_column-inner in_custom_1484734943085">
+			<div class="wpb_wrapper">
+				<div class="wpb_text_column wpb_content_element emailform_height">
+					<div class="wpb_wrapper">
+						<p class="align-01">{% block message %}{% endblock %}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

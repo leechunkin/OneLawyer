@@ -1,0 +1,26 @@
+Dear {{requester_name}},
+
+We refer to your request made to {{lawyer_name}} on {{requested_at}}.
+
+Please confirm whether {{lawyer_name}} has replied to your request or whether he/she has gotten in touch with you.
+
+If you click "no" below, we will send further email to follow with you and solicitor to follow up your matter.  If you click "yes" below, Legit will treat that as your indication that you have contacted the solicitor and our mission to link you up accomplished.
+
+
+Yes, the solicitor has replied/ responded to my request, or that we have contacted each other by any means:
+
+{{yes_link}}
+
+
+
+No, the solicitor has yet to reply/respond to my request, Legit please follow up:
+
+{{no_link}}
+
+
+{% if is_final %}This will be the last round of email sent to the above solicitor.  If he or she fails to reply, we advice that you try to contact another lawyer.
+
+{% endif %}Thank you.
+
+Regards,
+Legit Service Team

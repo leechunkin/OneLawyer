@@ -1,0 +1,7 @@
+a, a:hover, a:focus, input, textarea {
+  outline: none;
+}
+
+.clear {
+  clear: both;
+}

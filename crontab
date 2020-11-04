@@ -1,0 +1,8 @@
+SHELL=/bin/sh
+# min hr day month dow command
+# Send followup emails at 06:02am every day
+2	6	*	*	*	/srv/legit-dev/legit/.env/bin/python /srv/legit-dev/legit/manage.py followup
+# Send endorse emails at 06:32am every day
+32	6	*	*	*	/srv/legit-dev/legit/.env/bin/python /srv/legit-dev/legit/manage.py endorse
+# Send subscription nag at 07:02am every Monday
+2	7	*	*	1	/srv/legit-dev/legit/.env/bin/python /srv/legit-dev/legit/manage.py sendsubnag

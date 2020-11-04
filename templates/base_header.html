@@ -1,0 +1,147 @@
+{% load static %}
+{% load i18n %}
+
+
+
+<header class="main_header header_over_bg header-cus-02">
+	<div class="bottom_header_wrapper" >
+		<div class="fullwidth-wrapper">
+			<div class="bottom_header empty_center_side space-15" >
+				<div class="Leftalignside header_side">
+					<div class="header_side_container">
+						<div class="logo_container sticky_logo_enable">
+							<a href="/" class="logo-link">
+								<img class="default_logo img-size-03" src="{% static 'img/onelawyer_logo_with_chi.png' %}" alt="logo">
+								<img class="sticky_logo img-size-03" src="{% static 'img/onelawyer_logo_with_chi.png' %}" alt="logo">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="Centeralignside header_side"></div>
+				<div class="Rightalignside header_side">
+					<div class="header_side_container">
+						<nav class="main-menu main_menu_container">
+							<ul class="menu">
+								<li class="menu-item menu-item-type-post_type menu-item-object-page">
+									<a href="/about-us"><span>{% trans 'About Legit' %}</span></a>
+									<ul class="sub-menu">
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="/about-us#profile"><span>{% trans 'Profile' %}</span></a>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="/about-us#vision"><span>{% trans 'Vision' %}</span></a>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="/honorary-board"><span>{% trans 'Honourary Board' %}</span></a>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="/founders"><span>{% trans 'Founder' %}</span></a>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="/backers"><span>{% trans 'Backers' %}</span></a>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="/contact-us"><span>{% trans 'Contact us' %}</span></a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page">
+									<a href="//onelawyer.org/engaging-lawyer"><span>{% trans 'Public Legal Education' %}</span></a>
+								</li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page">
+									<a href="/join-us"><span>{% trans 'Join us' %}</span></a>
+								</li>
+								{% include 'setlang.html' %}
+							</ul>
+						</nav>
+						<div class="mobile-navigation-toggle">
+							<div class="toggle-box">
+								<div class="toggle-inner"></div>
+							</div>
+						</div>
+						<div class="bottom_header_right header_bar">
+							<div class="wrapper">
+								<div class="header_search space-15">
+								{% if request.user.is_active %}
+								{% if request.user.is_staff %}
+								<div class="frontend_login">{{request.user}}</div>
+								<div class="frontend_login frontend_register"><a href="{% url 'admin:index' %}">{% trans 'Admin Page' %}</a></div>
+								</div>
+								{% else %}
+								<div class="frontend_login"><a href="{% url 'account_email' %}">{% trans 'Change E-mail' %}</a></div>
+								<div class="frontend_login frontend_register"><a href="{% url 'account_logout' %}">{% trans 'Logout' %}</a></div>
+								</div>
+								{% endif %}
+								{% else %}
+								<div class="frontend_login"><a href="{% url 'account_login' %}">{% trans 'Login' %}</a></div>
+								<div class="frontend_login frontend_register"><a href="{% url 'account_signup' %}">{% trans 'Register' %}</a></div>
+								</div>
+								{% endif %}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="mobile_menu_container">
+			<div class="fullwidth-wrapper">
+				<nav class="main-menu">
+					<ul class="menu">
+						{% if request.user.is_active %}
+						{% if request.user.is_staff %}
+						<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-694 mobile_login_li">
+						<a href="#" class="mobile_nav" style="display:inline;"><span class="mobile_login_button">{{request.user}}</span></a>
+						<a href="{% url 'admin:index' %}" class="mobile_nav" style="display:inline;"><span class="mobile_register_button">{% trans 'Admin Page' %}</span></a>
+						</li>		
+						{% else %}
+						<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-694 mobile_login_li">
+						<a href="{% url 'account_email' %}" class="mobile_nav" style="display:inline;"><span class="mobile_login_button">{% trans 'Change E-mail' %}</span></a>
+						<a href="{% url 'account_logout' %}" class="mobile_nav" style="display:inline;"><span class="mobile_register_button">{% trans 'Logout' %}</span></a>
+						</li>	
+						{% endif %}
+						{% else %}
+						<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-694 mobile_login_li">
+							<a href="{% url 'account_login' %}" class="mobile_nav" style="display:inline;"><span class="mobile_login_button">{% trans 'Login' %}</span></a>
+							<a href="{% url 'account_signup' %}" class="mobile_nav" style="display:inline;"><span class="mobile_register_button">{% trans 'Register' %}</span></a>
+						</li>
+						{% endif %}
+
+
+
+						<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children">
+							<a href="#"><span>{% trans 'About Legit' %}</span></a>
+							<ul class="sub-menu">
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="/about-us#profile"><span>{% trans 'Profile' %}</span></a>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page mobile_nav">
+											<a href="/about-us#vision"><span>{% trans 'Vision' %}</span></a>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="/honorary-board"><span>{% trans 'Honourary Board' %}</span></a>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="/founders"><span>{% trans 'Founder' %}</span></a>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="/backers"><span>{% trans 'Backers' %}</span></a>
+										</li>
+										<li class="menu-item menu-item-type-post_type menu-item-object-page">
+											<a href="/contact-us"><span>{% trans 'Contact us' %}</span></a>
+										</li>
+							</ul>
+						</li>
+						<li class="menu-item menu-item-type-post_type menu-item-object-page">
+							<a href="//onelawyer.org/engaging-lawyer" class="mobile_nav"><span>{% trans 'Public Legal Education' %}</span></a>
+						</li>
+						<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-694">
+							<a href="/join-us" class="mobile_nav"><span>{% trans 'Join us' %}</span></a>
+						</li>
+						{% include 'setlang.html' %}
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>

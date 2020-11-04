@@ -1,0 +1,73 @@
+{% extends 'base_with_title.html' %}
+{% load static %}
+{% load i18n %}
+{% load tz %}
+
+{% block title %}{% trans 'Lawyer Info' %}{% endblock %}
+{% block heading %}{% trans "Lawyer Info" %}{% endblock %}
+
+{% block subheading %}
+{% if service_path %}
+<div class="breadcrumbs">
+	<span class="bold">{% trans '搜尋項目' %}</span><br>
+	{% for part in service_path %}{{part}}{% if not forloop.last %} ▸ {% endif %}{% endfor %}
+</div>
+{% endif %}
+{% endblock %}
+
+{% block content %}
+	<div class="in_row wpb_row in_row-fluid">
+		<div class="wpb_column in_column_container in_col-sm-4" >
+			<div class="in_column-inner in_custom_1484734943085">
+				<div class="wpb_wrapper">
+					<div class="wpb_text_column wpb_content_element ">
+						<div class="wpb_wrapper">
+							<p class="align-01">
+								<span class="bold">{% trans 'Requester Name' %}</span><br>
+								{{ service_request.requester_name }}
+							</p>
+							<p class="align-01">
+								<span class="bold">{% trans 'Requester Email' %}</span><br>
+								{{ service_request.requester_email }}
+							</p>
+							<p class="align-01">
+								<span class="bold">{% trans 'Requester Phone' %}</span><br>
+								{{ service_request.requester_phone }}
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wpb_column in_column_container in_col-sm-8">
+			<div class="in_column-inner in_custom_1484734943085">
+				<div class="wpb_wrapper">
+					<div class="wpb_text_column wpb_content_element">
+						<div class="wpb_wrapper" style="margin-top:-15px;">
+							<p class="align-01">
+								<span class="bold">{% trans 'Message' %}</span><br>
+								{{ service_request.message }}
+							</p>
+							<p class="align-01">
+								<span class="bold">{% trans 'Time Choices' %}</span><br>
+								{% if service_request.time_choice1 %}
+									<span>{{ service_request.time_choice1 }}</span><br>
+								{% endif %}
+								{% if service_request.time_choice2 %}
+									<span>{{ service_request.time_choice2 }}</span><br>
+								{% endif %}
+								{% if service_request.time_choice3 %}
+									<span>{{ service_request.time_choice3 }}</span><br>
+								{% endif %}
+							</p>
+							<p class="align-01">
+								<span class="bold">{% trans 'Sent at' %}</span><br>
+								{{ service_request.sent_at|timezone:'Asia/Hong_Kong' }}
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "socialaccount/base.html" %}
+
+{% load i18n %}
+
+{% block head_title %}{% trans "Google Account Login Failure" %}{% endblock %}
+
+{% block content %}
+<div class="account_short_message_area">
+<h1>{% trans "Google Account Login Failure" %}</h1>
+
+<p class="short_message">{% trans "An error occurred while attempting to login via your Google account." %}</p>
+</div>
+{% endblock %}

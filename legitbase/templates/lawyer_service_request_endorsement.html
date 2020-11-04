@@ -1,0 +1,54 @@
+{% extends 'base_with_title.html' %}
+{% load static %}
+{% load i18n %}
+{% load tz %}
+
+{% block title %}{% trans 'User comment' %}{% endblock %}
+{% block heading %}{% trans "User comment" %}{% endblock %}
+
+{% block stylesheets %}
+	<link rel="stylesheet" href="{% static 'legitbase/lawyer_service_request_endorsement.css' %}" type="text/css" media="all" />
+{% endblock %}
+
+{% block scripts %}
+	<script type="application/ecmascript" src="{% static 'popup.js' %}" defer></script>
+	<script type="application/ecmascript" src="{% static 'legitbase/lawyer_service_request_endorsement.js' %}" defer></script>
+{% endblock %}
+
+{% block content %}
+	<form method="POST" class="popup">
+		{% csrf_token %}
+		<div>
+			<h4>{% trans 'Have you contact the lawyer' %} {{ lawyer_name }}</h4>
+			<label><input type='radio' name="contacted" value="0" checked class="popup-close">{% trans 'No' %}</label>
+			<label><input type='radio' name="contacted" value="1" class="popup-open">{% trans 'Yes' %}</label>
+		</div>
+		<div class="popup-show" hidden>
+			<div>
+				<h4>{% trans 'Endorsement question 1' %}</h4>
+				<label><input type='range' name="q1" min="1" max="10" value="10">10</label>
+			</div>
+			<div>
+				<h4>{% trans 'Endorsement question 2' %}</h4>
+				<label><input type='range' name="q2" min="1" max="10" value="10">10</label>
+			</div>
+			<div>
+				<h4>{% trans 'Endorsement question 3' %}</h4>
+				<label><input type='range' name="q3" min="1" max="10" value="10">10</label>
+			</div>
+			<div>
+				<h4>{% trans 'Endorsement question 4' %}</h4>
+				<label><input type='range' name="q4" min="1" max="10" value="10">10</label>
+			</div>
+			<div>
+				<h4>{% trans 'Endorsement question 5' %}</h4>
+				<label><input type='range' name="q5" min="1" max="10" value="10">10</label>
+			</div>
+			<div>
+				<h4>{% trans 'Endorsement comment' %}</h4>
+				<textarea name="comment"></textarea>
+			</div>
+		</div>
+		<button>{% trans 'Endorsement Submit' %}</button>
+	</form>
+{% endblock %}

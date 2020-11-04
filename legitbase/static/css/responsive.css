@@ -1,0 +1,270 @@
+/* R E S P O N S I V E */
+@media only screen and (max-width: 1200px) {
+	.container {
+		width:950px;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.container {
+		width:728px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.container {
+		width:560px;
+	}
+	.items2 .blog_post_preview,
+	.items3 .blog_post_preview,
+	.items4 .blog_post_preview {
+		width: 100%;
+	}
+	.gt3_module_featured_posts.blog_type3 .blog_post_media a,
+	.gt3_module_featured_posts.blog_type3 .blog_post_media a img,
+	.gt3_module_featured_posts.blog_type4 .blog_post_media a,
+	.gt3_module_featured_posts.blog_type4 .blog_post_media a img {
+		width: 100%;
+		height: auto;
+	}
+	.module_team .items1 .item_list > li,
+	.module_team .items2 .item_list > li,
+	.module_team .items3 .item_list > li,
+	.module_team .items4 .item_list > li {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.top_footer .row [class*=span] + [class*=span]{
+		margin-top: 35px;
+	}
+	.module_team .item_list > li:last-child{
+		margin-bottom: 0;
+	}
+	.sidebar-container {
+		padding-top: 35px;
+	}
+	ol.commentlist li .stand_comment {
+		padding-left: 55px;
+	}
+	ol.commentlist li ul li .stand_comment {
+		margin-left: 55px;
+	}
+	ol.commentlist li ul li ul li .stand_comment {
+		margin-left: 110px;
+	}
+	ol.commentlist li .commentava {
+		left: -55px;
+		height:40px;
+		width: 40px;
+	}
+	.mobile_text_center {
+		text-align: center;
+	}
+	.blog_type2 .has_post_thumb .blog_content {
+		padding-left: 105px;
+	}
+	.blog_type2 .has_post_thumb .blog_post_media {
+		width: 80px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.container {
+		width:420px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.container {
+		width:90%;
+	}
+	.prev_next_links .fleft,
+	.prev_next_links .fright {
+		float: none;
+		padding-bottom: 15px;
+	}
+	.prev_next_links .fleft a,
+	.prev_next_links .fright a {
+		text-align: center;
+	}
+	.prev_next_links span i {
+		display: none !important;
+	}
+	.blog_type2 .has_post_thumb .blog_content {
+		padding-left: 105px;
+	}
+	.blog_type2 .has_post_thumb .blog_post_media {
+		width: 80px;
+	}
+	.gt3-page-title__content .page_title, 
+	.gt3-page-title__content .gt3_breadcrumb,
+	.gt3-page-title__content .page_sub_title{
+		display: table-cell;
+	}
+}
+
+@media only screen and (min-width: 1201px) {
+	.custom_counter_border > div .in_column-inner {
+		position: relative;
+	}
+	.custom_counter_border > div .in_column-inner:after {
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		width: 1px;
+		background: rgba(255,255,255, 0.23);
+		content: '';
+		display: block;
+	}
+	.custom_counter_border > div:last-child .in_column-inner:after {
+		display: none;
+	}
+	.custom_counter_border .icon-position-right,
+	.custom_counter_border .icon-position-left {
+		text-align: center;
+		justify-content: center;
+		align-content: center;
+	}
+	.custom_counter_border .stat_count_wrapper {
+		flex: 0 0 auto !important;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.custom_iconbox_border > div .in_column-inner {
+		position: relative;
+	}
+	.custom_iconbox_border > div .in_column-inner:after {
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		width: 1px;
+		background: #f0f0f0;
+		content: '';
+		display: block;
+	}
+	.custom_iconbox_border > div:last-child .in_column-inner:after {
+		display: none;
+	}
+	.custom_iconbox_border.rgba_border > div .in_column-inner:after {
+		background: rgba(239, 239, 239, 0.12);
+	}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+	body .in_pie_chart .in_pie_chart_value {
+		font-size: 24px;
+	}
+	.gt3_practice_list__item.span3,
+	.module_team .items4 .item_list > li {
+		width: calc(25% - 1px);
+	}
+	.gt3_practice_list__item.span4,
+	.module_team .items3 .item_list > li {
+		width: calc(33.3333% - 1px);
+	}
+	.gt3_practice_list__item.span6,
+	.module_team .items4 .item_list > li {
+		width: calc(50% - 1px);
+	}
+	.gt3_practice_list__item.span12,
+	.module_team .items1 .item_list > li {
+		width: 100%;
+	}
+}
+
+/* GT3 Custom CSS */
+.gt3_custom_counter_border {
+	overflow: hidden;
+}
+.gt3_custom_counter_border > div {
+	margin-top: -1px;
+	margin-left: -1px;
+}
+.gt3_custom_counter_border > div .in_column-inner {
+	position: relative;
+}
+.gt3_custom_counter_border .gt3_module_counter {
+	position: relative;
+	padding: 63px 0 63px 40px;
+}
+.gt3_custom_counter_border .gt3_module_counter:after,
+.gt3_custom_counter_border .gt3_module_counter:before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 1px;
+	background: rgba(255,255,255, 0.23);
+	content: '';
+	display: block;
+}
+.gt3_custom_counter_border .gt3_module_counter:before {
+	width: 100%;
+	height: 1px;
+	top: 0;
+	bottom: auto;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1630px) {
+	.gt3_custom_counter_border .icon_container,
+	.gt3_custom_counter_border .stat_count_wrapper {
+		display: block;
+		width: 100%;
+		padding-right: 0;
+		padding-left: 0;
+		text-align: center;
+	}
+	.gt3_custom_counter_border .gt3_module_counter {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.gt3_custom_counter_border .icon_container {
+		min-height: 50px;
+		margin-bottom: 10px;
+	}
+}
+@media only screen and (min-width: 1200px) and (max-width: 1350px) {
+	.gt3_custom_counter_border .gt3_module_counter .cont_info {
+		font-size: 0.9em !important;
+	}
+	.gt3_custom_counter_border .gt3_module_counter {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	.gt3_custom_counter_border .icon-position-right,
+	.gt3_custom_counter_border .icon-position-left {
+		text-align: center;
+		justify-content: center;
+		align-content: center;
+	}
+	.gt3_custom_counter_border .stat_count_wrapper {
+		flex: 0 0 auto !important;
+	}
+	.gt3_custom_counter_border .gt3_module_counter {
+		position: relative;
+		padding: 63px 15px;
+	}
+}
+
+.module_testimonial.small_bullet_space .slick-dots  {
+	margin-top: 5px;
+}
+
+.module_testimonial.small_bullet_space.type1 .testimonials-text {
+	margin-bottom: 15px !important;
+}
+
+.module_testimonial.small_bullet_space.type1 .testimonials_title {
+	margin-bottom: 40px !important;
+}
+
+.rgba_border .gt3_icon_box__title > * {
+	padding-bottom: 4px;
+}
+
+/* GT3 Custom CSS End */

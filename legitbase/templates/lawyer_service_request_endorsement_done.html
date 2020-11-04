@@ -1,0 +1,15 @@
+{% extends 'base_with_title.html' %}
+{% load static %}
+{% load i18n %}
+{% load tz %}
+
+{% block title %}{% trans 'User comment' %}{% endblock %}
+{% block heading %}{% trans "User comment" %}{% endblock %}
+
+{% block stylesheets %}
+	<link rel="stylesheet" href="{% static 'legitbase/lawyer_service_request_endorsement.css' %}" type="text/css" media="all" />
+{% endblock %}
+
+{% block content %}
+	<p>{% trans 'Thank you for your comment.' %}</p>
+{% endblock %}

@@ -1,0 +1,323 @@
+
+.grid_wrapper {padding:20px 0 80px 0;}
+.grid_wrapper_mobile {display:none; padding:20px 0 80px 0;}
+
+.gridarea {
+  padding: 0;
+  margin: 0;
+  background: #fff;
+}
+
+section#content1,section#content2,
+section#content3,section#content4,
+section#content5,section#content6,
+section#content7,section#content8,
+section#content9,section#content10,
+section#content11,section#content12,
+section#mcontent1,section#mcontent2,
+section#mcontent3,section#mcontent4,
+section#mcontent5,section#mcontent6,
+section#mcontent7,section#mcontent8,
+section#mcontent9,section#mcontent10,
+section#mcontent11,section#mcontent12
+{
+  display: none;
+  padding: 25px;
+}
+
+.gridsection {
+  margin:0 1.5% 20px 1.5%;
+  padding:25px; 
+  color:#000;
+  font-weight:400;
+  border-radius:15px;
+}
+
+.gridsection ul{margin-left:30px;}
+
+.grid_heading {font-weight:700; font-size:26px;}
+.bluetitle {color:#3DA7DF; padding:0 0 20px 0; margin-bottom:20px; border-bottom:1px solid #3DA7DF; height:32px;}
+.grid_subpage_content {color:#000; }
+
+.section_orange {
+  border:3px solid #F26421; 
+}
+
+.section_blue {
+  border:3px solid #27A7E0; 
+}
+
+.section_green {
+  border:3px solid #7ED8A4; 
+}
+
+input[type="radio"].grid_input {
+  display: none;
+}
+
+.gridlabel{
+  width:27.5%;
+  height:135px;
+  border-radius:15px;
+  padding:2% 0 0 2%;
+  display: inline-block;
+  margin:0 1.5% 20px 1.5%;
+  font-weight: 700;
+  font-size:26px;
+  text-align: left;
+  color: #fff;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2), 0 0px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.label_orange {
+  background:#F26421;
+}
+.label_blue{
+  background:#27A7E0;
+}
+.label_green{
+  background:#7ED8A4;
+}
+
+.grid_wedding{
+  background-image:url('../img/marriage.png');
+  background-repeat:no-repeat;
+  background-position:92% 80px;
+}
+.grid_divorce{
+  background-image:url('../img/divorce.png');
+  background-repeat:no-repeat;
+  background-position:92% 80px;
+  background-size:64px;
+}
+.grid_flat{
+  background-image:url('../img/office-building.png');
+  background-repeat:no-repeat;
+  background-position:92% 80px;
+  background-size:64px;
+}
+.grid_claim{
+  background-image:url('../img/claim.png');
+  background-repeat:no-repeat;
+  background-position:92% 80px;
+  background-size:64px;
+}
+.grid_bankrupt{
+  background-image:url('../img/bankrupt.png');
+  background-repeat:no-repeat;
+  background-position:92% 80px;
+  background-size:64px;
+}
+.grid_company{
+  background-image:url('../img/company.png');
+  background-repeat:no-repeat;
+  background-position:92% 80px;
+  background-size:64px;
+}
+.grid_civil{
+  background-image:url('../img/civil.png');
+  background-repeat:no-repeat;
+  background-position:92% 80px;
+  background-size:64px;
+}
+.grid_probate{
+  background-image:url('../img/probate.png');
+  background-repeat:no-repeat;
+  background-position:92% 80px;
+  background-size:64px;
+}
+.grid_discrim{
+  background-image:url('../img/maid.png');
+  background-repeat:no-repeat;
+  background-position:92% 80px;
+  background-size:64px;
+}
+.grid_criminal{
+  background-image:url('../img/arrested.png');
+  background-repeat:no-repeat;
+  background-position:92% 80px;
+  background-size:64px;
+}
+.grid_labour{
+  background-image:url('../img/worker_sad.png');
+  background-repeat:no-repeat;
+  background-position:92% 80px;
+  background-size:64px;
+}
+.grid_subhead{
+  font-weight:bold;
+}
+
+label.gridlabel:before {
+  margin-right: 0px;
+}
+
+label.gridlabel:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+input:checked + label.gridlabel {
+  color: #FFF;
+  border-bottom:5px solid #eee;
+  border-bottom-width: 20px;
+}
+
+#tab1:checked ~ #content1,#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,#tab4:checked ~ #content4,
+#tab5:checked ~ #content5,#tab6:checked ~ #content6,
+#tab7:checked ~ #content7,#tab8:checked ~ #content8,
+#tab9:checked ~ #content9,#tab10:checked ~ #content10,
+#tab11:checked ~ #content11,#tab12:checked ~ #content12,
+#mtab1:checked ~ #mcontent1,#mtab2:checked ~ #mcontent2,
+#mtab3:checked ~ #mcontent3,#mtab4:checked ~ #mcontent4,
+#mtab5:checked ~ #mcontent5,#mtab6:checked ~ #mcontent6,
+#mtab7:checked ~ #mcontent7,#mtab8:checked ~ #mcontent8,
+#mtab9:checked ~ #mcontent9,#mtab10:checked ~ #mcontent10,
+#mtab11:checked ~ #mcontent11,#mtab12:checked ~ #mcontent12
+ {
+  display: block;
+}
+
+.gridview_button
+{
+  border-radius:10px; 
+  background: #005F8D; 
+  padding:8px 15px; 
+  margin:10px 15px 5px 0px;
+  font-size:18px; 
+  font-weight:700;
+  color:#fff;
+  width:auto;
+  display:inline-block;
+}
+
+.long_text .hide_text {
+  width: 100%;
+  display: table;
+  height: auto;
+  overflow: hidden;
+}
+.inner_long_text {
+  padding: 0px;
+}
+.long_text input[type="checkbox"] {display:none;}
+
+.long_text input[type="checkbox"]:checked + .hide_text {
+  height: 0;
+  opacity: 0;
+  display: block;
+}
+
+.gridview_readmore {color:#888; border-bottom:1px dotted #888; text-align:right; padding-bottom:5px; margin-bottom:20px;}
+
+@media screen and (max-width: 768px) {
+
+.grid_wrapper {display:none;}
+.grid_wrapper_mobile {display:inline-block; padding:20px 0 80px 0;}
+
+input:checked + label.gridlabel {
+  color: #FFF;
+  border-bottom:0px;
+}
+
+.gridview_button
+{ 
+  padding:6px 12px; 
+  margin:8px 12px 4px 0px;
+  font-size:18px; 
+  display:inline-block;
+}
+
+.gridlabel{
+  width:86vw;
+  border-radius:15px;
+  padding:15px;
+  height:50px;
+  display: inline-block;
+  margin:0 5vw 10px 5vw;
+  font-weight: 700;
+  font-size:22px;
+  text-align: left;
+  color: #fff;
+}
+
+.grid_wedding, .grid_divorce,
+.grid_flat, .grid_discrim,
+.grid_criminal, .grid_labour,
+.grid_probate, .grid_bankrupt,
+.grid_company, .grid_claim, 
+.grid_civil
+{
+  background-position:97% 12px;
+  background-size:56px;
+}
+
+.gridsection{
+  margin:0 0 10px 5vw; 
+  width:82vw;
+  color:#000;
+  font-weight:400;
+  border-radius:15px;
+}
+
+  label.gridlabel:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+
+input:checked + label.gridlabel {
+  color: #FFF;
+  border-bottom:0px;
+}
+
+.gridview_button
+{ 
+  padding:6px 12px; 
+  margin:8px 12px 4px 0px;
+  font-size:18px; 
+  display:inline-block;
+}
+
+.gridlabel{
+  width:90%;
+  border-radius:15px;
+  padding:15px;
+  height:50px;
+  display: inline-block;
+  margin:0 auto 10px auto;
+  font-weight: 700;
+  font-size:22px;
+  text-align: left;
+  color: #fff;
+}
+
+.grid_wedding, .grid_divorce,
+.grid_flat, .grid_discrim,
+.grid_criminal, .grid_labour,
+.grid_probate, .grid_bankrupt,
+.grid_company, .grid_claim, 
+.grid_civil
+{
+  background-position:95% 12px;
+  background-size:56px;
+}
+
+.gridsection{
+  margin:10px 0 20px 0;
+  width:auto;
+  padding:25px; 
+  color:#000;
+  font-weight:400;
+  border-radius:15px;
+}
+
+  label.gridlabel:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}

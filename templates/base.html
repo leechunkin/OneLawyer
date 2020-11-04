@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+<html lang="{{ LANGUAGE_CODE }}">
+<head>
+	<title>OneLawyer | {% block title %}{% endblock %}</title>
+	{% include "base_head.html" %}
+	{% block stylesheets %}{% endblock %}
+</head>
+<body class="page-template-default page in_responsive" data-theme-color="#c24747">
+	{% include "base_header.html" %}
+	{% block body %}{% endblock %}
+	{% include "base_footer.html" %}
+	{% include "scripts.html" %}
+	{% block extra_body %}{% endblock %}
+	{% block scripts %}{% endblock %}
+</body>
+</html>

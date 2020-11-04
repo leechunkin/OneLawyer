@@ -1,0 +1,11 @@
+{{requester_name}}閣下：
+
+感謝你使用OneLawyer的服務！請你點擊以下連結，回覆5條簡單問題，以助我們了解律師的服務質素︰
+
+{{the_link}}
+
+多謝你使用OneLawyer服務。
+
+祝　事事順利
+
+One Lawyer　服務團隊

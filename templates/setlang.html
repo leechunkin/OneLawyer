@@ -1,0 +1,15 @@
+{% load i18n %}
+{% get_available_languages as available_languages %}
+{% get_language_info_list for available_languages as language_info_list %}
+{% get_current_language as current_language %}
+{% for language in language_info_list %}
+	<li class="menu-item menu-item-type-post_type menu-item-object-page language-switcher-{{language.code}}">
+			{% if language.code != current_language %}
+				<form method="post" action="{% url 'set_language' %}">
+					{% csrf_token %}
+					<input type="hidden" name="language" value="{{language.code}}">
+					<button class="lang_button">{{language.name_local}}</button>
+				</form>
+			{% endif %}
+	</li>
+{% endfor %}

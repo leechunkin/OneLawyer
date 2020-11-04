@@ -1,0 +1,15 @@
+{% extends 'base_with_categories.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{{title}}{% endblock %}
+{% block heading %}{{title}}{% endblock %}
+
+{% block scripts2 %}
+	<script type="application/ecmascript">var categories_chosen = {{choices_id}};</script>
+	<script type="application/ecmascript" src="{% static 'service.js' %}" defer></script>
+{% endblock %}
+
+{% block subheading2 %}{% endblock %}
+
+{% block content %}{{content}}{% endblock %}

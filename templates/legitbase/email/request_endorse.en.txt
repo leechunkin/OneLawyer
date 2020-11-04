@@ -1,0 +1,13 @@
+Dear {{requester_name}},
+
+We refer to your request made to {{lawyer_name}} on {{requested_at}}.
+
+Thank you for using OneLawyer service.
+Please click follow link and answer 5 simple questions to help us understand the quality of service.
+
+{{the_link}}
+
+Thank you.
+
+Regards,
+Legit Service Team

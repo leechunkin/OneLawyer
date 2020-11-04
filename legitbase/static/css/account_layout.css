@@ -1,0 +1,104 @@
+.social_login {display:inline-block; height:350px; width:45%; vertical-align: top; text-align:center; padding-top:10px;}
+.login_area {display:inline-block; height:350px; width:45%; padding-top:10px; text-align:center;}
+form.login label {font-size:14px; display:inline-block; width:110px;}
+input#id_login, input#id_password{
+	display:inline-block; 
+	margin:0 auto; 
+	background:#fff; 
+	border-radius:10px; 
+	padding: 8px 12px; 
+	width:50%;
+	border:2px solid #ccc;}
+
+input#id_email, input#id_password1, input#id_password2{
+	display:block; 
+	margin:0 auto; 
+	background:#fff; 
+	border-radius:10px; 
+	padding: 8px 12px; 
+	width:50%;
+	border:2px solid #ccc;}
+form.signup label {font-size:14px; margin-top:25px;}
+
+.buttonHolder.email_address {margin-bottom:25px;}
+.input_padding {padding-bottom:25px;}
+
+input#id_login::placeholder, input#id_password::placeholder, input#id_email::placeholder, 
+input#id_password1::placeholder, input#id_password2::placeholder {color:#ccc; font-size:14px;}
+
+.login_button {background:#00576C; color:#fff; padding:12px 15px; border:0px; font-size:20px; font-weight:700; border-radius:8px;}
+
+
+.google_login_badge {margin:0 auto; height:120px; width:70%; box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1), 0 0px 5px 0 rgba(0, 0, 0, 0.11); border:0px; border-radius:8px;}
+.google_logo {width:50px; padding:15px 0 10px 0;}
+.google_logo_text {font-weight:700; font-size:16px;}
+
+.forget_password_text {padding-top:20px;}
+.forget_password_link {font-size:14px; font-weight:700;}
+
+.login-or {display:inline-block; width:9%; height:350px; vertical-align: top; text-align:center; font-size:24px; font-weight:700; padding-top:60px}
+
+
+.account_short_message_area {
+	padding-top:150px; 
+	height:75vh; 
+	text-align:center;
+}
+
+.account_short_message_area h1 {color:#00576C;}
+
+.short_message {
+	color:#424242; 
+	font-weight:400; 
+	padding-top:20px
+}
+.short_message.login_intro_text {display:inherit;}
+
+.verified, .primary {
+	padding:5px 10px;
+	margin: 0 3px;
+	border-radius:8px;
+	font-size:12px;
+	background:#27a8e0;
+	color:#fff;
+	}
+.unverified {
+	padding:5px 10px;
+	margin: 0 3px;
+	border-radius:8px;
+	font-size:12px;
+	background:#888;
+	color:#fff;
+	}
+
+fieldset.blockLabels {border:0px;}
+
+.email_add_list {
+	padding-bottom:8px;
+}
+
+.login_button_sm, input.pw_reset_button, input.pw_set_button {
+	background:#00576C; 
+	color:#fff; 
+	padding:8px 12px;
+	border:0px; 
+	font-size:16px; 
+	font-weight:700; 
+	border-radius:8px;
+	margin-top:20px;
+}
+
+@media screen and (max-width: 768px) {
+
+.login_area {display:block; width:100%; height:auto; margin-top:20px;}
+.login-or {display:block; width:100%; height:auto; margin:0px; padding-top:20px;}
+.social_login {display:block; width:100%; height:auto; margin-top:20px;}
+.account_short_message_area {
+	padding-top:40px; 
+	text-align:center;
+	height:90vh;}
+.short_message.login_intro_text {display:none;}
+input#id_login, input#id_password, input#id_email, input#id_password1, input#id_password2{
+width:80%;}
+
+	}

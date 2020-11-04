@@ -1,0 +1,9 @@
+Dear User,
+
+Please click the following link to confirm your email address.
+
+{{verify_link}}
+
+Regards,
+
+Legit Service Team

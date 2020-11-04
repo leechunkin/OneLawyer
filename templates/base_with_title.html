@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="gt3-page-title gt3-page-title_horiz_align_left gt3-page-title_vert_align_middle custom-57" >
+	<div class="gt3-page-title" >
+		<div class="container">
+			<div class="gt3-page-title__content" >
+				<div class="page_title title_orange" >
+					<h3>{% block heading %}{% endblock %}</h3>
+				</div>
+				<div class="gt3_breadcrumb">
+					{% block subheading %}{% endblock %}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="main_wrapper">
+	<div class="container">
+		<div class="row sidebar_none">
+			<div class="content-container span12">
+				<section id="main_content">
+					<div class="in_custom_1484897435098">
+						<div class="container">
+							{% block content %}{% endblock %}
+						</div>
+					</div>
+					<div class="in_row-full-width in_clearfix"></div>
+					<div class="clear"></div>
+				</section>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

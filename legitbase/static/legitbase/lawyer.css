@@ -1,0 +1,112 @@
+section.tab-panel span.tab {
+	display: inline-block;
+	width:17%;
+	color: #fff;
+	height:35px;
+	text-align:center;
+	background-color: #27a8e0;
+	border-radius:10px 10px 0 0;
+	padding:50px 10px 0px 10px;
+	font-weight:700;
+	font-size:16px;
+	}
+
+span.tab:nth-of-type(1) {
+	background:url('/static/img/panel_avatar.svg') center 12px no-repeat;
+	background-size:35px;
+}
+span.tab:nth-of-type(2) {
+	background:url('/static/img/panel_resume.svg') center 12px no-repeat;
+	background-size:35px;
+}
+span.tab:nth-of-type(3) {
+	background:url('/static/img/panel_cases.svg') center 14px no-repeat;
+	background-size:35px;
+}
+span.tab:nth-of-type(4) {
+	background:url('/static/img/panel_newspaper.svg') center 14px no-repeat;
+	background-size:35px;
+}
+span.tab:nth-of-type(5) {
+	background:url('/static/img/panel_contact.svg') center 16px no-repeat;
+	background-size:35px;
+}
+
+.tab_color {background-color:#F26522 !important; box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3), 0 0px 5px 0 rgba(0, 0, 0, 0.3);}
+
+
+section.tab-panel div.panel {
+	background:#fcfcfc;
+	border: 0px
+	border-radius:0 0 20px 0;
+	padding:25px 35px;
+}
+
+.panel p{font-weight:400;}
+.panel p strong, .court_case_text p strong {font-size:32px; line-height:1.4; text-align:center; color:#424242; font-weight:700;}
+.panel table tbody td, .panel table thead th {border:1px solid #888;}
+.panel table tbody td {font-weight:400;}
+
+.court_case_text {border-bottom:1px solid #ccc; padding-bottom:30px; margin-bottom:30px; text-align:justify;}
+
+.lawyer_service_tags {width:45%; display:inline-block; vertical-align:top;}
+.lawyer_language_tags {width:45%; display:inline-block; padding-right:5%}
+
+
+.lawyer_row {height:auto; background:#27a8e0 !important;}
+.lawyer_basic_info {height:auto; border-radius:0; background:#00576C !important; margin-bottom:0px !important; padding-bottom:0px !important;}
+.lawyer_profile {border-radius:0 0 20px 0;}
+.lawyer_quotation {height:auto; background:#27a8e0 !important; padding:0; border-radius:0;}
+.lawyer_quotation_inner {background:#27a8e0; border-radius:0;}
+.lawyer_quotation_blue {width:auto; padding:20px 20px 0px 25px;}
+.lawyer_charges {display:block; font-size:16px; padding-bottom:8px;}
+.lawyer_request_orange {margin-top:5px;text-align:center; display:inline-block; background-image:url('../img/hand-pointer.svg');
+		background-repeat:no-repeat;
+		background-size:20px 20px;
+		background-position:97% 8px;
+		padding-right:30px;
+		box-shadow: 0 0 5px 0 rgba(255, 255, 255, 0.4), 0 0px 5px 0 rgba(255, 255, 255, 0.4);}
+.lawyer_request_blue {margin-top:5px; display:inline-block; background:#00576C; text-align:center; box-shadow: 0 0 5px 0 rgba(255, 255, 255, 0.4), 0 0px 5px 0 rgba(255, 255, 255, 0.4);} 
+.lawyer_supp {background:#efefef; margin-top:-5px;}
+.lawyer_supp_inner {padding-top:20px !important;}
+.lawyer_module {padding: 20px 24px 40px 24px !important;}
+.lawyer_module_area {background:#efefef; margin-top:-5px; border-radius:0 0 20px 0}
+.lawyer_fullwidth {width:100%;}
+.lawyer_full_details_text {font-size:16px; display:block; padding-bottom:5px;}
+.lawyer_full_title {font-size:28px; display:block; padding-bottom:15px;}
+.lawyer_details_top {padding:30px 0 0 30px;}
+
+
+.charges_heading {font-size:16px; display:inline-block; border-bottom:2px solid #fff;} 
+
+@media screen and (max-width: 992px) {
+
+section.tab-panel span.tab {
+	font-size:0px;
+	height:7px;
+	width:17%;
+	padding:0px;
+	height:50px;
+	}
+
+span.tab:nth-of-type(1), span.tab:nth-of-type(2), span.tab:nth-of-type(3), 
+span.tab:nth-of-type(4), span.tab:nth-of-type(5) {
+	background-position: center 12px;
+	background-size:30px;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+
+.lawyer_quotation_blue {width:auto; padding:10px 20px 25px 25px;}
+.panel p strong, .court_case_text p strong {font-size:24px;}
+.panel p{font-size:14px; line-height:1.8;}
+.court_case_text {text-align:left;}
+.lawyer_service_tags, .lawyer_language_tags {width:90%; margin-bottom:25px;}
+section.tab-panel div.panel {
+	padding:25px;
+}
+.lawyer_details_top {padding:10px 0 0 20px;}
+.lawyer_full_title {padding-bottom:0px; font-size:24px;}
+.lawyer_full_details_text {font-size:14px; padding-bottom:3px;}

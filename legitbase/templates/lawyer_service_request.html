@@ -1,0 +1,174 @@
+{% extends 'base_with_title.html' %}
+{% load static %}
+{% load i18n %}
+{% load recaptcha2 %}
+
+{% block stylesheets %}
+{% recaptcha_init %}
+<link rel="stylesheet" type="text/css" href="{% static 'jquery-ui/jquery-ui.css' %}" media="all" />
+<link rel="stylesheet" type="text/css" href="{% static 'jquery-ui/jquery-ui-timepicker-addon.css' %}" media="all" />
+{% endblock %}
+
+{% block scripts %}
+<script src="{% static 'jquery-ui/jquery-ui.min.js' %}"></script>
+<script src="{% static 'jquery-ui/jquery-ui-timepicker-addon.js' %}"></script>
+<script>
+	(function (fmt) {
+		jQuery('#id_time_choice1').datetimepicker(fmt);
+		jQuery('#id_time_choice2').datetimepicker(fmt);
+		jQuery('#id_time_choice3').datetimepicker(fmt);
+	}({
+		controlType: 'select',
+		oneLine: true,
+		dateFormat: 'yy-mm-dd',
+		timeFormat: 'HH:mm'
+	}));
+</script>
+{% endblock %}
+
+{% block title %}{% trans 'Service Request' %}{% endblock %}
+{% block heading %}{% trans 'Service Request' %}{% endblock %}
+
+{% block subheading %}
+	{% if service_path %}
+		<div class="breadcrumbs_bottom">
+			<span class="bold">{% trans '搜尋項目' %}</span>
+			|
+			<span class="breadcumb_text">
+				{% for part in service_path %}
+					{{part}}
+					{% if not forloop.last %} ▸ {% endif %}
+				{% endfor %}
+			</span>
+		</div>
+	{% endif %}
+{% endblock %}
+
+{% block content %}
+<div class="in_row wpb_row in_row-fluid">
+	<div class="wpb_column in_column_container in_col-sm-5">
+		<div class="profile_card">
+			{% if photo %}
+				<img src="{{photo.url}}" class="profile_pic" >
+			{% else %}
+				<img src="{% static 'img/avatar.png' %}" class="profile_pic">
+			{% endif %}
+			<div class="profile_details_top">
+				<span class="bold lawyer_name">{{lawyer_name}}</span>
+					<br>
+					<span class="regular">{{firm_name}}</span>
+					<br>
+					<span class="regular">{% trans "職位｜" %}{{position}}</span>
+					<br>
+					<span class="regular">{% trans "地區｜" %}{{district}}</span><br>
+			</div>
+		</div>
+		<div class="in_column-inner in_custom_1484734943085">
+			<div class="wpb_wrapper">
+				<div class="wpb_text_column wpb_content_element ">
+					<div class="wpb_wrapper">
+						{% if service_rate is not None %}
+							<p class="align-01 bighalf">
+								<span class="bold">{% trans '項目收費' %}</span><br>
+								<span class="regular">{% blocktrans with rate=service_rate %}from HKD {{rate}}{% endblocktrans %}</span>
+							</p>
+						{% endif %}
+						<p class="align-01 smallhalf">
+							<span class="bold">{% trans '執業經驗' %}</span><br>
+							<span class="regular">{% blocktrans count years=experience_years %}{{ years }} year{% plural %}{{ years }} years{% endblocktrans %}</span>
+						</p>
+						<p class="align-01 full">
+							<span class="bold">{% trans 'Reference Hourly Rate' %}</span><br>
+							<span class="regular">{% blocktrans with rate=hourly_rate %}from HKD {{rate}}{% endblocktrans %}</span>
+						</p>
+						{% if phone %}
+							<p class="align-01 bighalf">
+								<span class="bold">{% trans 'Phone' %}</span><br>
+								<span class="regular">{{phone}}</span>
+							</p>
+						{% endif %}
+						{% if fax %}
+							<p class="align-01 smallhalf">
+								<span class="bold">{% trans 'Fax' %}</span><br>
+								<span class="regular">{{fax}}</span>
+							</p>
+						{% endif %}
+						{% if email %}
+							<p class="align-01 full">
+								<span class="bold">{% trans 'Email' %}</span><br>
+								<span class="regular">{{email}}</span>
+							</p>
+						{% endif %}
+						<p class="align-01 full">
+							<span class="bold">{% trans 'Address' %}</span><br>
+							<span class="regular">{{address}}</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="wpb_column in_column_container in_col-sm-7 emailform_height emailform_wrapper">
+		<div class="in_column-inner in_custom_1484734943085">
+			<div class="wpb_wrapper">
+				<div class="wpb_text_column wpb_content_element">
+					<div class="wpb_wrapper">
+						<p>{% trans 'lawyer service request - contact 1' %}</p>
+						<p>{% trans 'lawyer service request - contact 2' %}</p>
+						<p style="font-size:12px;">
+						{% trans 'lawyer service request - contact 3' %}<br>
+						{% trans 'lawyer contact - disclaimer text 01' %} <a href="/engaging-lawyer/confidential-advice/01/" target="_blank">{% trans 'lawyer contact - disclaimer text 02' %}</a> {% trans 'lawyer contact - disclaimer text 03' %}
+						</p>
+
+						<form action="" method="post" id="emailform">
+							{% csrf_token %}
+							{{ form.non_field_errors }}
+							<div class="fieldWrapper">
+								{{ form.requester_name.errors }}
+								{{ form.requester_name.label_tag }}
+								{{ form.requester_name }}
+							</div>
+							<div class="fieldWrapper">
+								{{ form.requester_email.errors }}
+								{{ form.requester_email.label_tag }}
+								{{ form.requester_email }}
+							</div>
+							<div class="fieldWrapper">
+								{{ form.requester_phone.errors }}
+								{{ form.requester_phone.label_tag }}
+								{{ form.requester_phone }}
+							</div>
+							<div class="fieldWrapper">
+								{{ form.message.errors }}
+								{{ form.message.label_tag }}
+								{{ form.message }}
+							</div>
+							<div class="fieldWrapper">{% trans '請填寫希望約見的時間，如 2018-01-03 14:00（必須填寫；只接受辦公時間內預約）' %}</div>
+							<div class="fieldWrapper timeChoice">
+								{{ form.time_choice1.errors }}
+								{{ form.time_choice1.label_tag }}
+								{{ form.time_choice1 }}
+							</div>
+							<div class="fieldWrapper timeChoice">
+								{{ form.time_choice2.errors }}
+								{{ form.time_choice2.label_tag }}
+								{{ form.time_choice2 }}
+							</div>
+							<div class="fieldWrapper timeChoice">
+								{{ form.time_choice3.errors }}
+								{{ form.time_choice3.label_tag }}
+								{{ form.time_choice3 }}
+							</div>
+							{{ form.captcha }}
+							<input type="submit" value="{% trans 'Submit' %}" class="email_submit">
+						</form>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}
